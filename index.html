@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An interactive atlas of archaeological sites across Vidarbha.">
+  <title>Vidarbha Archaeological Atlas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #18251f;
+      --muted: #6c766f;
+      --line: #dce3db;
+      --paper: #f5f7f1;
+      --white: #fbfcf8;
+      --moss: #246b4c;
+      --moss-dark: #174935;
+      --ochre: #b46a25;
+      --ochre-soft: #f2e5d0;
+      --shadow: 0 18px 45px rgba(35, 64, 48, .11);
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body { background: var(--paper); color: var(--ink); font-family: "DM Sans", sans-serif; }
+    button, input, select { font: inherit; }
+    button { cursor: pointer; }
+    .app-shell { max-width: 1580px; margin: 0 auto; padding: 26px 32px 34px; }
+    header { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 22px; }
+    .brand { display: flex; align-items: center; gap: 13px; }
+    .mark { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 13px; background: var(--moss); color: white; font-family: Newsreader, serif; font-size: 26px; box-shadow: 0 7px 16px rgba(36,107,76,.19); }
+    .brand-name { font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+    .brand-sub { color: var(--muted); font-size: 12px; margin-top: 3px; }
+    h1 { margin: 0; max-width: 770px; font: 600 clamp(34px, 4.4vw, 64px)/.98 Newsreader, serif; letter-spacing: -.035em; }
+    .intro { max-width: 540px; color: var(--muted); font-size: 14px; line-height: 1.55; text-align: right; }
+    .intro strong { color: var(--ink); }
+    .stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-bottom: 18px; }
+    .stat { background: var(--white); border: 1px solid var(--line); padding: 16px 18px; border-radius: 14px; }
+    .stat-value { font: 600 28px/1 Newsreader, serif; color: var(--moss-dark); }
+    .stat-label { color: var(--muted); font-size: 11px; letter-spacing: .08em; margin-top: 7px; text-transform: uppercase; }
+    .workspace { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(350px, .75fr); min-height: 690px; overflow: hidden; border: 1px solid var(--line); border-radius: 18px; background: var(--white); box-shadow: var(--shadow); }
+    .map-side { position: relative; min-height: 690px; background: #e7eee5; overflow: hidden; }
+    .map-image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+    .map-overlay { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(20,42,29,.10), transparent 19%, transparent 78%, rgba(20,42,29,.16)); pointer-events: none; }
+    .map-meta { position: absolute; top: 18px; left: 18px; z-index: 2; background: rgba(250,252,247,.9); border: 1px solid rgba(220,227,219,.9); border-radius: 11px; padding: 10px 13px; backdrop-filter: blur(8px); }
+    .map-meta b { display: block; font-size: 13px; }
+    .map-meta span { display: block; margin-top: 3px; color: var(--muted); font-size: 11px; }
+    .map-help { position: absolute; right: 18px; bottom: 18px; z-index: 2; border-radius: 20px; padding: 8px 12px; background: rgba(24,37,31,.82); color: #fff; font-size: 11px; }
+    .marker { position: absolute; z-index: 3; width: 12px; height: 12px; padding: 0; border: 2px solid #fff; border-radius: 50% 50% 50% 0; background: var(--ochre); transform: translate(-50%, -100%) rotate(-45deg); box-shadow: 0 2px 6px rgba(31,63,44,.45); transition: transform .18s ease, background .18s ease, z-index .1s; }
+    .marker:hover, .marker.active { z-index: 5; background: var(--moss-dark); transform: translate(-50%, -100%) rotate(-45deg) scale(1.5); }
+    .marker:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+    .panel { display: flex; min-width: 0; flex-direction: column; background: var(--white); }
+    .panel-head { padding: 22px 22px 16px; border-bottom: 1px solid var(--line); }
+    .panel-title { display: flex; align-items: baseline; justify-content: space-between; gap: 14px; }
+    .panel-title h2 { margin: 0; font-size: 20px; letter-spacing: -.025em; }
+    #result-count { color: var(--muted); font-size: 12px; white-space: nowrap; }
+    .search-wrap { position: relative; margin-top: 15px; }
+    .search-wrap svg { position: absolute; top: 12px; left: 12px; color: var(--muted); }
+    .search { width: 100%; border: 1px solid var(--line); border-radius: 9px; padding: 10px 12px 10px 36px; outline: none; background: #fff; color: var(--ink); }
+    .search:focus, select:focus { border-color: var(--moss); box-shadow: 0 0 0 3px rgba(36,107,76,.13); }
+    .filter-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; }
+    select { width: 100%; border: 1px solid var(--line); border-radius: 9px; background: #fff; color: var(--ink); padding: 9px 10px; font-size: 12px; outline: none; }
+    .site-list { overflow: auto; padding: 7px 10px 12px; }
+    .site-row { display: grid; grid-template-columns: 1fr auto; gap: 10px; width: 100%; border: 0; border-bottom: 1px solid #edf0ea; background: transparent; text-align: left; padding: 13px 12px; color: var(--ink); }
+    .site-row:hover, .site-row.selected { background: #eef4ee; }
+    .site-name { display: block; font-size: 13px; font-weight: 600; }
+    .site-type { display: block; overflow: hidden; color: var(--muted); font-size: 11px; margin-top: 4px; text-overflow: ellipsis; white-space: nowrap; }
+    .site-year { color: var(--ochre); font-size: 11px; white-space: nowrap; padding-top: 2px; }
+    .empty { color: var(--muted); padding: 28px 14px; text-align: center; font-size: 13px; }
+    .detail { position: absolute; z-index: 8; inset: auto 18px 18px 18px; max-width: 430px; border: 1px solid var(--line); border-radius: 14px; background: rgba(251,252,248,.96); box-shadow: var(--shadow); padding: 18px; backdrop-filter: blur(12px); transform: translateY(14px); opacity: 0; pointer-events: none; transition: opacity .2s ease, transform .2s ease; }
+    .detail.open { opacity: 1; transform: none; pointer-events: auto; }
+    .detail-close { float: right; border: 0; background: transparent; color: var(--muted); font-size: 20px; line-height: 1; }
+    .detail h3 { margin: 0 30px 4px 0; font: 600 25px/1.05 Newsreader, serif; }
+    .detail .coordinates { color: var(--moss); font: 11px/1.4 "DM Sans", sans-serif; }
+    .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 18px; border-top: 1px solid var(--line); margin-top: 15px; padding-top: 14px; }
+    .detail-item { min-width: 0; }
+    .detail-item.full { grid-column: 1 / -1; }
+    .detail-label { color: var(--muted); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
+    .detail-value { margin-top: 3px; font-size: 12px; line-height: 1.45; overflow-wrap: anywhere; }
+    .footer { display: flex; justify-content: space-between; gap: 20px; color: var(--muted); font-size: 11px; padding-top: 15px; }
+    @media (max-width: 900px) {
+      .app-shell { padding: 20px 16px 24px; }
+      header { align-items: flex-start; flex-direction: column; }
+      .intro { text-align: left; }
+      .workspace { grid-template-columns: 1fr; }
+      .map-side { min-height: 58vh; }
+      .panel { max-height: 560px; }
+    }
+    @media (max-width: 520px) {
+      .stats { gap: 7px; }
+      .stat { padding: 12px; }
+      .stat-value { font-size: 23px; }
+      .stat-label { font-size: 9px; }
+      .map-side { min-height: 52vh; }
+      .detail { inset: auto 10px 10px; }
+      .footer { flex-direction: column; gap: 4px; }
+    }
+  </style>
+</head>
+<body>
+  <!--
+  THESIS: Read the landscape as an index, not a catalogue: every point is a doorway into evidence.
+  OWN-WORLD: A field atlas in moss, paper, and ochre; editorial serif for place, compact sans for data.
+  STORY: Visitors scan Vidarbha, narrow the corpus, then open a site's chronology and references.
+  FIRST VIEWPORT: The supplied relief map owns the left field; live markers and the searchable corpus sit beside it.
+  FORM: Operate-mode atlas, chosen for immediate spatial orientation over the category-default table.
+  -->
+  <main class="app-shell">
+    <header>
+      <div>
+        <div class="brand"><div class="mark">V</div><div><div class="brand-name">Field notes · Vidarbha</div><div class="brand-sub">Archaeological site atlas</div></div></div>
+        <h1>A landscape of<br>archaeological memory.</h1>
+      </div>
+      <p class="intro">Explore <strong>742 documented sites</strong> across the region. Search by place, period, investigator, or reference; select any marker to open its record.</p>
+    </header>
+    <section class="stats" aria-label="Atlas summary">
+      <div class="stat"><div class="stat-value" id="site-total">742</div><div class="stat-label">Mapped records</div></div>
+      <div class="stat"><div class="stat-value" id="type-total">—</div><div class="stat-label">Recorded types</div></div>
+      <div class="stat"><div class="stat-value" id="investigator-total">—</div><div class="stat-label">Investigators</div></div>
+    </section>
+    <section class="workspace">
+      <div class="map-side" id="map" aria-label="Interactive map of archaeological sites">
+        <img class="map-image" src="Vidarbha.png" alt="Relief map of Vidarbha with latitude and longitude grid">
+        <div class="map-overlay"></div>
+        <div class="map-meta"><b>Vidarbha, India</b><span>76°–81° E · 19°–22° N</span></div>
+        <div class="map-help">Select a pin to inspect the record</div>
+        <div class="detail" id="detail" aria-live="polite"></div>
+      </div>
+      <aside class="panel">
+        <div class="panel-head">
+          <div class="panel-title"><h2>Site records</h2><span id="result-count">742 sites</span></div>
+          <div class="search-wrap">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
+            <input class="search" id="search" type="search" placeholder="Search site, type, person, reference…" autocomplete="off">
+          </div>
+          <div class="filter-row">
+            <select id="type-filter" aria-label="Filter by type"><option value="">All types</option></select>
+            <select id="sort" aria-label="Sort records"><option value="site">Sort: site</option><option value="date">Sort: date</option><option value="lat">Sort: latitude</option></select>
+          </div>
+        </div>
+        <div class="site-list" id="site-list"></div>
+      </aside>
+    </section>
+    <div class="footer"><span>Source: Archaeological Sites workbook · KSC, 2026</span><span>Coordinates plotted from supplied latitude / longitude fields</span></div>
+  </main>
+  <script src="data.js"></script>
+  <script>
+    const sites = window.SITES || [];
+    const $ = (id) => document.getElementById(id);
+    const map = $("map"), list = $("site-list"), detail = $("detail");
+    const bounds = { minLon: 75.7, maxLon: 81.4, minLat: 18.55, maxLat: 22.25 };
+    let filtered = sites.slice(), selectedId = null;
+    const safe = (value) => String(value ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#039;" }[c]));
+    const uniqueNonEmpty = (key) => [...new Set(sites.map(s => s[key]).filter(Boolean))].sort((a,b) => a.localeCompare(b));
+    function placeMarker(site) {
+      const pin = document.createElement("button");
+      pin.className = "marker"; pin.type = "button"; pin.dataset.id = site.id;
+      const x = ((site.longitude - bounds.minLon) / (bounds.maxLon - bounds.minLon)) * 100;
+      const y = ((bounds.maxLat - site.latitude) / (bounds.maxLat - bounds.minLat)) * 100;
+      pin.style.left = `${Math.max(1, Math.min(99, x))}%`; pin.style.top = `${Math.max(3, Math.min(97, y))}%`;
+      pin.title = site.site || "Unnamed site"; pin.setAttribute("aria-label", `Open ${site.site || "unnamed site"}`);
+      pin.addEventListener("click", () => selectSite(site.id));
+      map.appendChild(pin);
+    }
+    function renderMarkers() {
+      map.querySelectorAll(".marker").forEach(el => el.remove());
+      filtered.forEach(placeMarker);
+    }
+    function matches(site, query, type) {
+      const haystack = [site.site, site.type, site.investigator, site.date, site.reference, site.reference2].join(" ").toLowerCase();
+      return (!query || haystack.includes(query)) && (!type || site.type === type);
+    }
+    function renderList() {
+      const query = $("search").value.trim().toLowerCase(), type = $("type-filter").value, sort = $("sort").value;
+      filtered = sites.filter(s => matches(s, query, type));
+      filtered.sort((a,b) => sort === "lat" ? b.latitude - a.latitude : sort === "date" ? String(b.date).localeCompare(String(a.date)) : String(a.site).localeCompare(String(b.site)));
+      $("result-count").textContent = `${filtered.length} site${filtered.length === 1 ? "" : "s"}`;
+      list.innerHTML = filtered.length ? filtered.map(s => `<button class="site-row ${s.id === selectedId ? "selected" : ""}" data-id="${s.id}"><span><span class="site-name">${safe(s.site || "Unnamed site")}</span><span class="site-type">${safe(s.type || "Type not recorded")}</span></span><span class="site-year">${safe(s.date || "—")}</span></button>`).join("") : `<div class="empty">No records match this search.<br>Try a broader term or clear a filter.</div>`;
+      list.querySelectorAll(".site-row").forEach(row => row.addEventListener("click", () => selectSite(Number(row.dataset.id))));
+      renderMarkers();
+    }
+    function selectSite(id) {
+      const site = sites.find(s => s.id === id); if (!site) return;
+      selectedId = id;
+      detail.innerHTML = `<button class="detail-close" aria-label="Close details">×</button><h3>${safe(site.site || "Unnamed site")}</h3><div class="coordinates">${site.latitude.toFixed(5)}° N · ${site.longitude.toFixed(5)}° E</div><div class="detail-grid"><div class="detail-item"><div class="detail-label">Type / period</div><div class="detail-value">${safe(site.type || "Not recorded")}</div></div><div class="detail-item"><div class="detail-label">Date / year</div><div class="detail-value">${safe(site.date || "Not recorded")}</div></div><div class="detail-item full"><div class="detail-label">Investigator</div><div class="detail-value">${safe(site.investigator || "Not recorded")}</div></div><div class="detail-item full"><div class="detail-label">Reference</div><div class="detail-value">${safe(site.reference || "Not recorded")}</div></div><div class="detail-item full"><div class="detail-label">Reference 2</div><div class="detail-value">${safe(site.reference2 || "Not recorded")}</div></div></div>`;
+      detail.classList.add("open");
+      detail.querySelector(".detail-close").addEventListener("click", () => detail.classList.remove("open"));
+      map.querySelectorAll(".marker").forEach(m => m.classList.toggle("active", Number(m.dataset.id) === id));
+      list.querySelectorAll(".site-row").forEach(row => row.classList.toggle("selected", Number(row.dataset.id) === id));
+      const row = list.querySelector(`[data-id="${id}"]`); if (row) row.scrollIntoView({block: "nearest"});
+    }
+    $("type-total").textContent = uniqueNonEmpty("type").length;
+    $("investigator-total").textContent = uniqueNonEmpty("investigator").length;
+    uniqueNonEmpty("type").forEach(type => $("type-filter").insertAdjacentHTML("beforeend", `<option value="${safe(type)}">${safe(type)}</option>`));
+    $("search").addEventListener("input", renderList);
+    $("type-filter").addEventListener("change", renderList);
+    $("sort").addEventListener("change", renderList);
+    renderList();
+  </script>
+</body>
+</html>
