@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An interactive atlas of archaeological sites in and around Vidarbha.">
+  <title>Vidarbha Archaeological Atlas</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%231e5547'/%3E%3Cpath d='M17 33l10 10 20-23' fill='none' stroke='%23d89f34' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#site-results">Skip to site results</a>
+
+  <div class="app-shell">
+    <header class="site-header">
+      <div class="brand-lockup">
+        <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+        <div>
+          <p class="eyebrow">Interactive research map</p>
+          <h1>Vidarbha Archaeological Atlas</h1>
+        </div>
+      </div>
+      <p class="header-summary">Explore site records, coordinates, investigations, dates, and bibliography from the supplied archaeological dataset.</p>
+    </header>
+
+    <main class="atlas-layout">
+      <aside class="filters-panel" aria-labelledby="filters-heading">
+        <div class="panel-heading">
+          <p class="eyebrow">Discover records</p>
+          <h2 id="filters-heading">Filter the atlas</h2>
+        </div>
+
+        <label class="field-label" for="searchInput">Search</label>
+        <div class="search-field">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.7-4.7m2.2-5.05a7.25 7.25 0 1 1-14.5 0 7.25 7.25 0 0 1 14.5 0Z" /></svg>
+          <input id="searchInput" type="search" autocomplete="off" placeholder="Site, type, investigator, reference…">
+        </div>
+
+        <label class="field-label" for="typeFilter">Type</label>
+        <select id="typeFilter">
+          <option value="">All recorded types</option>
+        </select>
+
+        <label class="field-label" for="investigatorFilter">Investigator</label>
+        <select id="investigatorFilter">
+          <option value="">All investigators</option>
+        </select>
+
+        <label class="field-label" for="yearFilter">Date / year contains</label>
+        <input id="yearFilter" type="search" autocomplete="off" placeholder="e.g. 1990, 11th, 1958-59">
+
+        <button id="clearFilters" class="text-button" type="button">Clear all filters</button>
+
+        <div class="filter-note">
+          <span class="note-icon" aria-hidden="true">i</span>
+          <p>Click a marker or a result to inspect the complete record and references.</p>
+        </div>
+      </aside>
+
+      <section class="map-section" aria-labelledby="map-heading">
+        <div class="map-heading-row">
+          <div>
+            <p class="eyebrow">Spatial view</p>
+            <h2 id="map-heading">Site locations</h2>
+          </div>
+          <p id="resultCount" class="result-count" aria-live="polite"></p>
+        </div>
+
+        <div id="mapViewport" class="map-viewport" tabindex="0" aria-label="Interactive map of archaeological sites. Drag to pan. Use the mouse wheel or zoom controls to zoom.">
+          <div id="mapStage" class="map-stage" aria-hidden="true">
+            <img id="baseMap" class="base-map" src="assets/Vidarbha.png" alt="Supplied relief map of Vidarbha" draggable="false">
+            <svg id="markerLayer" class="marker-layer" xmlns="http://www.w3.org/2000/svg"></svg>
+          </div>
+
+          <div id="mapTooltip" class="map-tooltip" role="tooltip" hidden></div>
+
+          <div class="map-controls" aria-label="Map controls">
+            <button id="zoomIn" type="button" title="Zoom in" aria-label="Zoom in">+</button>
+            <button id="zoomOut" type="button" title="Zoom out" aria-label="Zoom out">−</button>
+            <button id="focusMap" type="button" title="Show supplied map extent" aria-label="Show supplied map extent">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" /></svg>
+            </button>
+            <button id="fitResults" type="button" title="Fit matching sites" aria-label="Fit matching sites">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.25"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3" /></svg>
+            </button>
+          </div>
+
+          <div class="map-instructions" aria-hidden="true"><span>Drag to pan</span><span>Scroll to zoom</span></div>
+        </div>
+
+        <div class="map-footer-row">
+          <p id="mapCoverage" class="map-coverage"></p>
+          <div class="map-actions">
+            <button id="focusMapText" class="small-button" type="button">Map extent</button>
+            <button id="fitResultsText" class="small-button" type="button">Fit results</button>
+          </div>
+        </div>
+      </section>
+
+      <aside id="detailsPanel" class="details-panel" aria-labelledby="details-heading">
+        <div class="details-header">
+          <div>
+            <p class="eyebrow">Selected record</p>
+            <h2 id="details-heading">Site details</h2>
+          </div>
+          <button id="closeDetails" class="icon-button" type="button" aria-label="Clear selected site" title="Clear selected site" disabled>×</button>
+        </div>
+        <div id="detailsContent" class="details-content" aria-live="polite">
+          <div class="empty-details">
+            <div class="empty-pin" aria-hidden="true"></div>
+            <p>Select a marker or a record below to view its location, type, investigator, date/year, and references.</p>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <section id="site-results" class="results-section" aria-labelledby="results-heading">
+      <div class="results-heading-row">
+        <div>
+          <p class="eyebrow">Browse records</p>
+          <h2 id="results-heading">Matching sites</h2>
+        </div>
+        <p id="listSummary" class="list-summary" aria-live="polite"></p>
+      </div>
+      <div id="resultsList" class="results-list"></div>
+      <button id="showMoreResults" class="show-more" type="button" hidden>Show more sites</button>
+    </section>
+
+    <footer class="site-footer">
+      <p>Data: <strong>Archaeological Sites.xlsx</strong> &middot; Base map: <strong>Vidarbha.png</strong></p>
+      <p>Static, hosting-ready atlas &middot; Coordinates are displayed from the supplied workbook.</p>
+    </footer>
+  </div>
+
+  <script src="data/sites.js" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
