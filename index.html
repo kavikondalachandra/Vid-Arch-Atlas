@@ -1,12 +1,16 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta name="google-site-verification" content="XLmQ2TyUB_DnfxioSPyT7g9yHERjbVemiy6yMLwo678" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="An interactive atlas of archaeological sites in and around Vidarbha.">
-  <title>Vidarbha Archaeological Atlas</title>
+  <meta name="description" content="An interactive atlas of archaeological sites in Vidarbha with districts, river systems, and topographic features. Concept & Design by K.S.Chandra 2026.">
+  <meta name="author" content="K.S.Chandra">
+  <meta name="designer" content="K.S.Chandra 2026">
+  <title>Vidarbha Archaeological Atlas — Interactive Topographic & District Map</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%231e5547'/%3E%3Cpath d='M17 33l10 10 20-23' fill='none' stroke='%23d89f34' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  
+  <!-- Leaflet Interactive Map Engine (bundled locally for offline reliability) -->
+  <link rel="stylesheet" href="assets/leaflet/leaflet.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -17,14 +21,20 @@
       <div class="brand-lockup">
         <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></div>
         <div>
-          <p class="eyebrow">Interactive research map</p>
+          <div class="header-tagline-row">
+            <p class="eyebrow">Interactive research atlas</p>
+            <span class="designer-badge" title="Concept &amp; Design by K.S.Chandra 2026">Concept &amp; Design by K.S.Chandra 2026</span>
+          </div>
           <h1>Vidarbha Archaeological Atlas</h1>
         </div>
       </div>
-      <p class="header-summary">Explore site records, coordinates, investigations, dates, and bibliography from the supplied archaeological dataset.</p>
+      <div class="header-meta-group">
+        <p class="header-summary">Explore 742 archaeological site records across Vidarbha’s 11 districts, with river basins, mountain ranges, and topographic relief features.</p>
+      </div>
     </header>
 
     <main class="atlas-layout">
+      <!-- FILTERS PANEL -->
       <aside class="filters-panel" aria-labelledby="filters-heading">
         <div class="panel-heading">
           <p class="eyebrow">Discover records</p>
@@ -34,10 +44,15 @@
         <label class="field-label" for="searchInput">Search</label>
         <div class="search-field">
           <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.7-4.7m2.2-5.05a7.25 7.25 0 1 1-14.5 0 7.25 7.25 0 0 1 14.5 0Z" /></svg>
-          <input id="searchInput" type="search" autocomplete="off" placeholder="Site, type, investigator, reference…">
+          <input id="searchInput" type="search" autocomplete="off" placeholder="Site, district, type, investigator…">
         </div>
 
-        <label class="field-label" for="typeFilter">Type</label>
+        <label class="field-label" for="districtFilter">District (Vidarbha)</label>
+        <select id="districtFilter">
+          <option value="">All districts (11 Vidarbha + surrounding)</option>
+        </select>
+
+        <label class="field-label" for="typeFilter">Archaeological Type / Period</label>
         <select id="typeFilter">
           <option value="">All recorded types</option>
         </select>
@@ -52,69 +67,120 @@
 
         <button id="clearFilters" class="text-button" type="button">Clear all filters</button>
 
+        <!-- MAP LAYER CONTROLS IN SIDEBAR -->
+        <div class="sidebar-section">
+          <p class="sidebar-subtitle">Map Layers &amp; Topography</p>
+          <div class="layer-toggle-list">
+            <label class="layer-toggle-item">
+              <input type="checkbox" id="toggleDistricts" checked>
+              <span class="toggle-indicator dist-ind"></span>
+              <span class="toggle-text"><strong>Districts</strong> (11 Boundaries &amp; Labels)</span>
+            </label>
+            <label class="layer-toggle-item">
+              <input type="checkbox" id="toggleRivers" checked>
+              <span class="toggle-indicator river-ind"></span>
+              <span class="toggle-text"><strong>River Systems</strong> (Wainganga, Wardha, Penganga…)</span>
+            </label>
+            <label class="layer-toggle-item">
+              <input type="checkbox" id="toggleTopo" checked>
+              <span class="toggle-indicator topo-ind"></span>
+              <span class="toggle-text"><strong>Topography &amp; Ranges</strong> (Satpura, Melghat, Ajanta…)</span>
+            </label>
+            <label class="layer-toggle-item">
+              <input type="checkbox" id="toggleLandmarks" checked>
+              <span class="toggle-indicator landmark-ind"></span>
+              <span class="toggle-text"><strong>Landmarks</strong> (Chikhaldara, Lonar Crater, Mansar…)</span>
+            </label>
+            <label class="layer-toggle-item">
+              <input type="checkbox" id="toggleSites" checked>
+              <span class="toggle-indicator site-ind"></span>
+              <span class="toggle-text"><strong>Archaeological Sites</strong> (742 Coordinates)</span>
+            </label>
+          </div>
+        </div>
+
         <div class="filter-note">
           <span class="note-icon" aria-hidden="true">i</span>
-          <p>Click a marker or a result to inspect the complete record and references.</p>
+          <p>Click any district polygon, river, landmark, or marker to view details and filter sites.</p>
         </div>
       </aside>
 
+      <!-- MAP SECTION -->
       <section class="map-section" aria-labelledby="map-heading">
         <div class="map-heading-row">
           <div>
-            <p class="eyebrow">Spatial view</p>
-            <h2 id="map-heading">Site locations</h2>
+            <p class="eyebrow">Spatial &amp; Topographic view</p>
+            <h2 id="map-heading">Interactive Map of Vidarbha</h2>
           </div>
-          <p id="resultCount" class="result-count" aria-live="polite"></p>
+          <div class="map-header-status">
+            <p id="resultCount" class="result-count" aria-live="polite"></p>
+          </div>
         </div>
 
-        <div id="mapViewport" class="map-viewport" tabindex="0" aria-label="Interactive map of archaeological sites. Drag to pan. Use the mouse wheel or zoom controls to zoom.">
-          <div id="mapStage" class="map-stage" aria-hidden="true">
-            <img id="baseMap" class="base-map" src="assets/Vidarbha.png" alt="Supplied relief map of Vidarbha" draggable="false">
-            <svg id="markerLayer" class="marker-layer" xmlns="http://www.w3.org/2000/svg"></svg>
+        <!-- LEAFLET MAP VIEWPORT -->
+        <div id="mapViewport" class="map-viewport" tabindex="0" aria-label="Interactive map of Vidarbha with districts and topographic features. Drag to pan, scroll to zoom.">
+          
+          <!-- BASEMAP SELECTOR OVERLAY -->
+          <div class="basemap-bar" aria-label="Choose basemap layer">
+            <span class="basemap-label">Base:</span>
+            <button type="button" class="base-btn is-active" data-basemap="topo" title="Topographic Relief &amp; Contours">Topography</button>
+            <button type="button" class="base-btn" data-basemap="relief" title="Shaded Physical Terrain">Relief</button>
+            <button type="button" class="base-btn" data-basemap="streets" title="World Street &amp; City Reference">Streets</button>
+            <button type="button" class="base-btn" data-basemap="satellite" title="Satellite Imagery">Satellite</button>
           </div>
 
-          <div id="mapTooltip" class="map-tooltip" role="tooltip" hidden></div>
-
-          <div class="map-controls" aria-label="Map controls">
+          <!-- MAP CONTROLS OVERLAY -->
+          <div class="map-controls" aria-label="Map navigation controls">
             <button id="zoomIn" type="button" title="Zoom in" aria-label="Zoom in">+</button>
             <button id="zoomOut" type="button" title="Zoom out" aria-label="Zoom out">−</button>
-            <button id="focusMap" type="button" title="Show supplied map extent" aria-label="Show supplied map extent">
+            <button id="focusVidarbha" type="button" title="Fit Vidarbha region" aria-label="Fit Vidarbha region">
               <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" /></svg>
             </button>
-            <button id="fitResults" type="button" title="Fit matching sites" aria-label="Fit matching sites">
+            <button id="fitResults" type="button" title="Fit matching archaeological sites" aria-label="Fit matching archaeological sites">
               <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.25"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3" /></svg>
             </button>
           </div>
 
-          <div class="map-instructions" aria-hidden="true"><span>Drag to pan</span><span>Scroll to zoom</span></div>
+          <!-- MAP COORDINATES & ZOOM BADGE -->
+          <div id="mapCoordinates" class="map-coords-badge" aria-hidden="true">
+            <span>Lat: 20.70° N</span> · <span>Lng: 79.00° E</span>
+          </div>
+
+          <div class="map-instructions" aria-hidden="true">
+            <span>Drag to pan</span>
+            <span>Scroll or pinch to zoom</span>
+            <span>Click districts &amp; features to inspect</span>
+          </div>
         </div>
 
         <div class="map-footer-row">
           <p id="mapCoverage" class="map-coverage"></p>
           <div class="map-actions">
-            <button id="focusMapText" class="small-button" type="button">Map extent</button>
-            <button id="fitResultsText" class="small-button" type="button">Fit results</button>
+            <button id="focusVidarbhaText" class="small-button" type="button">Fit Vidarbha</button>
+            <button id="fitResultsText" class="small-button" type="button">Fit filtered sites</button>
           </div>
         </div>
       </section>
 
+      <!-- DETAILS PANEL -->
       <aside id="detailsPanel" class="details-panel" aria-labelledby="details-heading">
         <div class="details-header">
           <div>
-            <p class="eyebrow">Selected record</p>
+            <p class="eyebrow" id="detailsEyebrow">Selected record</p>
             <h2 id="details-heading">Site details</h2>
           </div>
-          <button id="closeDetails" class="icon-button" type="button" aria-label="Clear selected site" title="Clear selected site" disabled>×</button>
+          <button id="closeDetails" class="icon-button" type="button" aria-label="Clear selected item" title="Clear selected item" disabled>×</button>
         </div>
         <div id="detailsContent" class="details-content" aria-live="polite">
           <div class="empty-details">
             <div class="empty-pin" aria-hidden="true"></div>
-            <p>Select a marker or a record below to view its location, type, investigator, date/year, and references.</p>
+            <p>Select an archaeological marker, district, river, or topographic feature on the map to view complete historical and geographical details.</p>
           </div>
         </div>
       </aside>
     </main>
 
+    <!-- RESULTS BROWSER -->
     <section id="site-results" class="results-section" aria-labelledby="results-heading">
       <div class="results-heading-row">
         <div>
@@ -127,13 +193,21 @@
       <button id="showMoreResults" class="show-more" type="button" hidden>Show more sites</button>
     </section>
 
+    <!-- FOOTER WITH MANDATORY ATTRIBUTION -->
     <footer class="site-footer">
-      <p>Data: <strong>Archaeological Sites.xlsx</strong> &middot; Base map: <strong>Vidarbha.png</strong></p>
-      <p>Static, hosting-ready atlas &middot; Coordinates are displayed from the supplied workbook.</p>
+      <div class="footer-attribution">
+        <p class="footer-primary"><strong>Concept &amp; Design by K.S.Chandra 2026</strong> &middot; Vidarbha Archaeological Atlas</p>
+        <p class="footer-secondary">Interactive Topographic &amp; District Map &middot; Covers 11 Districts of Vidarbha (Amravati &amp; Nagpur Divisions), River Basins, and Physical Relief.</p>
+      </div>
+      <p class="footer-meta">Data Source: <strong>Archaeological Sites.xlsx</strong> (742 Coordinate Records)</p>
     </footer>
   </div>
 
-  <script src="data/sites.js" defer></script>
+  <!-- LEAFLET AND DATA SCRIPTS -->
+  <script src="assets/leaflet/leaflet.js"></script>
+  <script src="data/vidarbha-districts.js"></script>
+  <script src="data/vidarbha-topo.js"></script>
+  <script src="data/sites.js"></script>
   <script src="app.js" defer></script>
 </body>
 </html>

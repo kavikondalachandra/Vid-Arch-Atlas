@@ -2,74 +2,28 @@
   'use strict';
 
   const atlas = window.ARCHAEOLOGICAL_ATLAS;
+  const vidarbhaDistrictsData = window.VIDARBHA_DISTRICTS;
+  const vidarbhaTopoData = window.VIDARBHA_TOPO;
+
   if (!atlas || !Array.isArray(atlas.sites)) {
-    document.body.innerHTML = '<main style="max-width:680px;margin:4rem auto;padding:1.5rem;font-family:system-ui"><h1>Atlas data could not be loaded</h1><p>Ensure <code>data/sites.js</code> is deployed with this page.</p></main>';
+    console.error('Atlas data could not be loaded. Ensure data/sites.js is loaded.');
     return;
   }
 
   const $ = (selector) => document.querySelector(selector);
-  const elements = {
-    search: $('#searchInput'),
-    type: $('#typeFilter'),
-    investigator: $('#investigatorFilter'),
-    year: $('#yearFilter'),
-    clear: $('#clearFilters'),
-    mapViewport: $('#mapViewport'),
-    mapStage: $('#mapStage'),
-    baseMap: $('#baseMap'),
-    markerLayer: $('#markerLayer'),
-    tooltip: $('#mapTooltip'),
-    zoomIn: $('#zoomIn'),
-    zoomOut: $('#zoomOut'),
-    focusMap: $('#focusMap'),
-    focusMapText: $('#focusMapText'),
-    fitResults: $('#fitResults'),
-    fitResultsText: $('#fitResultsText'),
-    resultCount: $('#resultCount'),
-    mapCoverage: $('#mapCoverage'),
-    detailsContent: $('#detailsContent'),
-    closeDetails: $('#closeDetails'),
-    resultsList: $('#resultsList'),
-    listSummary: $('#listSummary'),
-    showMore: $('#showMoreResults')
-  };
+  let elements = {};
 
-  const IMAGE = { width: 2301, height: 1627 };
-  // These values calibrate the latitude/longitude ticks printed on the supplied map image.
-  const CALIBRATION = {
-    longitude: { referencePixel: 266.5, referenceValue: 76, pixelsPerDegree: 357.4 },
-    latitude: { referencePixel: 195.5, referenceValue: 22, pixelsPerDegree: 357.3333333333 }
-  };
-  const MISSING = '__atlas_not_recorded__';
-  const MIN_ZOOM = 0.12;
-  const MAX_ZOOM = 2.5;
-  const LIST_STEP = 48;
   const collator = new Intl.Collator(undefined, { sensitivity: 'base', numeric: true });
+  const MISSING = '__atlas_not_recorded__';
+  const LIST_STEP = 48;
 
-  function longitudeAtPixel(pixel) {
-    return CALIBRATION.longitude.referenceValue +
-      (pixel - CALIBRATION.longitude.referencePixel) / CALIBRATION.longitude.pixelsPerDegree;
-  }
+  // Vidarbha general bounding box: [minLat, minLng], [maxLat, maxLng]
+  const VIDARBHA_BOUNDS = [
+    [18.60, 75.80],
+    [21.80, 81.10]
+  ];
 
-  function latitudeAtPixel(pixel) {
-    return CALIBRATION.latitude.referenceValue -
-      (pixel - CALIBRATION.latitude.referencePixel) / CALIBRATION.latitude.pixelsPerDegree;
-  }
-
-  const mapImageBounds = {
-    minLongitude: longitudeAtPixel(0),
-    maxLongitude: longitudeAtPixel(IMAGE.width),
-    minLatitude: latitudeAtPixel(IMAGE.height),
-    maxLatitude: latitudeAtPixel(0)
-  };
-
-  const suppliedMapFrame = {
-    minLongitude: longitudeAtPixel(90),
-    maxLongitude: longitudeAtPixel(2193),
-    minLatitude: latitudeAtPixel(1543),
-    maxLatitude: latitudeAtPixel(100)
-  };
-
+  // Normalise site records
   const sites = atlas.sites
     .map((record, index) => ({
       id: Number(record.id) || index + 1,
@@ -77,6 +31,7 @@
       site: cleanText(record.site) || `Unnamed site ${index + 1}`,
       latitude: Number(record.latitude),
       longitude: Number(record.longitude),
+      district: cleanText(record.district) || 'Vidarbha',
       type: cleanText(record.type),
       investigator: cleanText(record.investigator),
       dateYear: cleanText(record.dateYear),
@@ -89,6 +44,7 @@
   sites.forEach((record) => {
     record.searchText = [
       record.site,
+      record.district,
       record.type,
       record.investigator,
       record.dateYear,
@@ -98,46 +54,85 @@
   });
 
   const siteById = new Map(sites.map((record) => [record.id, record]));
-  const coordinateBounds = getCoordinateBounds(sites);
-  const world = {
-    minLongitude: Math.min(mapImageBounds.minLongitude, coordinateBounds.minLongitude) - 0.25,
-    maxLongitude: Math.max(mapImageBounds.maxLongitude, coordinateBounds.maxLongitude) + 0.25,
-    minLatitude: Math.min(mapImageBounds.minLatitude, coordinateBounds.minLatitude) - 0.25,
-    maxLatitude: Math.max(mapImageBounds.maxLatitude, coordinateBounds.maxLatitude) + 0.25
-  };
-  const stageSize = {
-    width: (world.maxLongitude - world.minLongitude) * CALIBRATION.longitude.pixelsPerDegree,
-    height: (world.maxLatitude - world.minLatitude) * CALIBRATION.latitude.pixelsPerDegree
-  };
 
+  // App State
   const state = {
-    filters: { query: '', type: '', investigator: '', year: '' },
+    filters: { query: '', district: '', type: '', investigator: '', year: '' },
     filtered: sites,
     selectedId: null,
+    selectedFeature: null,
     listLimit: LIST_STEP,
-    transform: { x: 0, y: 0, scale: 1 },
-    drag: null,
-    initialised: false,
-    lastMarkerScale: null
+    activeBasemap: 'topo'
   };
 
-  const markerNodes = new Map();
-  let resizeTimer = null;
+  // Leaflet map & layer groups
+  let map = null;
+  let baseLayers = {};
+  let districtsLayer = null;
+  let riversLayer = null;
+  let topoRangesLayer = null;
+  let landmarksLayer = null;
+  let sitesLayerGroup = null;
+  const siteMarkerMap = new Map();
 
-  initialise();
+  // Run on DOM Ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initialise);
+  } else {
+    initialise();
+  }
 
   function initialise() {
-    setUpMapGeometry();
+    elements = {
+      search: $('#searchInput'),
+      district: $('#districtFilter'),
+      type: $('#typeFilter'),
+      investigator: $('#investigatorFilter'),
+      year: $('#yearFilter'),
+      clear: $('#clearFilters'),
+
+      toggleDistricts: $('#toggleDistricts'),
+      toggleRivers: $('#toggleRivers'),
+      toggleTopo: $('#toggleTopo'),
+      toggleLandmarks: $('#toggleLandmarks'),
+      toggleSites: $('#toggleSites'),
+
+      mapViewport: $('#mapViewport'),
+      zoomIn: $('#zoomIn'),
+      zoomOut: $('#zoomOut'),
+      focusVidarbha: $('#focusVidarbha'),
+      focusVidarbhaText: $('#focusVidarbhaText'),
+      fitResults: $('#fitResults'),
+      fitResultsText: $('#fitResultsText'),
+      resultCount: $('#resultCount'),
+      mapCoverage: $('#mapCoverage'),
+      mapCoordinates: $('#mapCoordinates'),
+
+      detailsEyebrow: $('#detailsEyebrow'),
+      detailsHeading: $('#detailsHeading'),
+      detailsContent: $('#detailsContent'),
+      closeDetails: $('#closeDetails'),
+
+      resultsList: $('#resultsList'),
+      listSummary: $('#listSummary'),
+      showMore: $('#showMoreResults')
+    };
+
+    initLeafletMap();
+    populateDistrictFilter();
     populateSelect(elements.type, getDistinctValues('type'), 'Type not recorded');
     populateSelect(elements.investigator, getDistinctValues('investigator'), 'Investigator not recorded');
-    createMarkers();
+    createSitesMarkers();
     bindEvents();
     applyFilters({ resetList: true });
 
-    requestAnimationFrame(() => {
-      focusSuppliedMap();
-      state.initialised = true;
-    });
+    // Focus on Vidarbha bounds initially
+    setTimeout(() => {
+      if (map) {
+        map.fitBounds(VIDARBHA_BOUNDS, { padding: [24, 24] });
+        map.invalidateSize();
+      }
+    }, 250);
   }
 
   function cleanText(value) {
@@ -145,43 +140,321 @@
     return String(value).replace(/\s+/g, ' ').trim();
   }
 
-  function getCoordinateBounds(records) {
-    return records.reduce((bounds, record) => ({
-      minLatitude: Math.min(bounds.minLatitude, record.latitude),
-      maxLatitude: Math.max(bounds.maxLatitude, record.latitude),
-      minLongitude: Math.min(bounds.minLongitude, record.longitude),
-      maxLongitude: Math.max(bounds.maxLongitude, record.longitude)
-    }), {
-      minLatitude: Infinity,
-      maxLatitude: -Infinity,
-      minLongitude: Infinity,
-      maxLongitude: -Infinity
+  /* ==========================================================================
+     LEAFLET MAP INITIALIZATION
+     ========================================================================== */
+  function initLeafletMap() {
+    if (!elements.mapViewport) return;
+
+    map = L.map(elements.mapViewport, {
+      center: [20.70, 78.80],
+      zoom: 7,
+      minZoom: 5,
+      maxZoom: 18,
+      zoomControl: false,
+      attributionControl: true
+    });
+
+    // Basemaps definition
+    baseLayers = {
+      topo: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+        maxZoom: 18,
+        attribution: '&copy; Esri, USGS, FAO, NPS'
+      }),
+      relief: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}', {
+        maxZoom: 13,
+        attribution: '&copy; Esri Shaded Relief'
+      }),
+      streets: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+        maxZoom: 19,
+        attribution: '&copy; Esri, USGS, DeLorme'
+      }),
+      osm: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+        maxZoom: 19,
+        attribution: '&copy; Esri, USGS, DeLorme'
+      }),
+      satellite: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+        maxZoom: 18,
+        attribution: '&copy; Esri, Maxar, Earthstar Geographics'
+      })
+    };
+
+    // Add default basemap
+    baseLayers.topo.addTo(map);
+
+    // Initialize layers
+    initDistrictsLayer();
+    initTopographyLayers();
+    sitesLayerGroup = L.layerGroup().addTo(map);
+
+    // Basemap switch buttons
+    document.querySelectorAll('.base-btn').forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+        const target = e.currentTarget.dataset.basemap;
+        if (target && baseLayers[target] && target !== state.activeBasemap) {
+          map.removeLayer(baseLayers[state.activeBasemap]);
+          baseLayers[target].addTo(map);
+          state.activeBasemap = target;
+          document.querySelectorAll('.base-btn').forEach((b) => b.classList.remove('is-active'));
+          e.currentTarget.classList.add('is-active');
+        }
+      });
+    });
+
+    // Cursor coordinates readout
+    map.on('mousemove', (e) => {
+      if (elements.mapCoordinates) {
+        elements.mapCoordinates.textContent = `Lat: ${e.latlng.lat.toFixed(3)}° N · Lng: ${e.latlng.lng.toFixed(3)}° E · Zoom: ${map.getZoom()}`;
+      }
+    });
+
+    // Map click clears selection
+    map.on('click', (e) => {
+      if (!e.originalEvent._markerClicked) {
+        clearSelection();
+      }
+    });
+
+    // Resize map whenever window size changes
+    window.addEventListener('resize', () => {
+      if (map) map.invalidateSize();
     });
   }
 
-  function project(longitude, latitude) {
-    return {
-      x: (longitude - world.minLongitude) * CALIBRATION.longitude.pixelsPerDegree,
-      y: (world.maxLatitude - latitude) * CALIBRATION.latitude.pixelsPerDegree
-    };
+  /* ==========================================================================
+     DISTRICTS LAYER (11 VIDARBHA DISTRICTS)
+     ========================================================================== */
+  function initDistrictsLayer() {
+    if (!vidarbhaDistrictsData) return;
+
+    districtsLayer = L.geoJSON(vidarbhaDistrictsData, {
+      style: (feature) => {
+        const color = feature.properties.color || '#2a9d8f';
+        return {
+          fillColor: color,
+          fillOpacity: 0.13,
+          color: color,
+          weight: 2.2,
+          opacity: 0.85,
+          dashArray: '3, 3'
+        };
+      },
+      onEachFeature: (feature, layer) => {
+        const props = feature.properties;
+        const dName = props.district;
+        const siteCount = props.siteCount || 0;
+
+        // Tooltip
+        layer.bindTooltip(`<strong>${dName} District</strong><br><span style="font-size:0.7rem;color:#d6e4d8;">${props.division || 'Vidarbha'} &middot; ${siteCount} sites</span>`, {
+          className: 'site-tooltip',
+          sticky: true
+        });
+
+        // Hover effect
+        layer.on('mouseover', () => {
+          layer.setStyle({
+            fillOpacity: 0.28,
+            weight: 3.5,
+            opacity: 1
+          });
+        });
+        layer.on('mouseout', () => {
+          if (districtsLayer) districtsLayer.resetStyle(layer);
+        });
+
+        // Click on district polygon
+        layer.on('click', (e) => {
+          L.DomEvent.stopPropagation(e);
+          // Set district filter
+          if (elements.district) {
+            elements.district.value = dName;
+            state.filters.district = dName;
+            applyFilters({ resetList: true });
+          }
+          // Zoom to district bounds
+          map.fitBounds(layer.getBounds(), { padding: [35, 35], maxZoom: 10 });
+
+          // Show district details
+          showDistrictDetails(props);
+        });
+      }
+    }).addTo(map);
+
+    // Add district center labels safely AFTER districtsLayer is created
+    if (vidarbhaDistrictsData.features) {
+      vidarbhaDistrictsData.features.forEach((feat) => {
+        const props = feat.properties;
+        if (props && props.centroid) {
+          const labelIcon = L.divIcon({
+            className: 'district-label',
+            html: `<span>${props.district}</span>`,
+            iconSize: [80, 20],
+            iconAnchor: [40, 10]
+          });
+          L.marker([props.centroid[1], props.centroid[0]], { icon: labelIcon, interactive: false }).addTo(districtsLayer);
+        }
+      });
+    }
   }
 
-  function isInSuppliedMapFrame(record) {
-    return record.latitude >= suppliedMapFrame.minLatitude &&
-      record.latitude <= suppliedMapFrame.maxLatitude &&
-      record.longitude >= suppliedMapFrame.minLongitude &&
-      record.longitude <= suppliedMapFrame.maxLongitude;
+  /* ==========================================================================
+     TOPOGRAPHY LAYERS (RIVERS, RANGES, LANDMARKS, RESERVOIRS)
+     ========================================================================== */
+  function initTopographyLayers() {
+    if (!vidarbhaTopoData || !Array.isArray(vidarbhaTopoData.features)) return;
+
+    const riverFeatures = vidarbhaTopoData.features.filter((f) => f.properties.category === 'river');
+    const topoFeatures = vidarbhaTopoData.features.filter((f) => f.properties.category === 'topography' || f.properties.category === 'reservoir');
+    const landmarkFeatures = vidarbhaTopoData.features.filter((f) => f.properties.category === 'landmark');
+
+    // 1. Rivers
+    riversLayer = L.geoJSON(riverFeatures, {
+      style: (feature) => feature.properties.style || { color: '#1d70a2', weight: 3 },
+      onEachFeature: (feature, layer) => {
+        const props = feature.properties;
+        layer.bindTooltip(`<strong>🌊 ${props.name}</strong><br><span style="font-size:0.7rem;color:#bfe0fa">${props.marathi || ''} &middot; Length: ${props.length_km} km</span>`, {
+          className: 'river-tooltip',
+          sticky: true
+        });
+        layer.on('click', (e) => {
+          L.DomEvent.stopPropagation(e);
+          showTopographicDetails(props);
+        });
+      }
+    }).addTo(map);
+
+    // 2. Mountain Ranges & Reservoirs
+    topoRangesLayer = L.geoJSON(topoFeatures, {
+      style: (feature) => feature.properties.style || { color: '#8b5a2b', weight: 2 },
+      onEachFeature: (feature, layer) => {
+        const props = feature.properties;
+        layer.bindTooltip(`<strong>⛰️ ${props.name}</strong><br><span style="font-size:0.7rem;color:#fef08a">${props.elevation ? 'Elev: ' + props.elevation : 'Water Reservoir'}</span>`, {
+          className: 'topo-tooltip',
+          sticky: true
+        });
+        layer.on('click', (e) => {
+          L.DomEvent.stopPropagation(e);
+          showTopographicDetails(props);
+        });
+      }
+    }).addTo(map);
+
+    // 3. Landmarks & Peaks
+    landmarksLayer = L.geoJSON(landmarkFeatures, {
+      pointToLayer: (feature, latlng) => {
+        const props = feature.properties;
+        const iconSvg = getLandmarkSvg(props.icon);
+        const icon = L.divIcon({
+          className: 'landmark-marker-wrapper',
+          html: `<div class="landmark-pin" title="${props.name} (${props.elevation || ''})">${iconSvg}</div>`,
+          iconSize: [26, 26],
+          iconAnchor: [13, 13]
+        });
+        return L.marker(latlng, { icon: icon });
+      },
+      onEachFeature: (feature, layer) => {
+        const props = feature.properties;
+        layer.bindTooltip(`<strong>${props.name}</strong><br><span style="font-size:0.7rem;color:#fef08a">${props.type} &middot; ${props.elevation || ''}</span>`, {
+          className: 'topo-tooltip',
+          offset: [0, -10]
+        });
+        layer.on('click', (e) => {
+          L.DomEvent.stopPropagation(e);
+          showTopographicDetails(props);
+        });
+      }
+    }).addTo(map);
   }
 
-  function setUpMapGeometry() {
-    const imagePosition = project(mapImageBounds.minLongitude, mapImageBounds.maxLatitude);
-    elements.mapStage.style.width = `${stageSize.width}px`;
-    elements.mapStage.style.height = `${stageSize.height}px`;
-    elements.baseMap.style.left = `${imagePosition.x}px`;
-    elements.baseMap.style.top = `${imagePosition.y}px`;
-    elements.markerLayer.setAttribute('viewBox', `0 0 ${stageSize.width} ${stageSize.height}`);
-    elements.markerLayer.setAttribute('width', String(stageSize.width));
-    elements.markerLayer.setAttribute('height', String(stageSize.height));
+  function getLandmarkSvg(iconType) {
+    if (iconType === 'mountain') {
+      return '<svg viewBox="0 0 24 24"><path d="m14 6 5.5 11h-15L9 8.5l2.5 3.5L14 6z"/></svg>';
+    } else if (iconType === 'crater') {
+      return '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="12" cy="12" r="3"/></svg>';
+    } else if (iconType === 'fort') {
+      return '<svg viewBox="0 0 24 24"><path d="M4 21V9l3-4 3 4v12M14 21V9l3-4 3 4v12M9 14h6M9 18h6"/></svg>';
+    } else if (iconType === 'archaeology' || iconType === 'temple') {
+      return '<svg viewBox="0 0 24 24"><path d="M12 2 3 9v2h18V9L12 2zm-7 9v8h2v-8H5zm5 0v8h2v-8h-2zm5 0v8h2v-8h-2zm-9 9h16v2H2v-2h2z"/></svg>';
+    } else if (iconType === 'waterfall' || iconType === 'confluence') {
+      return '<svg viewBox="0 0 24 24"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>';
+    }
+    return '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/></svg>';
+  }
+
+  /* ==========================================================================
+     ARCHAEOLOGICAL SITES MARKERS
+     ========================================================================== */
+  function createSitesMarkers() {
+    sites.forEach((record) => {
+      const marker = L.circleMarker([record.latitude, record.longitude], {
+        radius: 5.5,
+        fillColor: '#176d5b',
+        color: '#ffffff',
+        weight: 1.6,
+        opacity: 0.95,
+        fillOpacity: 0.90
+      });
+
+      marker.bindTooltip(`<strong>${record.site}</strong><span>${record.district} &middot; ${record.type || 'Type not recorded'}</span>`, {
+        className: 'site-tooltip',
+        offset: [0, -6]
+      });
+
+      marker.on('click', (e) => {
+        e.originalEvent._markerClicked = true;
+        L.DomEvent.stopPropagation(e);
+        selectSite(record.id, { bringIntoView: false });
+      });
+
+      siteMarkerMap.set(record.id, marker);
+      sitesLayerGroup.addLayer(marker);
+    });
+  }
+
+  /* ==========================================================================
+     FILTER POPULATION & LOGIC
+     ========================================================================== */
+  function populateDistrictFilter() {
+    if (!elements.district) return;
+    const vidarbhaDistricts = [
+      'Nagpur', 'Amravati', 'Chandrapur', 'Wardha', 'Bhandara',
+      'Yavatmal', 'Gadchiroli', 'Buldhana', 'Akola', 'Washim', 'Gondia'
+    ];
+
+    const counts = {};
+    sites.forEach((s) => {
+      const d = s.district || 'Adjacent / Regional';
+      counts[d] = (counts[d] || 0) + 1;
+    });
+
+    const fragment = document.createDocumentFragment();
+
+    // Group 1: Vidarbha Districts
+    const groupV = document.createElement('optgroup');
+    groupV.label = 'Vidarbha Districts (11)';
+    vidarbhaDistricts.sort().forEach((d) => {
+      const opt = document.createElement('option');
+      opt.value = d;
+      opt.textContent = `${d} (${counts[d] || 0} sites)`;
+      groupV.append(opt);
+    });
+    fragment.append(groupV);
+
+    // Group 2: Surrounding / Peripheral Sites
+    const otherDistricts = [...new Set(sites.map((s) => s.district).filter((d) => d && !vidarbhaDistricts.includes(d)))];
+    if (otherDistricts.length) {
+      const groupO = document.createElement('optgroup');
+      groupO.label = 'Surrounding / Regional Sites';
+      otherDistricts.sort().forEach((d) => {
+        const opt = document.createElement('option');
+        opt.value = d;
+        opt.textContent = `${d} (${counts[d] || 0} sites)`;
+        groupO.append(opt);
+      });
+      fragment.append(groupO);
+    }
+
+    elements.district.append(fragment);
   }
 
   function getDistinctValues(property) {
@@ -190,6 +463,7 @@
   }
 
   function populateSelect(select, values, missingLabel) {
+    if (!select) return;
     const fragment = document.createDocumentFragment();
     const missing = document.createElement('option');
     missing.value = MISSING;
@@ -205,51 +479,35 @@
     select.append(fragment);
   }
 
-  function createMarkers() {
-    const fragment = document.createDocumentFragment();
-
-    sites.forEach((record) => {
-      const point = project(record.longitude, record.latitude);
-      const marker = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-      marker.classList.add('marker');
-      marker.dataset.siteId = String(record.id);
-      marker.setAttribute('cx', point.x.toFixed(2));
-      marker.setAttribute('cy', point.y.toFixed(2));
-      marker.setAttribute('r', '12');
-      marker.setAttribute('aria-label', `${record.site}; ${record.type || 'type not recorded'}`);
-
-      marker.addEventListener('click', (event) => {
-        event.stopPropagation();
-        selectSite(record.id, { bringIntoView: false });
-      });
-      marker.addEventListener('pointerenter', (event) => showTooltip(event, record));
-      marker.addEventListener('pointermove', (event) => positionTooltip(event));
-      marker.addEventListener('pointerleave', hideTooltip);
-
-      markerNodes.set(record.id, marker);
-      fragment.append(marker);
-    });
-
-    elements.markerLayer.append(fragment);
-  }
-
   function bindEvents() {
     elements.search.addEventListener('input', () => {
       state.filters.query = elements.search.value.trim().toLocaleLowerCase();
       applyFilters({ resetList: true });
     });
+
+    if (elements.district) {
+      elements.district.addEventListener('change', () => {
+        state.filters.district = elements.district.value;
+        applyFilters({ resetList: true });
+        zoomToDistrict(state.filters.district);
+      });
+    }
+
     elements.type.addEventListener('change', () => {
       state.filters.type = elements.type.value;
       applyFilters({ resetList: true });
     });
+
     elements.investigator.addEventListener('change', () => {
       state.filters.investigator = elements.investigator.value;
       applyFilters({ resetList: true });
     });
+
     elements.year.addEventListener('input', () => {
       state.filters.year = elements.year.value.trim().toLocaleLowerCase();
       applyFilters({ resetList: true });
     });
+
     elements.clear.addEventListener('click', clearFilters);
     elements.showMore.addEventListener('click', () => {
       state.listLimit += LIST_STEP;
@@ -257,40 +515,66 @@
     });
     elements.closeDetails.addEventListener('click', clearSelection);
 
-    elements.zoomIn.addEventListener('click', () => zoomAtViewportCenter(1.35));
-    elements.zoomOut.addEventListener('click', () => zoomAtViewportCenter(1 / 1.35));
-    elements.focusMap.addEventListener('click', focusSuppliedMap);
-    elements.focusMapText.addEventListener('click', focusSuppliedMap);
-    elements.fitResults.addEventListener('click', () => fitSites(state.filtered));
-    elements.fitResultsText.addEventListener('click', () => fitSites(state.filtered));
+    // Zoom controls
+    elements.zoomIn.addEventListener('click', () => map.zoomIn());
+    elements.zoomOut.addEventListener('click', () => map.zoomOut());
+    elements.focusVidarbha.addEventListener('click', () => map.fitBounds(VIDARBHA_BOUNDS, { padding: [24, 24] }));
+    elements.focusVidarbhaText.addEventListener('click', () => map.fitBounds(VIDARBHA_BOUNDS, { padding: [24, 24] }));
+    elements.fitResults.addEventListener('click', () => fitFilteredSites());
+    elements.fitResultsText.addEventListener('click', () => fitFilteredSites());
 
-    elements.mapViewport.addEventListener('wheel', handleWheel, { passive: false });
-    elements.mapViewport.addEventListener('pointerdown', startDrag);
-    elements.mapViewport.addEventListener('pointermove', moveDrag);
-    elements.mapViewport.addEventListener('pointerup', endDrag);
-    elements.mapViewport.addEventListener('pointercancel', endDrag);
-    elements.mapViewport.addEventListener('keydown', handleMapKeydown);
-
-    const observer = new ResizeObserver(() => {
-      if (!state.initialised) return;
-      window.clearTimeout(resizeTimer);
-      resizeTimer = window.setTimeout(() => focusSuppliedMap(), 120);
+    // Layer checkboxes
+    elements.toggleDistricts.addEventListener('change', (e) => {
+      if (districtsLayer) {
+        if (e.target.checked) map.addLayer(districtsLayer);
+        else map.removeLayer(districtsLayer);
+      }
     });
-    observer.observe(elements.mapViewport);
+
+    elements.toggleRivers.addEventListener('change', (e) => {
+      if (riversLayer) {
+        if (e.target.checked) map.addLayer(riversLayer);
+        else map.removeLayer(riversLayer);
+      }
+    });
+
+    elements.toggleTopo.addEventListener('change', (e) => {
+      if (topoRangesLayer) {
+        if (e.target.checked) map.addLayer(topoRangesLayer);
+        else map.removeLayer(topoRangesLayer);
+      }
+    });
+
+    elements.toggleLandmarks.addEventListener('change', (e) => {
+      if (landmarksLayer) {
+        if (e.target.checked) map.addLayer(landmarksLayer);
+        else map.removeLayer(landmarksLayer);
+      }
+    });
+
+    elements.toggleSites.addEventListener('change', (e) => {
+      if (sitesLayerGroup) {
+        if (e.target.checked) map.addLayer(sitesLayerGroup);
+        else map.removeLayer(sitesLayerGroup);
+      }
+    });
   }
 
   function clearFilters() {
     elements.search.value = '';
+    if (elements.district) elements.district.value = '';
     elements.type.value = '';
     elements.investigator.value = '';
     elements.year.value = '';
-    state.filters = { query: '', type: '', investigator: '', year: '' };
+    state.filters = { query: '', district: '', type: '', investigator: '', year: '' };
     applyFilters({ resetList: true });
+    map.fitBounds(VIDARBHA_BOUNDS, { padding: [24, 24] });
   }
 
   function recordMatches(record) {
-    const { query, type, investigator, year } = state.filters;
+    const { query, district, type, investigator, year } = state.filters;
     if (query && !record.searchText.includes(query)) return false;
+    if (district && record.district !== district) return false;
     if (!matchesValue(record.type, type)) return false;
     if (!matchesValue(record.investigator, investigator)) return false;
     if (year && !(record.dateYear || '').toLocaleLowerCase().includes(year)) return false;
@@ -319,22 +603,46 @@
 
   function updateMarkerVisibility() {
     const matchingIds = new Set(state.filtered.map((record) => record.id));
-    markerNodes.forEach((marker, id) => {
-      marker.classList.toggle('is-hidden', !matchingIds.has(id));
-      marker.classList.toggle('is-selected', id === state.selectedId);
+    siteMarkerMap.forEach((marker, id) => {
+      if (matchingIds.has(id)) {
+        if (!sitesLayerGroup.hasLayer(marker)) {
+          sitesLayerGroup.addLayer(marker);
+        }
+        if (id === state.selectedId) {
+          marker.setStyle({
+            radius: 8.5,
+            fillColor: '#d89f34',
+            color: '#fff5dc',
+            weight: 3.5,
+            fillOpacity: 1
+          });
+          marker.bringToFront();
+        } else {
+          marker.setStyle({
+            radius: 5.5,
+            fillColor: '#176d5b',
+            color: '#ffffff',
+            weight: 1.6,
+            fillOpacity: 0.90
+          });
+        }
+      } else {
+        if (sitesLayerGroup.hasLayer(marker)) {
+          sitesLayerGroup.removeLayer(marker);
+        }
+      }
     });
   }
 
   function renderCounts() {
     const matching = state.filtered.length;
-    const insideFrame = state.filtered.filter(isInSuppliedMapFrame).length;
-    const outsideFrame = matching - insideFrame;
     elements.resultCount.textContent = `${formatNumber(matching)} of ${formatNumber(sites.length)} sites`;
 
-    if (outsideFrame) {
-      elements.mapCoverage.textContent = `${formatNumber(insideFrame)} matching ${plural(insideFrame, 'site')} fall within the printed Vidarbha map frame; ${formatNumber(outsideFrame)} ${plural(outsideFrame, 'record')} ${outsideFrame === 1 ? 'is' : 'are'} beyond it. Use “Fit results” to view every coordinate.`;
+    const distinctDistricts = new Set(state.filtered.map((s) => s.district).filter(Boolean));
+    if (state.filters.district) {
+      elements.mapCoverage.textContent = `Showing ${formatNumber(matching)} matching ${plural(matching, 'site')} in ${state.filters.district} District.`;
     } else {
-      elements.mapCoverage.textContent = `All ${formatNumber(matching)} matching ${plural(matching, 'site')} fall within the printed Vidarbha map frame.`;
+      elements.mapCoverage.textContent = `Displaying ${formatNumber(matching)} ${plural(matching, 'site')} across ${distinctDistricts.size} districts of Vidarbha and surrounding regions.`;
     }
   }
 
@@ -365,14 +673,20 @@
       const name = document.createElement('span');
       name.className = 'result-name';
       name.textContent = record.site;
+
+      const districtTag = document.createElement('span');
+      districtTag.className = 'result-district-tag';
+      districtTag.textContent = record.district;
+
       const type = document.createElement('span');
       type.className = 'result-meta';
       type.textContent = record.type || 'Type not recorded';
+
       const submeta = document.createElement('span');
       submeta.className = 'result-submeta';
       submeta.textContent = [record.investigator || 'Investigator not recorded', record.dateYear || 'Date/year not recorded'].join(' · ');
 
-      button.append(name, type, submeta);
+      button.append(name, districtTag, type, submeta);
       fragment.append(button);
     });
     elements.resultsList.append(fragment);
@@ -389,25 +703,63 @@
     if (!record) return;
 
     state.selectedId = id;
+    state.selectedFeature = null;
+
     updateMarkerVisibility();
     renderDetails();
     renderResults();
 
-    if (bringIntoView) ensureSiteVisible(record);
+    if (bringIntoView && map) {
+      map.setView([record.latitude, record.longitude], Math.max(map.getZoom(), 11), {
+        animate: true,
+        duration: 0.8
+      });
+      const marker = siteMarkerMap.get(id);
+      if (marker) marker.openTooltip();
+    }
   }
 
   function clearSelection() {
-    if (!state.selectedId) return;
     state.selectedId = null;
+    state.selectedFeature = null;
     updateMarkerVisibility();
     renderDetails();
     renderResults();
   }
 
+  function zoomToDistrict(districtName) {
+    if (!districtName || !vidarbhaDistrictsData) return;
+    const feat = vidarbhaDistrictsData.features.find((f) => f.properties.district === districtName);
+    if (feat && feat.properties.bbox) {
+      const b = feat.properties.bbox; // [minLng, minLat, maxLng, maxLat]
+      map.fitBounds([[b[1], b[0]], [b[3], b[2]]], { padding: [35, 35] });
+    }
+  }
+
+  function fitFilteredSites() {
+    if (!state.filtered.length) {
+      map.fitBounds(VIDARBHA_BOUNDS, { padding: [24, 24] });
+      return;
+    }
+    const lats = state.filtered.map((s) => s.latitude);
+    const lngs = state.filtered.map((s) => s.longitude);
+    const bounds = [
+      [Math.min(...lats), Math.min(...lngs)],
+      [Math.max(...lats), Math.max(...lngs)]
+    ];
+    map.fitBounds(bounds, { padding: [45, 45], maxZoom: 14 });
+  }
+
+  /* ==========================================================================
+     DETAILS PANEL RENDERING
+     ========================================================================== */
   function renderDetails() {
     const record = state.selectedId ? siteById.get(state.selectedId) : null;
-    elements.closeDetails.disabled = !record;
+    elements.closeDetails.disabled = !record && !state.selectedFeature;
     elements.detailsContent.replaceChildren();
+
+    if (elements.detailsEyebrow) elements.detailsEyebrow.textContent = 'Selected record';
+    if (elements.detailsHeading) elements.detailsHeading.textContent = 'Site details';
 
     if (!record) {
       const empty = document.createElement('div');
@@ -416,16 +768,21 @@
       pin.className = 'empty-pin';
       pin.setAttribute('aria-hidden', 'true');
       const message = document.createElement('p');
-      message.textContent = 'Select a marker or a record below to view its location, type, investigator, date/year, and references.';
+      message.textContent = 'Select an archaeological marker, district, river, or topographic feature on the map to view complete historical and geographical details.';
       empty.append(pin, message);
       elements.detailsContent.append(empty);
       return;
     }
 
     const fragment = document.createDocumentFragment();
+
     const heading = document.createElement('h3');
     heading.className = 'detail-site-name';
     heading.textContent = record.site;
+
+    const districtBadge = document.createElement('span');
+    districtBadge.className = 'detail-district-badge';
+    districtBadge.textContent = `${record.district} District`;
 
     const coordinateRow = document.createElement('div');
     coordinateRow.className = 'detail-coordinates';
@@ -441,14 +798,117 @@
     const detailGrid = document.createElement('div');
     detailGrid.className = 'detail-grid';
     detailGrid.append(
-      detailItem('Type', record.type || 'Not recorded'),
+      detailItem('District', record.district),
+      detailItem('Archaeological Type', record.type || 'Not recorded'),
       detailItem('Investigator', record.investigator || 'Not recorded'),
       detailItem('Date / year', record.dateYear || 'Not recorded')
     );
 
-    fragment.append(heading, coordinateRow, detailGrid);
+    const zoomBtn = document.createElement('button');
+    zoomBtn.type = 'button';
+    zoomBtn.className = 'zoom-to-site-btn';
+    zoomBtn.textContent = '🔍 Zoom to site on topographic map';
+    zoomBtn.addEventListener('click', () => {
+      map.setView([record.latitude, record.longitude], 13, { animate: true });
+    });
+
+    fragment.append(heading, districtBadge, coordinateRow, detailGrid, zoomBtn);
     fragment.append(referenceBlock('Reference 1', record.reference1));
     fragment.append(referenceBlock('Reference 2', record.reference2));
+    elements.detailsContent.append(fragment);
+  }
+
+  function showDistrictDetails(props) {
+    state.selectedId = null;
+    state.selectedFeature = props;
+    updateMarkerVisibility();
+    elements.closeDetails.disabled = false;
+    elements.detailsContent.replaceChildren();
+
+    if (elements.detailsEyebrow) elements.detailsEyebrow.textContent = 'Administrative division';
+    if (elements.detailsHeading) elements.detailsHeading.textContent = `${props.district} District`;
+
+    const fragment = document.createDocumentFragment();
+
+    const heading = document.createElement('h3');
+    heading.className = 'detail-site-name';
+    heading.textContent = `${props.district} District`;
+
+    const badge = document.createElement('span');
+    badge.className = 'detail-district-badge';
+    badge.textContent = `${props.division} · Vidarbha`;
+
+    const detailGrid = document.createElement('div');
+    detailGrid.className = 'detail-grid';
+    detailGrid.append(
+      detailItem('Administrative Division', props.division),
+      detailItem('District Headquarters', props.hq || props.district),
+      detailItem('Recorded Archaeological Sites', `${props.siteCount || 0} sites in database`),
+      detailItem('Region', 'Vidarbha, Maharashtra')
+    );
+
+    const filterBtn = document.createElement('button');
+    filterBtn.type = 'button';
+    filterBtn.className = 'zoom-to-site-btn';
+    filterBtn.textContent = `Filter atlas to ${props.district} sites (${props.siteCount || 0})`;
+    filterBtn.addEventListener('click', () => {
+      if (elements.district) {
+        elements.district.value = props.district;
+        state.filters.district = props.district;
+        applyFilters({ resetList: true });
+      }
+    });
+
+    fragment.append(heading, badge, detailGrid, filterBtn);
+    elements.detailsContent.append(fragment);
+  }
+
+  function showTopographicDetails(props) {
+    state.selectedId = null;
+    state.selectedFeature = props;
+    updateMarkerVisibility();
+    elements.closeDetails.disabled = false;
+    elements.detailsContent.replaceChildren();
+
+    if (elements.detailsEyebrow) elements.detailsEyebrow.textContent = 'Topographic feature';
+    if (elements.detailsHeading) elements.detailsHeading.textContent = props.name;
+
+    const fragment = document.createDocumentFragment();
+
+    const heading = document.createElement('h3');
+    heading.className = 'detail-site-name';
+    heading.textContent = props.name;
+
+    const badge = document.createElement('span');
+    badge.className = 'detail-district-badge';
+    badge.style.background = props.category === 'river' ? '#1d70a2' : '#8b5a2b';
+    badge.textContent = `${props.type || props.category} · ${props.marathi || ''}`;
+
+    const detailGrid = document.createElement('div');
+    detailGrid.className = 'detail-grid';
+
+    if (props.elevation) {
+      detailGrid.append(detailItem('Elevation / Height', props.elevation));
+    }
+    if (props.length_km) {
+      detailGrid.append(detailItem('River Length', `${props.length_km} km`));
+    }
+    if (props.basin) {
+      detailGrid.append(detailItem('Drainage Basin', props.basin));
+    }
+    if (props.district) {
+      detailGrid.append(detailItem('Location District', `${props.district} District`));
+    }
+
+    const descBlock = document.createElement('div');
+    descBlock.className = 'reference-block';
+    const descTitle = document.createElement('h3');
+    descTitle.textContent = 'Physical & Archaeological Significance';
+    const descText = document.createElement('p');
+    descText.textContent = props.description || 'Major geographic feature of Vidarbha.';
+    descBlock.append(descTitle, descText);
+
+    fragment.append(heading, badge, detailGrid, descBlock);
     elements.detailsContent.append(fragment);
   }
 
@@ -493,191 +953,11 @@
         helper.remove();
       }
       button.textContent = 'Copied';
-      window.setTimeout(() => { button.textContent = 'Copy'; }, 1250);
+      setTimeout(() => { button.textContent = 'Copy'; }, 1250);
     } catch {
       button.textContent = 'Select text';
-      window.setTimeout(() => { button.textContent = 'Copy'; }, 1400);
+      setTimeout(() => { button.textContent = 'Copy'; }, 1400);
     }
-  }
-
-  function showTooltip(event, record) {
-    elements.tooltip.replaceChildren();
-    const title = document.createElement('strong');
-    title.textContent = record.site;
-    const metadata = document.createElement('span');
-    metadata.textContent = record.type || 'Type not recorded';
-    elements.tooltip.append(title, metadata);
-    elements.tooltip.hidden = false;
-    positionTooltip(event);
-  }
-
-  function positionTooltip(event) {
-    if (elements.tooltip.hidden) return;
-    const bounds = elements.mapViewport.getBoundingClientRect();
-    const tipBounds = elements.tooltip.getBoundingClientRect();
-    let x = event.clientX - bounds.left + 13;
-    let y = event.clientY - bounds.top + 13;
-    if (x + tipBounds.width > bounds.width - 8) x -= tipBounds.width + 26;
-    if (y + tipBounds.height > bounds.height - 8) y = bounds.height - tipBounds.height - 8;
-    elements.tooltip.style.left = `${Math.max(8, x)}px`;
-    elements.tooltip.style.top = `${Math.max(8, y)}px`;
-  }
-
-  function hideTooltip() {
-    elements.tooltip.hidden = true;
-  }
-
-  function startDrag(event) {
-    if (event.button !== 0 && event.pointerType !== 'touch') return;
-    if (event.target.closest('.marker, .map-controls')) return;
-
-    state.drag = {
-      pointerId: event.pointerId,
-      startClientX: event.clientX,
-      startClientY: event.clientY,
-      startX: state.transform.x,
-      startY: state.transform.y,
-      moved: false
-    };
-    hideTooltip();
-    elements.mapViewport.classList.add('is-dragging');
-    elements.mapViewport.setPointerCapture(event.pointerId);
-  }
-
-  function moveDrag(event) {
-    if (!state.drag || event.pointerId !== state.drag.pointerId) return;
-    const dx = event.clientX - state.drag.startClientX;
-    const dy = event.clientY - state.drag.startClientY;
-    state.drag.moved = state.drag.moved || Math.abs(dx) > 3 || Math.abs(dy) > 3;
-    setTransform({ x: state.drag.startX + dx, y: state.drag.startY + dy });
-  }
-
-  function endDrag(event) {
-    if (!state.drag || event.pointerId !== state.drag.pointerId) return;
-    if (elements.mapViewport.hasPointerCapture(event.pointerId)) {
-      elements.mapViewport.releasePointerCapture(event.pointerId);
-    }
-    state.drag = null;
-    elements.mapViewport.classList.remove('is-dragging');
-  }
-
-  function handleWheel(event) {
-    event.preventDefault();
-    const viewportBounds = elements.mapViewport.getBoundingClientRect();
-    const factor = Math.exp(-event.deltaY * 0.0015);
-    zoomAt(event.clientX - viewportBounds.left, event.clientY - viewportBounds.top, factor);
-  }
-
-  function handleMapKeydown(event) {
-    if (event.key === '+' || event.key === '=') {
-      event.preventDefault();
-      zoomAtViewportCenter(1.35);
-    } else if (event.key === '-' || event.key === '_') {
-      event.preventDefault();
-      zoomAtViewportCenter(1 / 1.35);
-    } else if (event.key === '0') {
-      event.preventDefault();
-      focusSuppliedMap();
-    } else if (event.key.toLocaleLowerCase() === 'f') {
-      event.preventDefault();
-      fitSites(state.filtered);
-    }
-  }
-
-  function zoomAtViewportCenter(factor) {
-    const bounds = elements.mapViewport.getBoundingClientRect();
-    zoomAt(bounds.width / 2, bounds.height / 2, factor);
-  }
-
-  function zoomAt(viewportX, viewportY, factor) {
-    const previous = state.transform;
-    const nextScale = clamp(previous.scale * factor, MIN_ZOOM, MAX_ZOOM);
-    const stageX = (viewportX - previous.x) / previous.scale;
-    const stageY = (viewportY - previous.y) / previous.scale;
-    setTransform({
-      x: viewportX - stageX * nextScale,
-      y: viewportY - stageY * nextScale,
-      scale: nextScale
-    });
-  }
-
-  function focusSuppliedMap() {
-    const imagePosition = project(mapImageBounds.minLongitude, mapImageBounds.maxLatitude);
-    const bounds = elements.mapViewport.getBoundingClientRect();
-    const padding = Math.min(36, Math.max(18, bounds.width * 0.045));
-    const scale = clamp(Math.min(
-      (bounds.width - padding * 2) / IMAGE.width,
-      (bounds.height - padding * 2) / IMAGE.height
-    ), MIN_ZOOM, MAX_ZOOM);
-
-    setTransform({
-      x: (bounds.width - IMAGE.width * scale) / 2 - imagePosition.x * scale,
-      y: (bounds.height - IMAGE.height * scale) / 2 - imagePosition.y * scale,
-      scale
-    });
-  }
-
-  function fitSites(records) {
-    if (!records.length) {
-      focusSuppliedMap();
-      return;
-    }
-
-    const projected = records.map((record) => project(record.longitude, record.latitude));
-    const minX = Math.min(...projected.map((point) => point.x));
-    const maxX = Math.max(...projected.map((point) => point.x));
-    const minY = Math.min(...projected.map((point) => point.y));
-    const maxY = Math.max(...projected.map((point) => point.y));
-    const bounds = elements.mapViewport.getBoundingClientRect();
-    const width = Math.max(300, maxX - minX);
-    const height = Math.max(300, maxY - minY);
-    const padding = 56;
-    const scale = clamp(Math.min(
-      (bounds.width - padding * 2) / width,
-      (bounds.height - padding * 2) / height
-    ), MIN_ZOOM, MAX_ZOOM);
-
-    setTransform({
-      x: bounds.width / 2 - ((minX + maxX) / 2) * scale,
-      y: bounds.height / 2 - ((minY + maxY) / 2) * scale,
-      scale
-    });
-  }
-
-  function ensureSiteVisible(record) {
-    const point = project(record.longitude, record.latitude);
-    const bounds = elements.mapViewport.getBoundingClientRect();
-    const screenX = state.transform.x + point.x * state.transform.scale;
-    const screenY = state.transform.y + point.y * state.transform.scale;
-    const needsCentering = screenX < 68 || screenX > bounds.width - 68 || screenY < 68 || screenY > bounds.height - 68;
-    if (!needsCentering) return;
-
-    const scale = Math.max(state.transform.scale, 0.48);
-    setTransform({
-      x: bounds.width / 2 - point.x * scale,
-      y: bounds.height / 2 - point.y * scale,
-      scale
-    });
-  }
-
-  function setTransform(next) {
-    const oldScale = state.transform.scale;
-    state.transform = {
-      x: Number.isFinite(next.x) ? next.x : state.transform.x,
-      y: Number.isFinite(next.y) ? next.y : state.transform.y,
-      scale: clamp(Number.isFinite(next.scale) ? next.scale : state.transform.scale, MIN_ZOOM, MAX_ZOOM)
-    };
-    elements.mapStage.style.transform = `translate3d(${state.transform.x}px, ${state.transform.y}px, 0) scale(${state.transform.scale})`;
-
-    if (Math.abs(oldScale - state.transform.scale) > 0.003 || state.lastMarkerScale === null) {
-      resizeMarkers();
-      state.lastMarkerScale = state.transform.scale;
-    }
-  }
-
-  function resizeMarkers() {
-    const radius = clamp(4.7 / state.transform.scale, 5.8, 17);
-    markerNodes.forEach((marker) => marker.setAttribute('r', radius.toFixed(2)));
   }
 
   function formatNumber(value) {
@@ -686,9 +966,5 @@
 
   function plural(value, noun) {
     return `${noun}${value === 1 ? '' : 's'}`;
-  }
-
-  function clamp(value, minimum, maximum) {
-    return Math.min(Math.max(value, minimum), maximum);
   }
 })();

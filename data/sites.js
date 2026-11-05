@@ -20,7 +20,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "LK Srinivasan",
       "dateYear": "1958-59",
       "reference1": "IAR 1958-59:18; Meshram 2008: 29",
-      "reference2": "Indian Archaeology-A Review. 1958-59:18. New Delhi: Archaeological Survey of India.; Meshram, P. S. 2008. Junasurla yetil Hemadpanthi Mandir, Samshodhak (2008, Part-3): 29."
+      "reference2": "Indian Archaeology-A Review. 1958-59:18. New Delhi: Archaeological Survey of India.; Meshram, P. S. 2008. Junasurla yetil Hemadpanthi Mandir, Samshodhak (2008, Part-3): 29.",
+      "district": "Gadchiroli"
     },
     {
       "id": 490,
@@ -32,7 +33,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Amarendra Nath; R Abbas",
       "dateYear": "1992-93; 3/11/2015",
       "reference1": "IAR 1992-93:61-73; Riza.n.d",
-      "reference2": "Indian Archaeology-A Review. 1992-93:61-73. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1992-93:61-73. New Delhi: Archaeological Survey of India.",
+      "district": "Nagpur"
     },
     {
       "id": 491,
@@ -44,7 +46,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SK Chitale",
       "dateYear": "Unknown",
       "reference1": "Chitale 1988:165-66; Naranje 2013: 180",
-      "reference2": "Chitale, Shreepaad, 1988. Vidharbhateel Mahattvapurn Puravashesh, Vidarbha Sanshodhak Mandal: 164-180."
+      "reference2": "Chitale, Shreepaad, 1988. Vidharbhateel Mahattvapurn Puravashesh, Vidarbha Sanshodhak Mandal: 164-180.",
+      "district": "Gondia"
     },
     {
       "id": 492,
@@ -56,7 +59,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Willis, R Abbas, M Alam and JD Hawkes",
       "dateYear": "2015",
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Amravati"
     },
     {
       "id": 493,
@@ -68,7 +72,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "G Nikosey and PC Dogra",
       "dateYear": "1990-91",
       "reference1": "IAR 1990-91: 44",
-      "reference2": "Indian Archaeology-A Review. 1990-91: 44. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1990-91: 44. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 494,
@@ -80,7 +85,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BC Deotare, PD Sable, S Naik and K Shendge",
       "dateYear": "2011-12",
       "reference1": "Deccan College Annual Report 2011-12: 57",
-      "reference2": "Deotare, B.C. 2011-12. Explorations in southern part of Purna basin especially in the Mun and the Katepurna sub-basin in Vidarbha, Annual Report (2011-12), pp. 57, Pune: Deccan College."
+      "reference2": "Deotare, B.C. 2011-12. Explorations in southern part of Purna basin especially in the Mun and the Katepurna sub-basin in Vidarbha, Annual Report (2011-12), pp. 57, Pune: Deccan College.",
+      "district": "Akola"
     },
     {
       "id": 495,
@@ -92,7 +98,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Ajit Kumar",
       "dateYear": "1986-87",
       "reference1": "IAR 1986-87 :59",
-      "reference2": "Indian Archaeology-A Review. 1986-87 :59. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1986-87 :59. New Delhi: Archaeological Survey of India.",
+      "district": "Yavatmal"
     },
     {
       "id": 496,
@@ -104,7 +111,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 189; 261",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 497,
@@ -116,7 +124,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 498,
@@ -128,7 +137,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Ajit Kumar",
       "dateYear": "1986-87",
       "reference1": "IAR 1986-87 :59",
-      "reference2": "Indian Archaeology-A Review. 1986-87 :59. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1986-87 :59. New Delhi: Archaeological Survey of India.",
+      "district": "Yavatmal"
     },
     {
       "id": 499,
@@ -140,7 +150,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 500,
@@ -152,7 +163,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Sali 1998:19",
-      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38."
+      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38.",
+      "district": "Nagpur"
     },
     {
       "id": 501,
@@ -164,7 +176,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 90",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Yavatmal"
     },
     {
       "id": 502,
@@ -176,7 +189,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NG Nikosey and PC Dogra",
       "dateYear": "1990-91",
       "reference1": "IAR 1990-91: 43-45",
-      "reference2": "Indian Archaeology-A Review. 1990-91: 43-45. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1990-91: 43-45. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 503,
@@ -188,7 +202,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 504,
@@ -200,7 +215,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 89",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Akola"
     },
     {
       "id": 505,
@@ -212,7 +228,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 190, 264",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 506,
@@ -224,7 +241,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 190, 264",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 507,
@@ -236,7 +254,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BC Deotare, PD Sable, S Naik and K Shendge",
       "dateYear": "2011-12",
       "reference1": "Deccan College Annual Report 2011-12:56",
-      "reference2": "Deotare, B.C. 2011-12. Explorations in southern part of Purna basin especially in the Mun and the Katepurna sub-basin in Vidarbha, Annual Report (2011-12), pp. 56, Pune: Deccan College."
+      "reference2": "Deotare, B.C. 2011-12. Explorations in southern part of Purna basin especially in the Mun and the Katepurna sub-basin in Vidarbha, Annual Report (2011-12), pp. 56, Pune: Deccan College.",
+      "district": "Akola"
     },
     {
       "id": 508,
@@ -248,7 +267,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 108",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattav (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattav (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 489,
@@ -260,7 +280,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Vilas Wahane / Dr.Prabash Sahu",
       "dateYear": "2009 / 2024-25",
       "reference1": "Puramanthan",
-      "reference2": null
+      "reference2": null,
+      "district": "Yavatmal"
     },
     {
       "id": 509,
@@ -272,7 +293,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 107-08",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 488,
@@ -284,7 +306,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 486,
@@ -296,7 +319,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Adjacent / Regional"
     },
     {
       "id": 467,
@@ -308,7 +332,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2008-09",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 468,
@@ -320,7 +345,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 469,
@@ -332,7 +358,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": null,
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Chandrapur"
     },
     {
       "id": 470,
@@ -344,7 +371,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "GS Joge",
       "dateYear": "2010-11",
       "reference1": "Deccan College Annual Report 2010-11: 99",
-      "reference2": "Joge, G. 2010-11. Exploration/ Excavation, Annual Report (2011-12), pp. 99, Pune: Deccan College."
+      "reference2": "Joge, G. 2010-11. Exploration/ Excavation, Annual Report (2011-12), pp. 99, Pune: Deccan College.",
+      "district": "Chandrapur"
     },
     {
       "id": 471,
@@ -356,7 +384,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1961-62",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 472,
@@ -368,7 +397,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1969-70",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 473,
@@ -380,7 +410,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 474,
@@ -392,7 +423,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 475,
@@ -404,7 +436,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 476,
@@ -416,7 +449,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 477,
@@ -428,7 +462,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 91",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Yavatmal"
     },
     {
       "id": 478,
@@ -440,7 +475,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SK Chitale",
       "dateYear": "Unknown",
       "reference1": "Chitale 1988:172-73",
-      "reference2": "Chitale, Shreepaad, 1988. Vidharbhateel Mahattvapurn Puravashesh, Vidarbha Sanshodhak Mandal: 164-180."
+      "reference2": "Chitale, Shreepaad, 1988. Vidharbhateel Mahattvapurn Puravashesh, Vidarbha Sanshodhak Mandal: 164-180.",
+      "district": "Chandrapur"
     },
     {
       "id": 479,
@@ -452,7 +488,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 189, 235-36",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 480,
@@ -464,7 +501,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Gupta 1955: 13; Khobragade 1999: 23",
-      "reference2": "Khobragade, Priyadarshi. 1999 (Sept). Nagpur Jilhyateel Veglya Prakarchi Aahat Naani. Samshodahak: 24-29 Gupta, P.L. 1955. A Bibliography of the Hoards of Punch- marked Coins of Ancient India, Journal of Numismatic Society of India, Vol. XVII (Pt. I), Numismatic Notes and Monographs No.2."
+      "reference2": "Khobragade, Priyadarshi. 1999 (Sept). Nagpur Jilhyateel Veglya Prakarchi Aahat Naani. Samshodahak: 24-29 Gupta, P.L. 1955. A Bibliography of the Hoards of Punch- marked Coins of Ancient India, Journal of Numismatic Society of India, Vol. XVII (Pt. I), Numismatic Notes and Monographs No.2.",
+      "district": "Nagpur"
     },
     {
       "id": 481,
@@ -476,7 +514,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 482,
@@ -488,7 +527,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 106",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 483,
@@ -500,7 +540,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 484,
@@ -512,7 +553,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Adjacent / Regional"
     },
     {
       "id": 485,
@@ -524,7 +566,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NC Prakash",
       "dateYear": "1996-97",
       "reference1": "IAR 1996-97: 67-69",
-      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India.",
+      "district": "Amravati"
     },
     {
       "id": 487,
@@ -536,7 +579,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 89",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Akola"
     },
     {
       "id": 466,
@@ -548,7 +592,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 107",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 510,
@@ -560,7 +605,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 512,
@@ -572,7 +618,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 536,
@@ -584,7 +631,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Ajit Kumar",
       "dateYear": "1986-87",
       "reference1": "IAR 1986-87 :59",
-      "reference2": "Indian Archaeology-A Review. 1986-87: 59. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1986-87: 59. New Delhi: Archaeological Survey of India.",
+      "district": "Yavatmal"
     },
     {
       "id": 537,
@@ -596,7 +644,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SK Chitale",
       "dateYear": "Unknown",
       "reference1": "Chitale 1987",
-      "reference2": "Chitale, Shreepad Keshav, 1987. Nagpur Jilhyateel Kutrim Shailashraye, Vidarbha Sanshodhak Mandal 1987: 165-172."
+      "reference2": "Chitale, Shreepad Keshav, 1987. Nagpur Jilhyateel Kutrim Shailashraye, Vidarbha Sanshodhak Mandal 1987: 165-172.",
+      "district": "Nagpur"
     },
     {
       "id": 538,
@@ -608,7 +657,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1957",
       "reference1": "Jain 1957 (NNM, 5): 15",
-      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5."
+      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5.",
+      "district": "Akola"
     },
     {
       "id": 539,
@@ -620,7 +670,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 89",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Akola"
     },
     {
       "id": 540,
@@ -632,7 +683,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "Paddayya 1984",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 541,
@@ -644,7 +696,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Sali 1998:15-16",
-      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38."
+      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38.",
+      "district": "Nagpur"
     },
     {
       "id": 542,
@@ -656,7 +709,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 543,
@@ -668,7 +722,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 544,
@@ -680,7 +735,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 545,
@@ -692,7 +748,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 90",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Yavatmal"
     },
     {
       "id": 546,
@@ -704,7 +761,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1954",
       "reference1": "Dixit 1954: 88",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Wardha"
     },
     {
       "id": 547,
@@ -716,7 +774,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "P Meshram",
       "dateYear": "1994-95",
       "reference1": "IAR 1994-95: 57-58",
-      "reference2": "Indian Archaeology-A Review. 1994-95: 57-58. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1994-95: 57-58. New Delhi: Archaeological Survey of India.",
+      "district": "Nagpur"
     },
     {
       "id": 548,
@@ -728,7 +787,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "KB Pattak, VV Mirashi",
       "dateYear": "1912",
       "reference1": "IA 1985 (1912, XLI): 214-215; EI 1919-20 (15): 39-44; CII 1963 (5):5-9",
-      "reference2": "Pathak, K. B. 1985. Gupta- Vakataka Copper Plate Grant, The Indian Antiquary (1912) Vol. XLI: 214-215. Pathak, K. B. 1982. Poona Plates of the Vakataka Queen Prabhavati- Gupta: The 13th Year, Epigraphia Indica (1919-20) Vol. XV: 39 - 44. Mirashi, V. V. 1963. Inscriptions of the Vakatakas, Corpus Inscriptionum Indicarum Vol. V. Ootacamund."
+      "reference2": "Pathak, K. B. 1985. Gupta- Vakataka Copper Plate Grant, The Indian Antiquary (1912) Vol. XLI: 214-215. Pathak, K. B. 1982. Poona Plates of the Vakataka Queen Prabhavati- Gupta: The 13th Year, Epigraphia Indica (1919-20) Vol. XV: 39 - 44. Mirashi, V. V. 1963. Inscriptions of the Vakatakas, Corpus Inscriptionum Indicarum Vol. V. Ootacamund.",
+      "district": "Adjacent / Regional"
     },
     {
       "id": 549,
@@ -740,7 +800,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "2006",
       "reference1": "Thakur 2006 (vol. 8): 2-3; Kulkarni 2007: 172-86; Meshram 2008-09: 80-82; Kulkarni 2010-11: 38-40.",
-      "reference2": "Thakur, Ashok Jairaj Singh, 2006. A Fresh Light on the Pusad Hoard of Sebaka Coins, Chandrapur Coin Society News Bulletin 8: 2-3. Kulkarni P.P 2007. Pusad hoard of Pre satavahana coins: A treasure, Journal of Numismatic society of India, LXIX, 172-86 Kulkarni P. 2010-11. Recent Discoveries in Early Inscribed Coins of Vidarbha, Numismatics Digest, 34-35:4-48. Meshram P. 2008-09. Roman Coins, Bullae and Amulets from Vidarbha, Numismatic Digest, (32-33): 79-85."
+      "reference2": "Thakur, Ashok Jairaj Singh, 2006. A Fresh Light on the Pusad Hoard of Sebaka Coins, Chandrapur Coin Society News Bulletin 8: 2-3. Kulkarni P.P 2007. Pusad hoard of Pre satavahana coins: A treasure, Journal of Numismatic society of India, LXIX, 172-86 Kulkarni P. 2010-11. Recent Discoveries in Early Inscribed Coins of Vidarbha, Numismatics Digest, 34-35:4-48. Meshram P. 2008-09. Roman Coins, Bullae and Amulets from Vidarbha, Numismatic Digest, (32-33): 79-85.",
+      "district": "Yavatmal"
     },
     {
       "id": 550,
@@ -752,7 +813,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 105",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 551,
@@ -764,7 +826,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 109",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 552,
@@ -776,7 +839,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 189, 249",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 553,
@@ -788,7 +852,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": null,
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Nagpur"
     },
     {
       "id": 554,
@@ -800,7 +865,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Naranje",
       "dateYear": "Unknown",
       "reference1": "Naranje 2013: 299",
-      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan."
+      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan.",
+      "district": "Bhandara"
     },
     {
       "id": 535,
@@ -812,7 +878,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Bhandara"
     },
     {
       "id": 511,
@@ -824,7 +891,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Bhandara"
     },
     {
       "id": 534,
@@ -836,7 +904,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 109",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 532,
@@ -848,7 +917,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1961-62",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 513,
@@ -860,7 +930,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Amravati"
     },
     {
       "id": 514,
@@ -872,7 +943,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Mirashi, V.V., 'Some Seal-Stamps From the Central Provinces', Journal of the Numismatic Society of India, 3: 99-102",
-      "reference2": "Mirashi 1941. Some Seal-Stamps from the Central Province, Journal of Numismatic society of India 3:99-102."
+      "reference2": "Mirashi 1941. Some Seal-Stamps from the Central Province, Journal of Numismatic society of India 3:99-102.",
+      "district": "Nagpur"
     },
     {
       "id": 515,
@@ -884,7 +956,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Ajit Kumar",
       "dateYear": "1987-88",
       "reference1": "IAR 1987-88 :81",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Amravati"
     },
     {
       "id": 516,
@@ -896,7 +969,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SK Lekhwani, NG Nikosey, JS Dubey and NK Nimje",
       "dateYear": "1989-90",
       "reference1": "IAR 1989-90:58-59",
-      "reference2": "Indian Archaeology-A Review. 1989-90:58-59. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1989-90:58-59. New Delhi: Archaeological Survey of India.",
+      "district": "Nagpur"
     },
     {
       "id": 517,
@@ -908,7 +982,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Adjacent / Regional"
     },
     {
       "id": 518,
@@ -920,7 +995,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 519,
@@ -932,7 +1008,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 109",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 520,
@@ -944,7 +1021,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Naranje",
       "dateYear": "Unknown",
       "reference1": "Naranje 2013: 287",
-      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan."
+      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan.",
+      "district": "Bhandara"
     },
     {
       "id": 521,
@@ -956,7 +1034,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 90",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Amravati"
     },
     {
       "id": 522,
@@ -968,7 +1047,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 89",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Akola"
     },
     {
       "id": 523,
@@ -980,7 +1060,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SK Chitale; R Abbas",
       "dateYear": "1988 -2015",
       "reference1": "Chitale 1988",
-      "reference2": "Chitale, Shreepaad, 1988. Vidharbhateel Mahattvapurn Puravashesh, Vidarbha Sanshodhak Mandal: 164-180."
+      "reference2": "Chitale, Shreepaad, 1988. Vidharbhateel Mahattvapurn Puravashesh, Vidarbha Sanshodhak Mandal: 164-180.",
+      "district": "Akola"
     },
     {
       "id": 524,
@@ -992,7 +1073,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BC Deotare",
       "dateYear": "2002",
       "reference1": "Deotare 2003 and 2006",
-      "reference2": "Deotare, B.C. 2003. Recent Findings in Purna Basin of Vidarbha, Maharashtra State, paper presented in Joint Annual Conference of ISPQS, IAS and IHCS and National Seminar on Anthropology, Archaeology, History and Cultural Heritage of Peninsular India held at Department of Anthropology, Sri Venkateshwara University, Tirupati during 19th -22nd Dec. 2003, pp 9-10. Deotare, B.C. 2006. Late Holocene Climatic Change: Archaeological Evidence from Purna Basin, Maharashtra, Journal of Geological Society of India 68: 517-526."
+      "reference2": "Deotare, B.C. 2003. Recent Findings in Purna Basin of Vidarbha, Maharashtra State, paper presented in Joint Annual Conference of ISPQS, IAS and IHCS and National Seminar on Anthropology, Archaeology, History and Cultural Heritage of Peninsular India held at Department of Anthropology, Sri Venkateshwara University, Tirupati during 19th -22nd Dec. 2003, pp 9-10. Deotare, B.C. 2006. Late Holocene Climatic Change: Archaeological Evidence from Purna Basin, Maharashtra, Journal of Geological Society of India 68: 517-526.",
+      "district": "Buldhana"
     },
     {
       "id": 525,
@@ -1004,7 +1086,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SB Deo; CS Gupta",
       "dateYear": "1999-67; 1984-85",
       "reference1": "IAR 1966-67:27; IAR 1984-85: 51-52; Gupta, C. S. 1987: 45-50",
-      "reference2": "Indian Archaeology: A Review.1966-67:27. New Delhi: Archaeological Survey of India. Indian Archaeology: A Review.1984-85:51-52. New Delhi: Archaeological Survey of India. Gupta, C. S. 1987. Some interesting Plaques of Lajja from Paunar, in Giridhararashri Essays on Indology: Dr. D. S. Dixit Felicitation Volume (A. V. Narasimha Murthy and K. V Ramesh Eds.). pp. 45-50. Delhi: Agam Kala Prakashan."
+      "reference2": "Indian Archaeology: A Review.1966-67:27. New Delhi: Archaeological Survey of India. Indian Archaeology: A Review.1984-85:51-52. New Delhi: Archaeological Survey of India. Gupta, C. S. 1987. Some interesting Plaques of Lajja from Paunar, in Giridhararashri Essays on Indology: Dr. D. S. Dixit Felicitation Volume (A. V. Narasimha Murthy and K. V Ramesh Eds.). pp. 45-50. Delhi: Agam Kala Prakashan.",
+      "district": "Wardha"
     },
     {
       "id": 526,
@@ -1016,7 +1099,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "IAR 1983-84: 164",
-      "reference2": "Indian Archaeology-A Review. 1983-84: 164. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1983-84: 164. New Delhi: Archaeological Survey of India.",
+      "district": "Wardha"
     },
     {
       "id": 527,
@@ -1028,7 +1112,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1968-69",
       "reference1": "IAR 1968-69: 47",
-      "reference2": "Indian Archaeology-A Review. 1968-69: 47. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1968-69: 47. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 528,
@@ -1040,7 +1125,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Wardha"
     },
     {
       "id": 529,
@@ -1052,7 +1138,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2011-12",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Wardha"
     },
     {
       "id": 530,
@@ -1064,7 +1151,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SK Lekhwani, NG Nikosey, JS Dubey and NK Nimje",
       "dateYear": "1989-90",
       "reference1": "IAR 1989-90:58-59",
-      "reference2": "Indian Archaeology-A Review. 1989-90:58-59. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1989-90:58-59. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 531,
@@ -1076,7 +1164,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 109",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 533,
@@ -1088,7 +1177,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 465,
@@ -1100,7 +1190,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1975-76",
       "reference1": "IAR 1975-76: 36",
-      "reference2": "Indian Archaeology-A Review. 1975-76: 36. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1975-76: 36. New Delhi: Archaeological Survey of India.",
+      "district": "Nagpur"
     },
     {
       "id": 464,
@@ -1112,7 +1203,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Amarendra Nath, AK Sharma and SB Ota",
       "dateYear": "1989-90",
       "reference1": "IAR 1989-90: 59",
-      "reference2": "Indian Archaeology-A Review. 1989-90: 59. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1989-90: 59. New Delhi: Archaeological Survey of India.",
+      "district": "Chandrapur"
     },
     {
       "id": 463,
@@ -1124,7 +1216,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1947-48",
       "reference1": "EI 1947-48 (27) Part I:9-11",
-      "reference2": "Mirashi, V.V. 1956. Nandgaon Inscription of Yadava Krishna: Saka 1177, Epigraphia Indica Vol. XXVII (1947-48): 9-11."
+      "reference2": "Mirashi, V.V. 1956. Nandgaon Inscription of Yadava Krishna: Saka 1177, Epigraphia Indica Vol. XXVII (1947-48): 9-11.",
+      "district": "Amravati"
     },
     {
       "id": 397,
@@ -1136,7 +1229,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": "42074",
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Nagpur"
     },
     {
       "id": 398,
@@ -1148,7 +1242,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "G Nikosey and PC Dogra",
       "dateYear": "1990-91",
       "reference1": "IAR 1990-91: 44",
-      "reference2": "Indian Archaeology-A Review. 1990-91: 44. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1990-91: 44. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 399,
@@ -1160,7 +1255,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2008-09",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 400,
@@ -1172,7 +1268,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NC Prakash",
       "dateYear": "1996-97",
       "reference1": "IAR 1996-97: 67-69",
-      "reference2": "Indian Archaeology-A Review.1996-97: 67-69. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review.1996-97: 67-69. New Delhi: Archaeological Survey of India.",
+      "district": "Amravati"
     },
     {
       "id": 401,
@@ -1184,7 +1281,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 108",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 402,
@@ -1196,7 +1294,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Dr. R.R.Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 189, 237-39",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 403,
@@ -1208,7 +1307,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1957",
       "reference1": "Jain 1957 (NNM, 5): 18",
-      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5."
+      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5.",
+      "district": "Washim"
     },
     {
       "id": 404,
@@ -1220,7 +1320,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Bakker 2008: 61",
-      "reference2": "Bakker, Hans (Ed.). 2008. The Discovery of Pravareshwar and Pravarapur, Temple and Residence of the Vakataka King Pravarasena. (Publication of the Proceedings of Symposium organized in the British Museum from June 30 to July1, 2008)."
+      "reference2": "Bakker, Hans (Ed.). 2008. The Discovery of Pravareshwar and Pravarapur, Temple and Residence of the Vakataka King Pravarasena. (Publication of the Proceedings of Symposium organized in the British Museum from June 30 to July1, 2008).",
+      "district": "Nagpur"
     },
     {
       "id": 405,
@@ -1232,7 +1333,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BC Deotare",
       "dateYear": "2001",
       "reference1": "Deorare 2004-05 Deccan College Bulletin 64-65: 87-105; Jadhav 2006",
-      "reference2": "Deotare, B.C. 2004-2005. Preliminary Report on the Excavations at Bhon and Paturda, Buldana District, Maharshtra, Bullentin of the Deccan College Post Graduate and Research Institute, Vol. 64-65: 87-105. Jadhav, N. 2006. A Study of Pottery Assemblage from Middle Purna Basin with Special Reference to Paturda and Bhon, District Buldhana, Maharashtra. M.A. Dissertation Submitted to Deccan College Pune. Pune."
+      "reference2": "Deotare, B.C. 2004-2005. Preliminary Report on the Excavations at Bhon and Paturda, Buldana District, Maharshtra, Bullentin of the Deccan College Post Graduate and Research Institute, Vol. 64-65: 87-105. Jadhav, N. 2006. A Study of Pottery Assemblage from Middle Purna Basin with Special Reference to Paturda and Bhon, District Buldhana, Maharashtra. M.A. Dissertation Submitted to Deccan College Pune. Pune.",
+      "district": "Buldhana"
     },
     {
       "id": 406,
@@ -1244,7 +1346,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Sali 1998:17; Borkar 2009: 102-03",
-      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38. Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38. Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 407,
@@ -1256,7 +1359,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "A Cunningham; YK Deshpande; SG Tulpule",
       "dateYear": "Unknown",
       "reference1": "Report of archaeological survey of India 1966b(vol.9): 150; Tulpule 1963: 355-57",
-      "reference2": "Cunningham, A. 1966b. Report of A Tour in the Central Provinces in 1873-74 and 1874-75 (Vol. 9). Varanasi: Indological Book House. Tulpule, S. G (ed). 1963. Prachin Marathi Koriv Lekh. Pune: Pune Vidhyapeet."
+      "reference2": "Cunningham, A. 1966b. Report of A Tour in the Central Provinces in 1873-74 and 1874-75 (Vol. 9). Varanasi: Indological Book House. Tulpule, S. G (ed). 1963. Prachin Marathi Koriv Lekh. Pune: Pune Vidhyapeet.",
+      "district": "Gadchiroli"
     },
     {
       "id": 408,
@@ -1268,7 +1372,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 190, 263; Dixit 1954: 88",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan. Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan. Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Chandrapur"
     },
     {
       "id": 409,
@@ -1280,7 +1385,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1961-62",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 410,
@@ -1292,7 +1398,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": null,
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Nagpur"
     },
     {
       "id": 411,
@@ -1304,7 +1411,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Naranje",
       "dateYear": "Unknown",
       "reference1": "Naranje 2013: 240",
-      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan."
+      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan.",
+      "district": "Bhandara"
     },
     {
       "id": 412,
@@ -1316,7 +1424,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": "42075",
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Bhandara"
     },
     {
       "id": 413,
@@ -1328,7 +1437,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Epigrahical Society of India 1983 (vol 10): 108- 116",
-      "reference2": "Shastri, A. M and C. Gupta. 1981. Masod Copper Plate Charter of Pravarsena II, Year 29, Journal of Epigraphical Society of India (1983), Vol. 10 : 108-116."
+      "reference2": "Shastri, A. M and C. Gupta. 1981. Masod Copper Plate Charter of Pravarsena II, Year 29, Journal of Epigraphical Society of India (1983), Vol. 10 : 108-116.",
+      "district": "Nagpur"
     },
     {
       "id": 414,
@@ -1340,7 +1450,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 103-04",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 415,
@@ -1352,7 +1463,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1969-70",
       "reference1": "IAR 1969-70:22",
-      "reference2": "Indian Archaeology-A Review. 1969-70:22. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1969-70:22. New Delhi: Archaeological Survey of India.",
+      "district": "Buldhana"
     },
     {
       "id": 396,
@@ -1364,7 +1476,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "AM Shastri, AP Jamkhedkar, GG Deglurkar and OP Varma",
       "dateYear": "1975-76",
       "reference1": "IAR 1975-76: 36",
-      "reference2": "Indian Archaeology-A Review.1975-76: 36. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review.1975-76: 36. New Delhi: Archaeological Survey of India.",
+      "district": "Nagpur"
     },
     {
       "id": 416,
@@ -1376,7 +1489,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 395,
@@ -1388,7 +1502,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 393,
@@ -1400,7 +1515,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1992",
       "reference1": "Kothalkar 1992: 24-28; Meshram 2006: 29-30; Shastri 1993: 5-9",
-      "reference2": "Kothalkar, M.J. 1992. Mana Hoard of Punch-marked Coins, Numismatic digest Vol 16: 24-28. Meshram P 2006. A Hoard of Punch Marked Coins from Adegaon, Journal of Numismatic society of India, LXVIII, 29-30. Shastri A. 1993. A note on the Mana Hoards of Punch- Marked coins, Numismatics Digest, Vol. 17, 5-9."
+      "reference2": "Kothalkar, M.J. 1992. Mana Hoard of Punch-marked Coins, Numismatic digest Vol 16: 24-28. Meshram P 2006. A Hoard of Punch Marked Coins from Adegaon, Journal of Numismatic society of India, LXVIII, 29-30. Shastri A. 1993. A note on the Mana Hoards of Punch- Marked coins, Numismatics Digest, Vol. 17, 5-9.",
+      "district": "Akola"
     },
     {
       "id": 374,
@@ -1412,7 +1528,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 375,
@@ -1424,7 +1541,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 110",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 376,
@@ -1436,7 +1554,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Deshmukh 1997",
-      "reference2": "Deshmukh, S.B., 1997. Raamtekche Surya Mandir, Vidarbha Sanshodhak Mandal 1997: 187-191."
+      "reference2": "Deshmukh, S.B., 1997. Raamtekche Surya Mandir, Vidarbha Sanshodhak Mandal 1997: 187-191.",
+      "district": "Buldhana"
     },
     {
       "id": 377,
@@ -1448,7 +1567,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Naranje",
       "dateYear": "Unknown",
       "reference1": "Naranje 2013: 284",
-      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan."
+      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan.",
+      "district": "Bhandara"
     },
     {
       "id": 378,
@@ -1460,7 +1580,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 189, 263",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattav (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattav (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 379,
@@ -1472,7 +1593,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 189; 241-45.",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 380,
@@ -1484,7 +1606,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SK Mitra",
       "dateYear": "2000-01",
       "reference1": "IAR 2000-2001: 99",
-      "reference2": "Indian Archaeology-A Review. 2000-2001: 99. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 2000-2001: 99. New Delhi: Archaeological Survey of India.",
+      "district": "Chandrapur"
     },
     {
       "id": 381,
@@ -1496,7 +1619,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Meshram 2006 (7): 2; Personnel communication with Dr. P. Khobrakade on 22 June 2015",
-      "reference2": "Meshram, P. S and D. Y. Choudhari. 2006. Two Greek Coins of Ptolemy IV from Nagpur, Chandrapur Coin Society News Bulletin 7: 2-3."
+      "reference2": "Meshram, P. S and D. Y. Choudhari. 2006. Two Greek Coins of Ptolemy IV from Nagpur, Chandrapur Coin Society News Bulletin 7: 2-3.",
+      "district": "Nagpur"
     },
     {
       "id": 382,
@@ -1508,7 +1632,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 107",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 383,
@@ -1520,7 +1645,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 89",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Akola"
     },
     {
       "id": 384,
@@ -1532,7 +1658,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Willis, R Abbas and M Alam",
       "dateYear": "2012",
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Amravati"
     },
     {
       "id": 385,
@@ -1544,7 +1671,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "Raut 2019",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 386,
@@ -1556,7 +1684,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1977-78",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 387,
@@ -1568,7 +1697,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": null,
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Nagpur"
     },
     {
       "id": 388,
@@ -1580,7 +1710,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Adjacent / Regional"
     },
     {
       "id": 389,
@@ -1592,7 +1723,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1957",
       "reference1": "Jain 1957 (NNM, 5):18",
-      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5."
+      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5.",
+      "district": "Washim"
     },
     {
       "id": 390,
@@ -1604,7 +1736,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BC Deotare, PD Sable, S Naik and K Shendge",
       "dateYear": "2011-12",
       "reference1": "Deccan College Annual Report 2011-12: 58",
-      "reference2": "Deotare, B.C. 2011-12. Explorations in southern part of Purna basin especially in the Mun and the Katepurna sub-basin in Vidarbha, Annual Report (2011-12), pp. 58, Pune: Deccan College."
+      "reference2": "Deotare, B.C. 2011-12. Explorations in southern part of Purna basin especially in the Mun and the Katepurna sub-basin in Vidarbha, Annual Report (2011-12), pp. 58, Pune: Deccan College.",
+      "district": "Washim"
     },
     {
       "id": 391,
@@ -1616,7 +1749,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1975",
       "reference1": "Mirashi 1975: 1-17, Mirashi 1978: 162-178",
-      "reference2": "Miraashi, V.V., 1975. Malhara yethil Adityarajacha Taamrapat, Vidarbha Sanshodhak Mandal 1975: 1-17. Miraashi, V.V., 1978. Malhaara Taamrapatacha Kaal, Vidarbha Sanshodhak Mandal 1978: 162-178"
+      "reference2": "Miraashi, V.V., 1975. Malhara yethil Adityarajacha Taamrapat, Vidarbha Sanshodhak Mandal 1975: 1-17. Miraashi, V.V., 1978. Malhaara Taamrapatacha Kaal, Vidarbha Sanshodhak Mandal 1978: 162-178",
+      "district": "Amravati"
     },
     {
       "id": 392,
@@ -1628,7 +1762,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "V Sontanke",
       "dateYear": "2010-11",
       "reference1": "Sontankke 2014; Sontakke 2014: 291-299.",
-      "reference2": "Sontakke, V.G. 2014. Early Iron Age Archaeology of Upper Wainganga Valley with Special Reference to Gondiya District, Ph. D. Thesis Submitted to Deccan College Pune. Sontakke, V.G. and A. V. Bhoyar. 2014. Excavation at Malli, district Gondia, Maharashtra 2010-11, in The Megalithic Culture of South India (ed. K. N. Dikshit and Ajit Kumar), pp. 291-99, New Delhi: Indian Archaeological Society."
+      "reference2": "Sontakke, V.G. 2014. Early Iron Age Archaeology of Upper Wainganga Valley with Special Reference to Gondiya District, Ph. D. Thesis Submitted to Deccan College Pune. Sontakke, V.G. and A. V. Bhoyar. 2014. Excavation at Malli, district Gondia, Maharashtra 2010-11, in The Megalithic Culture of South India (ed. K. N. Dikshit and Ajit Kumar), pp. 291-99, New Delhi: Indian Archaeological Society.",
+      "district": "Nagpur"
     },
     {
       "id": 394,
@@ -1640,7 +1775,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SK Chitale",
       "dateYear": "Unknown",
       "reference1": "Chitale 1988:174-75",
-      "reference2": "Chitale, Shreepaad, 1988. Vidharbhateel Mahattvapurn Puravashesh, Vidarbha Sanshodhak Mandal: 164-180."
+      "reference2": "Chitale, Shreepaad, 1988. Vidharbhateel Mahattvapurn Puravashesh, Vidarbha Sanshodhak Mandal: 164-180.",
+      "district": "Chandrapur"
     },
     {
       "id": 417,
@@ -1652,7 +1788,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": null,
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Chandrapur"
     },
     {
       "id": 418,
@@ -1664,7 +1801,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": null,
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Chandrapur"
     },
     {
       "id": 419,
@@ -1676,7 +1814,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2008-09",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 444,
@@ -1688,7 +1827,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "AP Jamkhedkar and Verulkar",
       "dateYear": "1987-88; 1988-89",
       "reference1": "IAR 1987-88:84; IAR 1988-89:49; Borkar 2009: 188; Sawant, R. 2009: 57-65",
-      "reference2": "Indian Archaeology-A Review. 1987-88: 84. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1988-89:49. New Delhi: Archaeological Survey of India. Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan. Sawant, R. 2009. An Appraisal of Early Historic Fortifications in Maharashtra. Man and Environment, XXXIV (I): 57-65."
+      "reference2": "Indian Archaeology-A Review. 1987-88: 84. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1988-89:49. New Delhi: Archaeological Survey of India. Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan. Sawant, R. 2009. An Appraisal of Early Historic Fortifications in Maharashtra. Man and Environment, XXXIV (I): 57-65.",
+      "district": "Gadchiroli"
     },
     {
       "id": 445,
@@ -1700,7 +1840,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Amarendra Nath",
       "dateYear": "1990-92",
       "reference1": "IAR 1990-91: 62-63",
-      "reference2": "Indian Archaeology-A Review. 1990-91: 62-63. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1990-91: 62-63. New Delhi: Archaeological Survey of India.",
+      "district": "Chandrapur"
     },
     {
       "id": 446,
@@ -1712,7 +1853,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "2008-09",
       "reference1": "Meshram 2008-09: 82",
-      "reference2": "Meshram, P. 2008-2009. Roman Coins, Bullae and Amulets from Vidarbha, Numismatic Digest Vol. 32-33: 79- 85."
+      "reference2": "Meshram, P. 2008-2009. Roman Coins, Bullae and Amulets from Vidarbha, Numismatic Digest Vol. 32-33: 79- 85.",
+      "district": "Akola"
     },
     {
       "id": 447,
@@ -1724,7 +1866,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 448,
@@ -1736,7 +1879,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "AP Jamkhedkar, Mullay, SB Deo",
       "dateYear": "1979-80;1980-81; 1981-82",
       "reference1": "IAR1979-80:56; 1980-81:40; 1981-82:49; Naranje 2013: 180-81, 269-71",
-      "reference2": "Indian Archaeology-A Review. 1979-80: 56. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1980-81:40. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1981-82:49. New Delhi: Archaeological Survey of India. Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan."
+      "reference2": "Indian Archaeology-A Review. 1979-80: 56. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1980-81:40. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1981-82:49. New Delhi: Archaeological Survey of India. Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan.",
+      "district": "Gondia"
     },
     {
       "id": 449,
@@ -1748,7 +1892,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Amarendra Nath, S Pratapchandran and DK Kasbi; RR Borkar",
       "dateYear": "1989-90",
       "reference1": "IAR 1989-90: 60-61; Borkar 2009: 109",
-      "reference2": "Indian Archaeology-A Review. 1989-90: 60-61. New Delhi: Archaeological Survey of India. Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Indian Archaeology-A Review. 1989-90: 60-61. New Delhi: Archaeological Survey of India. Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 450,
@@ -1760,7 +1905,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RC Agarwal and Amarendra Nath",
       "dateYear": "1981-82",
       "reference1": "IAR 1981-82:96, Deshpande 1997; Sawant, R. 2009: 57-65.",
-      "reference2": "Indian Archaeology-A Review. 1981-82:96. New Delhi: Archaeological Survey of India. Deshmukh, S.B., 1997. Raamtekche Surya Mandir, Vidarbha Sanshodhak Mandal 1997: 187-191. Sawant, R. 2009. An Appraisal of Early Historic Fortifications in Maharashtra. Man and Environment, XXXIV (I): 57-65."
+      "reference2": "Indian Archaeology-A Review. 1981-82:96. New Delhi: Archaeological Survey of India. Deshmukh, S.B., 1997. Raamtekche Surya Mandir, Vidarbha Sanshodhak Mandal 1997: 187-191. Sawant, R. 2009. An Appraisal of Early Historic Fortifications in Maharashtra. Man and Environment, XXXIV (I): 57-65.",
+      "district": "Nagpur"
     },
     {
       "id": 451,
@@ -1772,7 +1918,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Chandrapur"
     },
     {
       "id": 452,
@@ -1784,7 +1931,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1957",
       "reference1": "Jain 1957 (NNM, 5): 15",
-      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5."
+      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5.",
+      "district": "Nagpur"
     },
     {
       "id": 453,
@@ -1796,7 +1944,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SB Deo and AP Jamkhedkar",
       "dateYear": "1977-78",
       "reference1": "IAR 1977-78: 39, Deo and Jamkhedkar 1982",
-      "reference2": "Indian Archaeology-A Review. 1977-78: 39. New Delhi: Archaeological Survey of India. Deo, S. B. and A.P. Jamkhedkar 1982. Exavations at Naikund 1978-80. Bombay: Department of Archaeology and Musuems, Government of Maharshtra."
+      "reference2": "Indian Archaeology-A Review. 1977-78: 39. New Delhi: Archaeological Survey of India. Deo, S. B. and A.P. Jamkhedkar 1982. Exavations at Naikund 1978-80. Bombay: Department of Archaeology and Musuems, Government of Maharshtra.",
+      "district": "Nagpur"
     },
     {
       "id": 454,
@@ -1808,7 +1957,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 110",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 455,
@@ -1820,7 +1970,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 189, 251-53",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 456,
@@ -1832,7 +1983,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2008-09",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 457,
@@ -1844,7 +1996,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 458,
@@ -1856,7 +2009,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1994-95",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 459,
@@ -1868,7 +2022,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "CS Gupta",
       "dateYear": "1981-82",
       "reference1": "IAR 1981-82: 50",
-      "reference2": "Indian Archaeology-A Review. 1981-82: 50. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1981-82: 50. New Delhi: Archaeological Survey of India.",
+      "district": "Nagpur"
     },
     {
       "id": 460,
@@ -1880,7 +2035,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 106",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 461,
@@ -1892,7 +2048,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 111",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 462,
@@ -1904,7 +2061,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 111",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 443,
@@ -1916,7 +2074,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya; R Abbas",
       "dateYear": null,
       "reference1": "Riza n.d.; Vaidya 2014",
-      "reference2": "Riza n.d. Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Riza n.d. Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 442,
@@ -1928,7 +2087,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 101-02",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 441,
@@ -1940,7 +2100,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya; R Abbas",
       "dateYear": null,
       "reference1": "Riza n.d.; Vaidya 2014",
-      "reference2": "Riza n.d. Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Riza n.d. Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 440,
@@ -1952,7 +2113,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya; R Abbas",
       "dateYear": null,
       "reference1": "Riza n.d.; Vaidya 2014",
-      "reference2": "Riza n.d. Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Riza n.d. Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 420,
@@ -1964,7 +2126,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": null,
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Bhandara"
     },
     {
       "id": 421,
@@ -1976,7 +2139,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": null,
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Bhandara"
     },
     {
       "id": 422,
@@ -1988,7 +2152,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 90",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Buldhana"
     },
     {
       "id": 423,
@@ -2000,7 +2165,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SK Lekhwani, NG Nikosey, JS Dubey and NK Nimje",
       "dateYear": "1989-90",
       "reference1": "IAR 1989-90: 58-59",
-      "reference2": "Indian Archaeology-A Review. 1989-90: 58-59. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1989-90: 58-59. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 424,
@@ -2012,7 +2178,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 425,
@@ -2024,7 +2191,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 426,
@@ -2036,7 +2204,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Amravati"
     },
     {
       "id": 427,
@@ -2048,7 +2217,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2011-12",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 428,
@@ -2060,7 +2230,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1994-95",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 555,
@@ -2072,7 +2243,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NC Prakash and SM Khairkar",
       "dateYear": "2000-2001",
       "reference1": "IAR 2000-2001: 99",
-      "reference2": "Indian Archaeology-A Review. 2000-2001: 99. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 2000-2001: 99. New Delhi: Archaeological Survey of India.",
+      "district": "Buldhana"
     },
     {
       "id": 429,
@@ -2084,7 +2256,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 431,
@@ -2096,7 +2269,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": null,
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Chandrapur"
     },
     {
       "id": 432,
@@ -2108,7 +2282,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 109",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 433,
@@ -2120,7 +2295,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "CII (V): 76-78",
-      "reference2": "Mirashi, V. V. 1963. Inscriptions of the Vakatakas, Corpus Inscriptionum Indicarum Vol. V. Ootacamund."
+      "reference2": "Mirashi, V. V. 1963. Inscriptions of the Vakatakas, Corpus Inscriptionum Indicarum Vol. V. Ootacamund.",
+      "district": "Adjacent / Regional"
     },
     {
       "id": 434,
@@ -2132,7 +2308,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "Raut 2019",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 435,
@@ -2144,7 +2321,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 107",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 436,
@@ -2156,7 +2334,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Ajit Kumar",
       "dateYear": "1987-88",
       "reference1": "IAR 1987-88 :81",
-      "reference2": "Indian Archaeology-A Review. 1987-88 :81. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1987-88 :81. New Delhi: Archaeological Survey of India.",
+      "district": "Amravati"
     },
     {
       "id": 437,
@@ -2168,7 +2347,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "I Kelelul",
       "dateYear": "1989-90",
       "reference1": "IAR 1989-90:68-69",
-      "reference2": "Indian Archaeology-A Review. 1989-90: 68-69. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1989-90: 68-69. New Delhi: Archaeological Survey of India.",
+      "district": "Nagpur"
     },
     {
       "id": 438,
@@ -2180,7 +2360,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 439,
@@ -2192,7 +2373,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BC Deotare, PD Sable, S Naik and K Shendge",
       "dateYear": "2011-12",
       "reference1": "Deccan College Annual Report 2011-12: 58-59",
-      "reference2": "Deotare, B.C. 2011-12. Explorations in southern part of Purna basin especially in the Mun and the Katepurna sub-basin in Vidarbha, Annual Report (2011-12), pp. 58-59, Pune: Deccan College."
+      "reference2": "Deotare, B.C. 2011-12. Explorations in southern part of Purna basin especially in the Mun and the Katepurna sub-basin in Vidarbha, Annual Report (2011-12), pp. 58-59, Pune: Deccan College.",
+      "district": "Akola"
     },
     {
       "id": 430,
@@ -2204,7 +2386,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2011-12",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Wardha"
     },
     {
       "id": 556,
@@ -2216,7 +2399,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 188, 223-27",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 557,
@@ -2228,7 +2412,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1957",
       "reference1": "Jain 1957 (NNM, 5): 18",
-      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5."
+      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5.",
+      "district": "Yavatmal"
     },
     {
       "id": 558,
@@ -2240,7 +2425,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1973-74",
       "reference1": "IAR 1973-74:78",
-      "reference2": "Indian Archaeology-A Review. 1973-74:78. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1973-74:78. New Delhi: Archaeological Survey of India.",
+      "district": "Chandrapur"
     },
     {
       "id": 675,
@@ -2252,7 +2438,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "AM Shastri",
       "dateYear": "1985-86; 1989-90",
       "reference1": "IAR 1985-86: 58-60; 1989-90: 66-68.",
-      "reference2": "Indian Archaeology-A Review. 1985-86: 58-60. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1989-90: 66-68.. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1985-86: 58-60. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1989-90: 66-68.. New Delhi: Archaeological Survey of India.",
+      "district": "Adjacent / Regional"
     },
     {
       "id": 676,
@@ -2264,7 +2451,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 104",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 677,
@@ -2276,7 +2464,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 678,
@@ -2288,7 +2477,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Dr. R.R.Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 105",
-      "reference2": null
+      "reference2": null,
+      "district": "Chandrapur"
     },
     {
       "id": 679,
@@ -2300,7 +2490,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Naranje",
       "dateYear": "Unknown",
       "reference1": "Naranje 2013: 283",
-      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan."
+      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan.",
+      "district": "Gondia"
     },
     {
       "id": 680,
@@ -2312,7 +2503,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": null,
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Adjacent / Regional"
     },
     {
       "id": 681,
@@ -2324,7 +2516,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 682,
@@ -2336,7 +2529,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 683,
@@ -2348,7 +2542,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BP Bopardikar",
       "dateYear": "1984-85",
       "reference1": "IAR 1984-85:48-50; Bopardikar 1996",
-      "reference2": "Indian Archaeology-A Review. 1984-85: 48-50. New Delhi: Archaeological Survey of India. Bopardikar, B.P. 1996. Excavtions at Tuljapur Gharhi 1984-1985 (Vidarbha, Maharashtra). New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1984-85: 48-50. New Delhi: Archaeological Survey of India. Bopardikar, B.P. 1996. Excavtions at Tuljapur Gharhi 1984-1985 (Vidarbha, Maharashtra). New Delhi: Archaeological Survey of India.",
+      "district": "Amravati"
     },
     {
       "id": 684,
@@ -2360,7 +2555,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "V Sontakke",
       "dateYear": "2014",
       "reference1": "Sontakke 2014: 85, 89",
-      "reference2": "Sontakke, V.G. 2014. Early Iron Age Archaeology of Upper Wainganga Valley with Special Reference to Gondiya District, Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Sontakke, V.G. 2014. Early Iron Age Archaeology of Upper Wainganga Valley with Special Reference to Gondiya District, Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Adjacent / Regional"
     },
     {
       "id": 685,
@@ -2372,7 +2568,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 686,
@@ -2384,7 +2581,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "GK Mane",
       "dateYear": "1978-79",
       "reference1": "IAR 1978-79:16",
-      "reference2": "Indian Archaeology-A Review. 1978-79:16. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1978-79:16. New Delhi: Archaeological Survey of India.",
+      "district": "Chandrapur"
     },
     {
       "id": 687,
@@ -2396,7 +2594,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 688,
@@ -2408,7 +2607,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 101",
-      "reference2": "Bopardikar, B.P. 1996. Excavtions at Tuljapur Gharhi 1984-1985 (Vidarbha, Maharashtra). New Delhi: Archaeological Survey of India."
+      "reference2": "Bopardikar, B.P. 1996. Excavtions at Tuljapur Gharhi 1984-1985 (Vidarbha, Maharashtra). New Delhi: Archaeological Survey of India.",
+      "district": "Chandrapur"
     },
     {
       "id": 689,
@@ -2420,7 +2620,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Amravati"
     },
     {
       "id": 690,
@@ -2432,7 +2633,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1981-82",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 691,
@@ -2444,7 +2646,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "V. Shivnanda and others",
       "dateYear": "2001-02",
       "reference1": "IAR 2001-02: 132",
-      "reference2": "Indian Archaeology-A Review. IAR 2001-02: 132 New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. IAR 2001-02: 132 New Delhi: Archaeological Survey of India.",
+      "district": "Yavatmal"
     },
     {
       "id": 692,
@@ -2456,7 +2659,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 693,
@@ -2468,7 +2672,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 674,
@@ -2480,7 +2685,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Amravati"
     },
     {
       "id": 694,
@@ -2492,7 +2698,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 673,
@@ -2504,7 +2711,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1940",
       "reference1": "Mirashi 1940: 83-94; Mirashi 1978:165, Jain 1957 (NNM, 5): 8-9",
-      "reference2": "Mirashi, V.V. 1940. A New Hoard of Satavahana Coins from Tarhala (Akola Dist.), Journal of Numismatic Society of India II: 83-94. Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5.; Kawadkar K. 1972. Adam Hoard of Roman Coins, Journal of Numismatic Society of India, 34(2):243-247."
+      "reference2": "Mirashi, V.V. 1940. A New Hoard of Satavahana Coins from Tarhala (Akola Dist.), Journal of Numismatic Society of India II: 83-94. Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5.; Kawadkar K. 1972. Adam Hoard of Roman Coins, Journal of Numismatic Society of India, 34(2):243-247.",
+      "district": "Washim"
     },
     {
       "id": 671,
@@ -2516,7 +2724,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 104",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattav (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattav (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 652,
@@ -2528,7 +2737,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 653,
@@ -2540,7 +2750,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1957",
       "reference1": "Jain 1957 (NNM, 5): 23; Treasure trove report (of CP and Berar) No. 9 of 1929-30; Kawadkar 1972:245",
-      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5. Kawadkar K. 1972. Adam Hoard of Roman Coins, Journal of Numismatic Society of India, 34(2):243-247. Treasure trove report (of CP and Berar) No. 9 of 1929-30;"
+      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5. Kawadkar K. 1972. Adam Hoard of Roman Coins, Journal of Numismatic Society of India, 34(2):243-247. Treasure trove report (of CP and Berar) No. 9 of 1929-30;",
+      "district": "Chandrapur"
     },
     {
       "id": 654,
@@ -2552,7 +2763,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 655,
@@ -2564,7 +2776,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 656,
@@ -2576,7 +2789,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BC Deotare, PD Sable, S Naik and K Shendge",
       "dateYear": "2011-12",
       "reference1": "Deccan College Annual Report 2011-12: 57",
-      "reference2": "Deotare, B.C. 2011-12. Explorations in southern part of Purna basin especially in the Mun and the Katepurna sub-basin in Vidarbha, Annual Report (2011-12), pp. 57, Pune: Deccan College."
+      "reference2": "Deotare, B.C. 2011-12. Explorations in southern part of Purna basin especially in the Mun and the Katepurna sub-basin in Vidarbha, Annual Report (2011-12), pp. 57, Pune: Deccan College.",
+      "district": "Akola"
     },
     {
       "id": 657,
@@ -2588,7 +2802,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NG Nikosey and PC Dogra",
       "dateYear": "1990-91",
       "reference1": "IAR 1990-91: 43-45",
-      "reference2": "Indian Archaeology-A Review. 1990-91: 43-45. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1990-91: 43-45. New Delhi: Archaeological Survey of India.",
+      "district": "Nagpur"
     },
     {
       "id": 658,
@@ -2600,7 +2815,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1954",
       "reference1": "Dixit 1954: 88",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Wardha"
     },
     {
       "id": 659,
@@ -2612,7 +2828,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "DN Sinha",
       "dateYear": "1994-95",
       "reference1": "IAR 1994-95: 51",
-      "reference2": "Indian Archaeology-A Review. 1994-95: 51. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1994-95: 51. New Delhi: Archaeological Survey of India.",
+      "district": "Amravati"
     },
     {
       "id": 660,
@@ -2624,7 +2841,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "G Shete",
       "dateYear": "2011-12",
       "reference1": "Deccan College Annual Report 2011-12: 84",
-      "reference2": "Shete, G. 2011-12. Exploration at Manjarkhed and surrounding area, Annual Report (2011-12), pp. 84, Pune: Deccan College."
+      "reference2": "Shete, G. 2011-12. Exploration at Manjarkhed and surrounding area, Annual Report (2011-12), pp. 84, Pune: Deccan College.",
+      "district": "Yavatmal"
     },
     {
       "id": 661,
@@ -2636,7 +2854,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 662,
@@ -2648,7 +2867,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 663,
@@ -2660,7 +2880,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RC Agarwal and Amarendra Nath",
       "dateYear": "1981-82",
       "reference1": "IAR 1981-82:96",
-      "reference2": "Indian Archaeology-A Review. 1981-82:96. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1981-82:96. New Delhi: Archaeological Survey of India.",
+      "district": "Buldhana"
     },
     {
       "id": 664,
@@ -2672,7 +2893,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": null,
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Adjacent / Regional"
     },
     {
       "id": 665,
@@ -2684,7 +2906,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 666,
@@ -2696,7 +2919,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "Paddayya 1984",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 667,
@@ -2708,7 +2932,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 189, 147",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 668,
@@ -2720,7 +2945,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": null,
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Chandrapur"
     },
     {
       "id": 669,
@@ -2732,7 +2958,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 108",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 670,
@@ -2744,7 +2971,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2011-12",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Wardha"
     },
     {
       "id": 672,
@@ -2756,7 +2984,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 91",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Yavatmal"
     },
     {
       "id": 695,
@@ -2768,7 +2997,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NC Prakash",
       "dateYear": "1996-97",
       "reference1": "IAR 1996-97: 67-69",
-      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India.",
+      "district": "Amravati"
     },
     {
       "id": 696,
@@ -2780,7 +3010,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Amravati"
     },
     {
       "id": 697,
@@ -2792,7 +3023,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 189, 253, 256-57",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 722,
@@ -2804,7 +3036,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 90",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Yavatmal"
     },
     {
       "id": 723,
@@ -2816,7 +3049,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Sali 1998:19; Chitale 1988",
-      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38. Chitale, Shreepaad, 1988. Vidharbhateel Mahattvapurn Puravashesh, Vidarbha Sanshodhak Mandal: 164-180."
+      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38. Chitale, Shreepaad, 1988. Vidharbhateel Mahattvapurn Puravashesh, Vidarbha Sanshodhak Mandal: 164-180.",
+      "district": "Gadchiroli"
     },
     {
       "id": 724,
@@ -2828,7 +3062,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Amarendra Nath, S Pratapachandran and NC Prakash",
       "dateYear": "Unknown",
       "reference1": "IAR 1988-89: 50",
-      "reference2": "Indian Archaeology-A Review.1963-64: 72. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review.1963-64: 72. New Delhi: Archaeological Survey of India.",
+      "district": "Nagpur"
     },
     {
       "id": 725,
@@ -2840,7 +3075,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 726,
@@ -2852,7 +3088,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 727,
@@ -2864,7 +3101,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 110",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattav (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattav (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 728,
@@ -2876,7 +3114,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Adjacent / Regional"
     },
     {
       "id": 729,
@@ -2888,7 +3127,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 730,
@@ -2900,7 +3140,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NC Prakash",
       "dateYear": "1996-97",
       "reference1": "IAR 1996-97: 67-69",
-      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India.",
+      "district": "Amravati"
     },
     {
       "id": 731,
@@ -2912,7 +3153,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 90",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Buldhana"
     },
     {
       "id": 732,
@@ -2924,7 +3166,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "2008",
       "reference1": "Meshram et al 2008: 2-3, Meshram et al 2008:65-67",
-      "reference2": "Meshram, P and B.S. Gajbhiye. 2008. Vakataka Coins from Washim Excavation, Chandrapur Coin Society News Bulletin (2008) No. 16: 2-3. Meshram et al. 2008. Vakataka coins from Washim Excavations, Journal of Numismatic society of India, LXX, 65-67."
+      "reference2": "Meshram, P and B.S. Gajbhiye. 2008. Vakataka Coins from Washim Excavation, Chandrapur Coin Society News Bulletin (2008) No. 16: 2-3. Meshram et al. 2008. Vakataka coins from Washim Excavations, Journal of Numismatic society of India, LXX, 65-67.",
+      "district": "Washim"
     },
     {
       "id": 733,
@@ -2936,7 +3179,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 109",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 734,
@@ -2948,7 +3192,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "2001-02",
       "reference1": "Kulkarni 2001-02 (25-26): 69-71",
-      "reference2": "Kulkarni P. 2001-2002. Coins of the Vakataka, Numismatic Digest 25-26: 65-79."
+      "reference2": "Kulkarni P. 2001-2002. Coins of the Vakataka, Numismatic Digest 25-26: 65-79.",
+      "district": "Yavatmal"
     },
     {
       "id": 735,
@@ -2960,7 +3205,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 190, 263",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 736,
@@ -2972,7 +3218,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 110",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 737,
@@ -2984,7 +3231,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 190, 264",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 738,
@@ -2996,7 +3244,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 739,
@@ -3008,7 +3257,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 91",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Gadchiroli"
     },
     {
       "id": 740,
@@ -3020,7 +3270,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 91",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Yavatmal"
     },
     {
       "id": 721,
@@ -3032,7 +3283,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "I Kelelul",
       "dateYear": "1989-90",
       "reference1": "IAR 1989-90:69",
-      "reference2": "Indian Archaeology-A Review. 1989-90: 69. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1989-90: 69. New Delhi: Archaeological Survey of India.",
+      "district": "Nagpur"
     },
     {
       "id": 720,
@@ -3044,7 +3296,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "MR Dhekane",
       "dateYear": "1999-2000",
       "reference1": "IAR 1999-2000: 102; Borkar 2009: 189, 237.",
-      "reference2": "Indian Archaeology-A Review. 1999-2000: 102. New Delhi: Archaeological Survey of India. Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Indian Archaeology-A Review. 1999-2000: 102. New Delhi: Archaeological Survey of India. Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 719,
@@ -3056,7 +3309,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Sali 1998",
-      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38."
+      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38.",
+      "district": "Nagpur"
     },
     {
       "id": 718,
@@ -3068,7 +3322,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1994-95",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 698,
@@ -3080,7 +3335,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 189; 253-56",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 699,
@@ -3092,7 +3348,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 190, 264",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 700,
@@ -3104,7 +3361,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NC Prakash",
       "dateYear": "1996-97",
       "reference1": "IAR 1996-97: 67-69",
-      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India.",
+      "district": "Amravati"
     },
     {
       "id": 701,
@@ -3116,7 +3374,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 105",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 702,
@@ -3128,7 +3387,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 105",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 703,
@@ -3140,7 +3400,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NC Prakash, NKS Sharma and ML Smith",
       "dateYear": "1994-95",
       "reference1": "IAR 1994-95: 51-52",
-      "reference2": "Indian Archaeology-A Review. 1994-95: 51-52. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1994-95: 51-52. New Delhi: Archaeological Survey of India.",
+      "district": "Adjacent / Regional"
     },
     {
       "id": 704,
@@ -3152,7 +3413,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 705,
@@ -3164,7 +3426,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "2001-02",
       "reference1": "Kulkarni 2001-02 (25-26): 73",
-      "reference2": "Kulkarni P. 2001-2002. Coins of the Vakataka, Numismatic Digest 25-26: 65-79."
+      "reference2": "Kulkarni P. 2001-2002. Coins of the Vakataka, Numismatic Digest 25-26: 65-79.",
+      "district": "Adjacent / Regional"
     },
     {
       "id": 706,
@@ -3176,7 +3439,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 110",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattav (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattav (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 651,
@@ -3188,7 +3452,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 707,
@@ -3200,7 +3465,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Bhandara"
     },
     {
       "id": 709,
@@ -3212,7 +3478,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1987-88",
       "reference1": "Sali 1998:9, 14",
-      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38."
+      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38.",
+      "district": "Gadchiroli"
     },
     {
       "id": 710,
@@ -3224,7 +3491,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "P Meshram and I Kalellu",
       "dateYear": "Unknown",
       "reference1": "Deaotare et al 2013: 361",
-      "reference2": "Deotare, B. C, P.S Joshi and C. N Parchure. 2013. Glimpses of Ancient Maharashtra Through Archaeological Excavations. Pune: Bharatiya Itihas Sankalan Samitee."
+      "reference2": "Deotare, B. C, P.S Joshi and C. N Parchure. 2013. Glimpses of Ancient Maharashtra Through Archaeological Excavations. Pune: Bharatiya Itihas Sankalan Samitee.",
+      "district": "Nagpur"
     },
     {
       "id": 711,
@@ -3236,7 +3504,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 89",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Akola"
     },
     {
       "id": 712,
@@ -3248,7 +3517,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 90",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Buldhana"
     },
     {
       "id": 713,
@@ -3260,7 +3530,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1959-60",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 714,
@@ -3272,7 +3543,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": null,
       "reference1": "Mirashi 1963: 53-56, EI 27",
-      "reference2": "Mirashi, V. V. 1963. Inscriptions of the Vakatakas, Corpus Inscriptionum Indicarum Vol. V. Ootacamund."
+      "reference2": "Mirashi, V. V. 1963. Inscriptions of the Vakatakas, Corpus Inscriptionum Indicarum Vol. V. Ootacamund.",
+      "district": "Chandrapur"
     },
     {
       "id": 715,
@@ -3284,7 +3556,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Wardha"
     },
     {
       "id": 716,
@@ -3296,7 +3569,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2011-12",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Wardha"
     },
     {
       "id": 717,
@@ -3308,7 +3582,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 708,
@@ -3320,7 +3595,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NC Prakash",
       "dateYear": "1996-97",
       "reference1": "IAR 1996-97: 67-69",
-      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India.",
+      "district": "Wardha"
     },
     {
       "id": 373,
@@ -3332,7 +3608,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 650,
@@ -3344,7 +3621,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 648,
@@ -3356,7 +3634,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 110",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 582,
@@ -3368,7 +3647,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2011-12",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Wardha"
     },
     {
       "id": 583,
@@ -3380,7 +3660,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 584,
@@ -3392,7 +3673,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": null,
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Chandrapur"
     },
     {
       "id": 585,
@@ -3404,7 +3686,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": null,
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Chandrapur"
     },
     {
       "id": 586,
@@ -3416,7 +3699,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Naranje",
       "dateYear": "Unknown",
       "reference1": "Naranje 2013: 283-84, 299",
-      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan."
+      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan.",
+      "district": "Bhandara"
     },
     {
       "id": 587,
@@ -3428,7 +3712,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1957",
       "reference1": "Jain 1957 (NNM, 5): 20",
-      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5."
+      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5.",
+      "district": "Buldhana"
     },
     {
       "id": 588,
@@ -3440,7 +3725,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "G Shete",
       "dateYear": "2011-12",
       "reference1": "Deccan College Annual Report 2011-12: 84",
-      "reference2": "Shete, G. 2011-12. Exploration at Manjarkhed and surrounding area, Annual Report (2011-12), pp. 84, Pune: Deccan College."
+      "reference2": "Shete, G. 2011-12. Exploration at Manjarkhed and surrounding area, Annual Report (2011-12), pp. 84, Pune: Deccan College.",
+      "district": "Wardha"
     },
     {
       "id": 589,
@@ -3452,7 +3738,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NC Prakash",
       "dateYear": "1996-97",
       "reference1": "IAR 1996-97: 67-69",
-      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India.",
+      "district": "Wardha"
     },
     {
       "id": 590,
@@ -3464,7 +3751,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Nagpur University",
       "dateYear": "2019",
       "reference1": null,
-      "reference2": "IAR, Cousens"
+      "reference2": "IAR, Cousens",
+      "district": "Nagpur"
     },
     {
       "id": 591,
@@ -3476,7 +3764,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 90",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Buldhana"
     },
     {
       "id": 592,
@@ -3488,7 +3777,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 593,
@@ -3500,7 +3790,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 90",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Adjacent / Regional"
     },
     {
       "id": 594,
@@ -3512,7 +3803,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 595,
@@ -3524,7 +3816,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 90",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Buldhana"
     },
     {
       "id": 596,
@@ -3536,7 +3829,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 597,
@@ -3548,7 +3842,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1985-86",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 598,
@@ -3560,7 +3855,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "KO Kawadkar",
       "dateYear": "1963-64; 1970-71",
       "reference1": "IAR 1970-71: 67; IAR 1963-64:21-22 Lal 1985: 33-35",
-      "reference2": "Indian Archaeology-A Review. 1970-71: 67. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1963-64:21-22. New Delhi: Archaeological Survey of India. Lal, H. 1985. A Note on the Antiquities of Salbardi Village, The Indian Antiquary (LIV): 33-35."
+      "reference2": "Indian Archaeology-A Review. 1970-71: 67. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1963-64:21-22. New Delhi: Archaeological Survey of India. Lal, H. 1985. A Note on the Antiquities of Salbardi Village, The Indian Antiquary (LIV): 33-35.",
+      "district": "Adjacent / Regional"
     },
     {
       "id": 599,
@@ -3572,7 +3868,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1954",
       "reference1": "Jain 1957 (NNM, 5):3",
-      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5."
+      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5.",
+      "district": "Bhandara"
     },
     {
       "id": 600,
@@ -3584,7 +3881,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1957",
       "reference1": "Jain 1957 (NNM, 5): 23; Treasure trove report (of CP and Berar) No. 14 of 1911; Kawadkar 1972:245",
-      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5. Treasure trove report (of CP and Berar) No. 14 of 1911 Kawadkar K. 1972. Adam Hoard of Roman Coins, Journal of Numismatic Society of India, 34(2):243-247."
+      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5. Treasure trove report (of CP and Berar) No. 14 of 1911 Kawadkar K. 1972. Adam Hoard of Roman Coins, Journal of Numismatic Society of India, 34(2):243-247.",
+      "district": "Bhandara"
     },
     {
       "id": 581,
@@ -3596,7 +3894,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2011-12",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 601,
@@ -3608,7 +3907,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": null,
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Wardha"
     },
     {
       "id": 580,
@@ -3620,7 +3920,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2012-13",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 578,
@@ -3632,7 +3933,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2008-09",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 559,
@@ -3644,7 +3946,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 189, 253",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 560,
@@ -3656,7 +3959,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 106",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 561,
@@ -3668,7 +3972,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 562,
@@ -3680,7 +3985,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Wardha"
     },
     {
       "id": 563,
@@ -3692,7 +3998,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 564,
@@ -3704,7 +4011,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 107",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 565,
@@ -3716,7 +4024,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Archaeological Survey of India Annual Report 1966a (vol 7): 109-115; Jamkhedkar, A. P. 1987: 217-224; Jamkhedkar, A. P. 1992: 155-65",
-      "reference2": "Cunningham, A. 1966a. Report of a Tour in Bundelkhand and Malwa, 1871-72; and in The Central Provinces, 1873-74. Varanasi: Indological Book House. Jamkhedkar, A. P. 1987. A Newly Discovered Vakataka Temple at Ramtek, District Nagpur, in Kusamanjali New Interpretation of India Art and Culture: Sh. C. Sivaramamurti Commemoration Volume (M. S. Nagaraja Rao Ed.), Vol. 1, pp. 217-224. Delhi: Agam Kala Prakashan. Jamkhedkar, A. P. 1992. Discovery of Vakataka temple at Ramtek. The Age of the Vakatakas (A. M. Shastri Ed.): 155-65. New Delhi: Harman Publication Houses."
+      "reference2": "Cunningham, A. 1966a. Report of a Tour in Bundelkhand and Malwa, 1871-72; and in The Central Provinces, 1873-74. Varanasi: Indological Book House. Jamkhedkar, A. P. 1987. A Newly Discovered Vakataka Temple at Ramtek, District Nagpur, in Kusamanjali New Interpretation of India Art and Culture: Sh. C. Sivaramamurti Commemoration Volume (M. S. Nagaraja Rao Ed.), Vol. 1, pp. 217-224. Delhi: Agam Kala Prakashan. Jamkhedkar, A. P. 1992. Discovery of Vakataka temple at Ramtek. The Age of the Vakatakas (A. M. Shastri Ed.): 155-65. New Delhi: Harman Publication Houses.",
+      "district": "Nagpur"
     },
     {
       "id": 566,
@@ -3728,7 +4037,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2012-13",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 567,
@@ -3740,7 +4050,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Dr. R.R.Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 109",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 568,
@@ -3752,7 +4063,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Dr. R.R.Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 109",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 569,
@@ -3764,7 +4076,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Deshpande 1969: 29-35",
-      "reference2": "Deshpande, Y.K., 1969. Yavatmaal Talukyateel Ek Pracheen Gaav Raani Umravati, Vidarbha Sanshodhak Mandal 1969: 29-35."
+      "reference2": "Deshpande, Y.K., 1969. Yavatmaal Talukyateel Ek Pracheen Gaav Raani Umravati, Vidarbha Sanshodhak Mandal 1969: 29-35.",
+      "district": "Yavatmal"
     },
     {
       "id": 570,
@@ -3776,7 +4089,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Wardha"
     },
     {
       "id": 571,
@@ -3788,7 +4102,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Sali 1998:17",
-      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38."
+      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38.",
+      "district": "Gadchiroli"
     },
     {
       "id": 572,
@@ -3800,7 +4115,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": "42071",
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Amravati"
     },
     {
       "id": 573,
@@ -3812,7 +4128,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1985-86",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 574,
@@ -3824,7 +4141,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Gupta et al 2008-09: 29-32",
-      "reference2": "Gupta et al. 2008-09. Rissod Hoard of Satavahana Coins, Numismatics Digest, 32-33: 29-32."
+      "reference2": "Gupta et al. 2008-09. Rissod Hoard of Satavahana Coins, Numismatics Digest, 32-33: 29-32.",
+      "district": "Washim"
     },
     {
       "id": 575,
@@ -3836,7 +4154,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2008-09",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 576,
@@ -3848,7 +4167,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 577,
@@ -3860,7 +4180,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2008-09",
       "reference1": "Vaidya 2014: 104Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 579,
@@ -3872,7 +4193,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2012-13",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 602,
@@ -3884,7 +4206,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 102",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattav (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattav (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 603,
@@ -3896,7 +4219,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Deshpande 1997",
-      "reference2": "Deshpande, B. 1997. Vidarbhaache Rashtrakut: Navya Disha, Vidarbha Sanshodhak Mandal 1997: 143-159."
+      "reference2": "Deshpande, B. 1997. Vidarbhaache Rashtrakut: Navya Disha, Vidarbha Sanshodhak Mandal 1997: 143-159.",
+      "district": "Akola"
     },
     {
       "id": 604,
@@ -3908,7 +4232,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "V Sontakke",
       "dateYear": "2012",
       "reference1": "Sontakke 2014: 79-80, 88",
-      "reference2": "Sontakke, V.G. 2014. Early Iron Age Archaeology of Upper Wainganga Valley with Special Reference to Gondiya District, Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Sontakke, V.G. 2014. Early Iron Age Archaeology of Upper Wainganga Valley with Special Reference to Gondiya District, Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Chandrapur"
     },
     {
       "id": 629,
@@ -3920,7 +4245,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "Raut 2019",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 630,
@@ -3932,7 +4258,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Naranje",
       "dateYear": "Unknown",
       "reference1": "Naranje 2013: 276",
-      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan."
+      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan.",
+      "district": "Gondia"
     },
     {
       "id": 631,
@@ -3944,7 +4271,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 89",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Akola"
     },
     {
       "id": 632,
@@ -3956,7 +4284,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RC Agarwal",
       "dateYear": "1981-82",
       "reference1": "IAR 1981-82:95",
-      "reference2": "Indian Archaeology-A Review. 1981-82:95. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1981-82:95. New Delhi: Archaeological Survey of India.",
+      "district": "Buldhana"
     },
     {
       "id": 633,
@@ -3968,7 +4297,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "DN Sinha",
       "dateYear": "1987-88",
       "reference1": "IAR 1987-88 :84",
-      "reference2": "Indian Archaeology-A Review. 1987-88 :84. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1987-88 :84. New Delhi: Archaeological Survey of India.",
+      "district": "Wardha"
     },
     {
       "id": 634,
@@ -3980,7 +4310,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 635,
@@ -3992,7 +4323,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 636,
@@ -4004,7 +4336,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": null,
       "reference1": "Dixit 1954: 89",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Washim"
     },
     {
       "id": 637,
@@ -4016,7 +4349,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Kolte 1958",
-      "reference2": "Kolte, V.B., 1958. Rashtrakuta Trutiya Govindraajacha Jharika Taamrapat, Vidarbha Sanshodhak Mandal 1958: 98-118."
+      "reference2": "Kolte, V.B., 1958. Rashtrakuta Trutiya Govindraajacha Jharika Taamrapat, Vidarbha Sanshodhak Mandal 1958: 98-118.",
+      "district": "Akola"
     },
     {
       "id": 638,
@@ -4028,7 +4362,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1935-36",
       "reference1": "EI 1935-36(23):204-212",
-      "reference2": "Mirashi, V. V. 1984. Two Copper- Plate Inscriptions from Berar, Epigraphia Indica (1935-36) Vol. XXIII: 204-212."
+      "reference2": "Mirashi, V. V. 1984. Two Copper- Plate Inscriptions from Berar, Epigraphia Indica (1935-36) Vol. XXIII: 204-212.",
+      "district": "Akola"
     },
     {
       "id": 639,
@@ -4040,7 +4375,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1894-95 and 1984",
       "reference1": "EI 1894-95 (3):304-306; Deo 1984:204",
-      "reference2": "Kielhorn, F. 1979. Sitaburdi Inscription of the Time of Vikramaditya VI; Saka- Samvat 1008, Epigraphia Indica (1894-95) Vol. III: 304 -306. Deo, S. B. 1984. Maharashtra va Gove Shilalekh- Thamrapatachi Varnanathmak Sandarbh Suchi. Mumbai: Governement of Maharashtra."
+      "reference2": "Kielhorn, F. 1979. Sitaburdi Inscription of the Time of Vikramaditya VI; Saka- Samvat 1008, Epigraphia Indica (1894-95) Vol. III: 304 -306. Deo, S. B. 1984. Maharashtra va Gove Shilalekh- Thamrapatachi Varnanathmak Sandarbh Suchi. Mumbai: Governement of Maharashtra.",
+      "district": "Nagpur"
     },
     {
       "id": 640,
@@ -4052,7 +4388,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BP Bopardikar; NG Nikoshey, JS Dubey and NK Nimje",
       "dateYear": "1985-86",
       "reference1": "IAR 1985-86:58",
-      "reference2": "Indian Archaeology-A Review. 1985-86:58. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1985-86:58. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 641,
@@ -4064,7 +4401,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 642,
@@ -4076,7 +4414,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 643,
@@ -4088,7 +4427,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 644,
@@ -4100,7 +4440,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 90",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Buldhana"
     },
     {
       "id": 645,
@@ -4112,7 +4453,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 646,
@@ -4124,7 +4466,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "Raut 2019",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 647,
@@ -4136,7 +4479,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 628,
@@ -4148,7 +4492,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "AM Shastri, CS Gupta and K Ismail",
       "dateYear": "1991-92, 1993-94",
       "reference1": "IAR 1991-92:68-72, 1993-94:79-84; Nath, A. 1989: 93-98.",
-      "reference2": "Indian Archaeology-A Review. 1991-92:68-72. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1993-94:79-84. New Delhi: Archaeological Survey of India. Nath, A. 1989. Archaeology of the Wardha- Wainganga Divide, Puratattva 20: 93-98."
+      "reference2": "Indian Archaeology-A Review. 1991-92:68-72. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1993-94:79-84. New Delhi: Archaeological Survey of India. Nath, A. 1989. Archaeology of the Wardha- Wainganga Divide, Puratattva 20: 93-98.",
+      "district": "Chandrapur"
     },
     {
       "id": 627,
@@ -4160,7 +4505,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar; R Abbas",
       "dateYear": null,
       "reference1": "Borkar 2009: 188",
-      "reference2": "Riza n.d.; Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Riza n.d.; Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 626,
@@ -4172,7 +4518,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 105",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 625,
@@ -4184,7 +4531,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SK Chitale",
       "dateYear": "Unknown",
       "reference1": "Chitale 1988:168-169",
-      "reference2": "Chitale, Shreepaad, 1988. Vidharbhateel Mahattvapurn Puravashesh, Vidarbha Sanshodhak Mandal: 164-180."
+      "reference2": "Chitale, Shreepaad, 1988. Vidharbhateel Mahattvapurn Puravashesh, Vidarbha Sanshodhak Mandal: 164-180.",
+      "district": "Yavatmal"
     },
     {
       "id": 605,
@@ -4196,7 +4544,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": null,
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Bhandara"
     },
     {
       "id": 606,
@@ -4208,7 +4557,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Adjacent / Regional"
     },
     {
       "id": 607,
@@ -4220,7 +4570,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Ajit Kumar",
       "dateYear": "1986-87",
       "reference1": "IAR 1986-87 :59",
-      "reference2": "Indian Archaeology-A Review. 1986-87 :59 New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1986-87 :59 New Delhi: Archaeological Survey of India.",
+      "district": "Amravati"
     },
     {
       "id": 608,
@@ -4232,7 +4583,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2011-12",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Yavatmal"
     },
     {
       "id": 609,
@@ -4244,7 +4596,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 610,
@@ -4256,7 +4609,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Sali 1998:19",
-      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38."
+      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38.",
+      "district": "Nagpur"
     },
     {
       "id": 611,
@@ -4268,7 +4622,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NG Nikosey and PC Dogra",
       "dateYear": "1990-91",
       "reference1": "IAR 1990-91: 43-45",
-      "reference2": "Indian Archaeology-A Review. 1990-91: 43-45. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1990-91: 43-45. New Delhi: Archaeological Survey of India.",
+      "district": "Nagpur"
     },
     {
       "id": 612,
@@ -4280,7 +4635,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Bhandara"
     },
     {
       "id": 613,
@@ -4292,7 +4648,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "Sahu P 2019",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 649,
@@ -4304,7 +4661,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 614,
@@ -4316,7 +4674,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NG Nikosey and PC Dogra",
       "dateYear": "1990-91",
       "reference1": "IAR 1990-91: 43-45",
-      "reference2": "Indian Archaeology-A Review. 1994-95:58. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1994-95:58. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 616,
@@ -4328,7 +4687,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 617,
@@ -4340,7 +4700,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 618,
@@ -4352,7 +4713,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 90",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Buldhana"
     },
     {
       "id": 619,
@@ -4364,7 +4726,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2011-12",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Wardha"
     },
     {
       "id": 620,
@@ -4376,7 +4739,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2011-12",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Wardha"
     },
     {
       "id": 621,
@@ -4388,7 +4752,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Naranje",
       "dateYear": "Unknown",
       "reference1": "Naranje 2013: 241, 276",
-      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan."
+      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan.",
+      "district": "Gondia"
     },
     {
       "id": 622,
@@ -4400,7 +4765,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1981-82",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 623,
@@ -4412,7 +4778,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Naranje",
       "dateYear": "Unknown",
       "reference1": "Naranje 2013: 299",
-      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan."
+      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan.",
+      "district": "Gondia"
     },
     {
       "id": 624,
@@ -4424,7 +4791,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 107",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 615,
@@ -4436,7 +4804,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "P Meshram",
       "dateYear": "1994-95",
       "reference1": "IAR 1994-95:58",
-      "reference2": "Indian Archaeology-A Review. 1994-95:58. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1994-95:58. New Delhi: Archaeological Survey of India.",
+      "district": "Wardha"
     },
     {
       "id": 372,
@@ -4448,7 +4817,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RC Agarwal",
       "dateYear": "1981-82",
       "reference1": "IAR 1981-82:95",
-      "reference2": "Indian Archaeology-A Review. 1981-82:95. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1981-82:95. New Delhi: Archaeological Survey of India.",
+      "district": "Buldhana"
     },
     {
       "id": 371,
@@ -4460,7 +4830,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Kanchan Bhaisare",
       "dateYear": "2012",
       "reference1": "Bhaisare 2012",
-      "reference2": "Bhaisare, K. 2012. Tha Vakatakas: Cultural Study in Archaeological Perspective. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Bhaisare, K. 2012. Tha Vakatakas: Cultural Study in Archaeological Perspective. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 370,
@@ -4472,7 +4843,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1957",
       "reference1": "Jain 1957 (NMM, 5): 16",
-      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5."
+      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5.",
+      "district": "Akola"
     },
     {
       "id": 118,
@@ -4484,7 +4856,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "2009",
       "reference1": "Thakur 2009: 1-2",
-      "reference2": "Thakur, Ashok Singh, 2009. A Hoard of Punch-Marked Gold Coins of Jagadeva from Chanakha, Chandrapur Coin Society News Bulletin 20: 1-2."
+      "reference2": "Thakur, Ashok Singh, 2009. A Hoard of Punch-Marked Gold Coins of Jagadeva from Chanakha, Chandrapur Coin Society News Bulletin 20: 1-2.",
+      "district": "Chandrapur"
     },
     {
       "id": 119,
@@ -4496,7 +4869,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SB Deo",
       "dateYear": "1970-71",
       "reference1": "IAR 1970-71: 24; Naranje 2013: 2",
-      "reference2": "Indian Archaeology-A Review. 1970-71: 24. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1970-71: 24. New Delhi: Archaeological Survey of India.",
+      "district": "Nagpur"
     },
     {
       "id": 120,
@@ -4508,7 +4882,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "P Meshram, A Bhoyar, AS Thakur",
       "dateYear": "2010",
       "reference1": "Meshram et al 2014 (52): 3-32; Deotare et.al. 2013; A.S. Thakur n.d.",
-      "reference2": "Meshram, P. S, A. S. Thakur and V. S. Kamble. 2014. Coins and Seal from Chandankheda Excavation, Indian Coin Society Newsletter No. 52: 3-32. Deotare, B. C, P.S Joshi and C. N Parchure. 2013. Glimpses of Ancient Maharashtra Through Archaeological Excavations. Pune: Bharatiya Itihas Sankalan Samitee."
+      "reference2": "Meshram, P. S, A. S. Thakur and V. S. Kamble. 2014. Coins and Seal from Chandankheda Excavation, Indian Coin Society Newsletter No. 52: 3-32. Deotare, B. C, P.S Joshi and C. N Parchure. 2013. Glimpses of Ancient Maharashtra Through Archaeological Excavations. Pune: Bharatiya Itihas Sankalan Samitee.",
+      "district": "Chandrapur"
     },
     {
       "id": 121,
@@ -4520,7 +4895,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "2004",
       "reference1": "Kulkarni 2004 (SSIC, XIV): 19-25",
-      "reference2": "Kulkarni. P. P. 2004. Bhadravati: Coins and History of an Unknown City State, Studies in South Indian Coins (SSIC, XIV): 19-25."
+      "reference2": "Kulkarni. P. P. 2004. Bhadravati: Coins and History of an Unknown City State, Studies in South Indian Coins (SSIC, XIV): 19-25.",
+      "district": "Chandrapur"
     },
     {
       "id": 122,
@@ -4532,7 +4908,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 103",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 123,
@@ -4544,7 +4921,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 124,
@@ -4556,7 +4934,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2008-09",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 125,
@@ -4568,7 +4947,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2011-12",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Wardha"
     },
     {
       "id": 126,
@@ -4580,7 +4960,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 103",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 127,
@@ -4592,7 +4973,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2012-13",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 128,
@@ -4604,7 +4986,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1977-78",
       "reference1": "IAR 1977-78: 81",
-      "reference2": "Indian Archaeology-A Review. 1977-78: 81. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1977-78: 81. New Delhi: Archaeological Survey of India.",
+      "district": "Yavatmal"
     },
     {
       "id": 129,
@@ -4616,7 +4999,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "K S Chandra, Mohan Pardhi, Rupesh Dhokne",
       "dateYear": "2023",
       "reference1": "Nagpur University Survey",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 130,
@@ -4628,7 +5012,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 89",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Buldhana"
     },
     {
       "id": 131,
@@ -4640,7 +5025,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 132,
@@ -4652,7 +5038,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Wardha"
     },
     {
       "id": 133,
@@ -4664,7 +5051,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Dixit",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 89",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Buldhana"
     },
     {
       "id": 134,
@@ -4676,7 +5064,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NC Prakash",
       "dateYear": "1996-97",
       "reference1": "IAR 1996-97: 67-69",
-      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India.",
+      "district": "Amravati"
     },
     {
       "id": 135,
@@ -4688,7 +5077,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 136,
@@ -4700,7 +5090,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NG Nikosey and PC Dogra",
       "dateYear": "1990-91",
       "reference1": "IAR 1990-91: 43-45",
-      "reference2": "Indian Archaeology-A Review. 1990-91: 43-45. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1990-91: 43-45. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 117,
@@ -4712,7 +5103,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2008-09",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 137,
@@ -4724,7 +5116,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1954",
       "reference1": "Dixit 1954: 88",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Chandrapur"
     },
     {
       "id": 116,
@@ -4736,7 +5129,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Mirashi 1963: 22-27; Shastri 1997: 16-18 Buhler 1984: 239-47.",
-      "reference2": "Mirashi, V. V. 1963. Inscriptions of the Vakatakas, Corpus Inscriptionum Indicarum Vol. V. Ootacamund. Shastri, A. M. 1997. Vakatakas: Sources and History. New Delhi: Aryan Book International. Buhler, G. 1984. The Ilichpur Grant of Pravarsena II of Vakataka, The Indian Antiquary (XII): 239-247."
+      "reference2": "Mirashi, V. V. 1963. Inscriptions of the Vakatakas, Corpus Inscriptionum Indicarum Vol. V. Ootacamund. Shastri, A. M. 1997. Vakatakas: Sources and History. New Delhi: Aryan Book International. Buhler, G. 1984. The Ilichpur Grant of Pravarsena II of Vakataka, The Indian Antiquary (XII): 239-247.",
+      "district": "Amravati"
     },
     {
       "id": 114,
@@ -4748,7 +5142,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NG Nikosey and PC Dogra",
       "dateYear": "1990-91",
       "reference1": "IAR 1990-91: 43-45",
-      "reference2": "Indian Archaeology-A Review. 1990-91: 43-45. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1990-91: 43-45. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 95,
@@ -4760,7 +5155,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "Pandey 1985",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 96,
@@ -4772,7 +5168,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Wardha"
     },
     {
       "id": 97,
@@ -4784,7 +5181,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1981-82",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 98,
@@ -4796,7 +5194,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Wardha"
     },
     {
       "id": 99,
@@ -4808,7 +5207,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 100,
@@ -4820,7 +5220,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Wardha"
     },
     {
       "id": 101,
@@ -4832,7 +5233,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Adjacent / Regional"
     },
     {
       "id": 102,
@@ -4844,7 +5246,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Wardha"
     },
     {
       "id": 103,
@@ -4856,7 +5259,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 107",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 104,
@@ -4868,7 +5272,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": null,
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Nagpur"
     },
     {
       "id": 105,
@@ -4880,7 +5285,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Kolte 1975: 143-44",
-      "reference2": "Kolte V. 1975. A unique coin of king satavahana from vidarbha, Journal of Numismatic society of India , XXXVII, 143-44."
+      "reference2": "Kolte V. 1975. A unique coin of king satavahana from vidarbha, Journal of Numismatic society of India , XXXVII, 143-44.",
+      "district": "Chandrapur"
     },
     {
       "id": 106,
@@ -4892,7 +5298,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BP Bopardikar",
       "dateYear": "1965-66",
       "reference1": "IAR 1965-66:27",
-      "reference2": "Indian Archaeology-A Review.1965-66: 27. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review.1965-66: 27. New Delhi: Archaeological Survey of India.",
+      "district": "Akola"
     },
     {
       "id": 107,
@@ -4904,7 +5311,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 108,
@@ -4916,7 +5324,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1957",
       "reference1": "Jain 1957 (NMM, 5): 15",
-      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5."
+      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5.",
+      "district": "Buldhana"
     },
     {
       "id": 109,
@@ -4928,7 +5337,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 103",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 110,
@@ -4940,7 +5350,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": null,
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Nagpur"
     },
     {
       "id": 111,
@@ -4952,7 +5363,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Willis, R Abbas, M Alam and JD Hawkes",
       "dateYear": "2015",
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Amravati"
     },
     {
       "id": 112,
@@ -4964,7 +5376,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Willis, R Abbas, M Alam and JD Hawkes",
       "dateYear": "2015",
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Amravati"
     },
     {
       "id": 113,
@@ -4976,7 +5389,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1954",
       "reference1": "Dixit 1954: 88",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Adjacent / Regional"
     },
     {
       "id": 115,
@@ -4988,7 +5402,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 138,
@@ -5000,7 +5415,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 90",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Yavatmal"
     },
     {
       "id": 139,
@@ -5012,7 +5428,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2011-12",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Wardha"
     },
     {
       "id": 140,
@@ -5024,7 +5441,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2011-12",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Wardha"
     },
     {
       "id": 165,
@@ -5036,7 +5454,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 166,
@@ -5048,7 +5467,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1873-74",
       "reference1": "Meshram et al. 2010: 29-35",
-      "reference2": "Meshram, P and D. Choudhari. 2010 (Dec). Devtek Shilalekh: Ek Abhyas, Sanshodhak (2010, part-4): 29-35."
+      "reference2": "Meshram, P and D. Choudhari. 2010 (Dec). Devtek Shilalekh: Ek Abhyas, Sanshodhak (2010, part-4): 29-35.",
+      "district": "Chandrapur"
     },
     {
       "id": 167,
@@ -5060,7 +5480,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1954",
       "reference1": "Dixit 1954: 92",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Wardha"
     },
     {
       "id": 168,
@@ -5072,7 +5493,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Ajit Kumar",
       "dateYear": "1986-87",
       "reference1": "IAR 1986-87 : 59",
-      "reference2": "Indian Archaeology-A Review. 1986-87: 59. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1986-87: 59. New Delhi: Archaeological Survey of India.",
+      "district": "Amravati"
     },
     {
       "id": 169,
@@ -5084,7 +5506,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2011-12",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Wardha"
     },
     {
       "id": 170,
@@ -5096,7 +5519,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1961-62",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 171,
@@ -5108,7 +5532,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NC Prakash, NKS Sharma and ML Smith",
       "dateYear": "1994-95",
       "reference1": "IAR 1994-95: 51-52",
-      "reference2": "Indian Archaeology-A Review. 1994-95: 51-52. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1994-95: 51-52. New Delhi: Archaeological Survey of India.",
+      "district": "Adjacent / Regional"
     },
     {
       "id": 172,
@@ -5120,7 +5545,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 173,
@@ -5132,7 +5558,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "B Jain",
       "dateYear": "1957",
       "reference1": "Jain 1957 (NNM, 5): 13",
-      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5."
+      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5.",
+      "district": "Amravati"
     },
     {
       "id": 174,
@@ -5144,7 +5571,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 175,
@@ -5156,7 +5584,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NC Prakash",
       "dateYear": "1996-97",
       "reference1": "IAR 1996-97: 67-69",
-      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India.",
+      "district": "Wardha"
     },
     {
       "id": 176,
@@ -5168,7 +5597,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BC Deotare, PD Sable, S Naik and K Shendge",
       "dateYear": "2011-12",
       "reference1": "Deccan College Annual Report 2011-12: 58",
-      "reference2": "Deotare, B.C. 2011-12. Explorations in southern part of Purna basin especially in the Mun and the Katepurna sub-basin in Vidarbha, Annual Report (2011-12), pp. 58, Pune: Deccan College."
+      "reference2": "Deotare, B.C. 2011-12. Explorations in southern part of Purna basin especially in the Mun and the Katepurna sub-basin in Vidarbha, Annual Report (2011-12), pp. 58, Pune: Deccan College.",
+      "district": "Washim"
     },
     {
       "id": 177,
@@ -5180,7 +5610,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2008-09",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 178,
@@ -5192,7 +5623,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Naranje",
       "dateYear": "Unknown",
       "reference1": "Naranje 2013: 325-327",
-      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan."
+      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan.",
+      "district": "Bhandara"
     },
     {
       "id": 179,
@@ -5204,7 +5636,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 180,
@@ -5216,7 +5649,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 181,
@@ -5228,7 +5662,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 105",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 182,
@@ -5240,7 +5675,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Buldana district gazetteer 1976: 767-768",
-      "reference2": "Buldana District Gazetteer 1976. (Revised Edition), Bombay: Gazetteer Department, Government of Maharashtra."
+      "reference2": "Buldana District Gazetteer 1976. (Revised Edition), Bombay: Gazetteer Department, Government of Maharashtra.",
+      "district": "Buldhana"
     },
     {
       "id": 183,
@@ -5252,7 +5688,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1985-86",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 164,
@@ -5264,7 +5701,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1888",
       "reference1": "EI 1888-89(5):188-197; Deo 1984: 196",
-      "reference2": "Bhandarkar, R. G. 1984. Deoli Plates of Krishna III; Saka Samvat 862, Epigraphica Indica (1898-99) Vol. V: 188-197. Deo, S. B. 1984. Maharashtra va Gove Shilalekh- Thamrapatachi Varnanathmak Sandarbh Suchi. Mumbai: Governement of Maharashtra."
+      "reference2": "Bhandarkar, R. G. 1984. Deoli Plates of Krishna III; Saka Samvat 862, Epigraphica Indica (1898-99) Vol. V: 188-197. Deo, S. B. 1984. Maharashtra va Gove Shilalekh- Thamrapatachi Varnanathmak Sandarbh Suchi. Mumbai: Governement of Maharashtra.",
+      "district": "Wardha"
     },
     {
       "id": 163,
@@ -5276,7 +5714,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 107-08",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 162,
@@ -5288,7 +5727,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 106",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 161,
@@ -5300,7 +5740,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 108",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 141,
@@ -5312,7 +5753,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 106",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 142,
@@ -5324,7 +5766,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1973",
       "reference1": "Mirashi 1973: 118-22",
-      "reference2": "Mirashi V. 1973. Dahigaon Hoard of Kshatrapa and Traikutaka coins, Journal of Society of India XXXV: 118-22."
+      "reference2": "Mirashi V. 1973. Dahigaon Hoard of Kshatrapa and Traikutaka coins, Journal of Society of India XXXV: 118-22.",
+      "district": "Buldhana"
     },
     {
       "id": 143,
@@ -5336,7 +5779,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2008-09",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 144,
@@ -5348,7 +5792,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Adjacent / Regional"
     },
     {
       "id": 145,
@@ -5360,7 +5805,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Wardha"
     },
     {
       "id": 146,
@@ -5372,7 +5818,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 110",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 147,
@@ -5384,7 +5831,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BC Deotare",
       "dateYear": "2001",
       "reference1": "Deorare 2004-05 Deccan College Bulletin 64-65: 87-105; Jadhav 2006",
-      "reference2": "Deotare, B.C. 2004-2005. Preliminary Report on the Excavations at Bhon and Paturda, Buldana District, Maharshtra, Bullentin of the Deccan College Post Graduate and Research Institute, Vol. 64-65: 87-105. Jadhav, N. 2006. A Study of Pottery Assemblage from Middle Purna Basin with Special Reference to Paturda and Bhon, District Buldhana, Maharashtra. M.A. Dissertation Submitted to Deccan College Pune. Pune."
+      "reference2": "Deotare, B.C. 2004-2005. Preliminary Report on the Excavations at Bhon and Paturda, Buldana District, Maharshtra, Bullentin of the Deccan College Post Graduate and Research Institute, Vol. 64-65: 87-105. Jadhav, N. 2006. A Study of Pottery Assemblage from Middle Purna Basin with Special Reference to Paturda and Bhon, District Buldhana, Maharashtra. M.A. Dissertation Submitted to Deccan College Pune. Pune.",
+      "district": "Buldhana"
     },
     {
       "id": 148,
@@ -5396,7 +5844,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RC Agarwal",
       "dateYear": "1981-82",
       "reference1": "IAR 1981-82: 98",
-      "reference2": "Indian Archaeology-A Review. 1981-82: 98. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1981-82: 98. New Delhi: Archaeological Survey of India.",
+      "district": "Yavatmal"
     },
     {
       "id": 149,
@@ -5408,7 +5857,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1992; 2009",
       "reference1": "C.S. Gupta in Shashtri 1992:149; Meshram et al. 2009: 12",
-      "reference2": "Gupta, C.S. 1992. Paunar Under Vakatakas in The Age of Vakatakas (A.M. Shastri Ed.) pp. 119-154. New Delhi: Harman publication house. Meshram, P. S and Choudhari. D. Y. 2009 (Sept). Hamlaapuri (Raamtek) Kansya Buddha Pratima, Sanshodhak 2009 (Part 3): 10-14"
+      "reference2": "Gupta, C.S. 1992. Paunar Under Vakatakas in The Age of Vakatakas (A.M. Shastri Ed.) pp. 119-154. New Delhi: Harman publication house. Meshram, P. S and Choudhari. D. Y. 2009 (Sept). Hamlaapuri (Raamtek) Kansya Buddha Pratima, Sanshodhak 2009 (Part 3): 10-14",
+      "district": "Wardha"
     },
     {
       "id": 94,
@@ -5420,7 +5870,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NC Prakash",
       "dateYear": "1996-97",
       "reference1": "IAR 1996-97: 67-69",
-      "reference2": "Indian Archaeology-A Review.1996-97: 67-69. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review.1996-97: 67-69. New Delhi: Archaeological Survey of India.",
+      "district": "Wardha"
     },
     {
       "id": 150,
@@ -5432,7 +5883,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1994-95",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 152,
@@ -5444,7 +5896,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Naranje",
       "dateYear": "Unknown",
       "reference1": "Naranje 2013: 289-90, 299",
-      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan."
+      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan.",
+      "district": "Bhandara"
     },
     {
       "id": 153,
@@ -5456,7 +5909,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Adjacent / Regional"
     },
     {
       "id": 154,
@@ -5468,7 +5922,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BC Deotare, PD Sable, S Naik and K Shendge",
       "dateYear": "2011-12",
       "reference1": "Deccan College Annual Report 2011-12: 57",
-      "reference2": "Deotare, B.C. 2011-12. Explorations in southern part of Purna basin especially in the Mun and the Katepurna sub-basin in Vidarbha, Annual Report (2011-12), pp. 57, Pune: Deccan College."
+      "reference2": "Deotare, B.C. 2011-12. Explorations in southern part of Purna basin especially in the Mun and the Katepurna sub-basin in Vidarbha, Annual Report (2011-12), pp. 57, Pune: Deccan College.",
+      "district": "Akola"
     },
     {
       "id": 155,
@@ -5480,7 +5935,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 156,
@@ -5492,7 +5948,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": "42078",
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Nagpur"
     },
     {
       "id": 157,
@@ -5504,7 +5961,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BC Deotare",
       "dateYear": "2001",
       "reference1": "Deorare 2004-05 Deccan College Bulletin 64-65: 87-105; Jadhav 2006",
-      "reference2": "Deotare, B.C. 2004-2005. Preliminary Report on the Excavations at Bhon and Paturda, Buldana District, Maharshtra, Bullentin of the Deccan College Post Graduate and Research Institute, Vol. 64-65: 87-105. Jadhav, N. 2006. A Study of Pottery Assemblage from Middle Purna Basin with Special Reference to Paturda and Bhon, District Buldhana, Maharashtra. M.A. Dissertation Submitted to Deccan College Pune. Pune."
+      "reference2": "Deotare, B.C. 2004-2005. Preliminary Report on the Excavations at Bhon and Paturda, Buldana District, Maharshtra, Bullentin of the Deccan College Post Graduate and Research Institute, Vol. 64-65: 87-105. Jadhav, N. 2006. A Study of Pottery Assemblage from Middle Purna Basin with Special Reference to Paturda and Bhon, District Buldhana, Maharashtra. M.A. Dissertation Submitted to Deccan College Pune. Pune.",
+      "district": "Amravati"
     },
     {
       "id": 158,
@@ -5516,7 +5974,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RC Agrawal",
       "dateYear": "1981-82",
       "reference1": "IAR 1981-82: 95",
-      "reference2": "Indian Archaeology-A Review. 1981-82: 95. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1981-82: 95. New Delhi: Archaeological Survey of India.",
+      "district": "Buldhana"
     },
     {
       "id": 159,
@@ -5528,7 +5987,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 89",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Buldhana"
     },
     {
       "id": 160,
@@ -5540,7 +6000,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": "42082",
       "reference1": "Borkar 1986:195",
-      "reference2": "Borkar, R.R., 1986. Kunghaada yetheel Paandav Gufa va Shailashraye, Vidarbha Sanshodhak Mandal 1986: 194-198"
+      "reference2": "Borkar, R.R., 1986. Kunghaada yetheel Paandav Gufa va Shailashraye, Vidarbha Sanshodhak Mandal 1986: 194-198",
+      "district": "Chandrapur"
     },
     {
       "id": 151,
@@ -5552,7 +6013,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "G Nikosey and PC Dogra",
       "dateYear": "1990-91",
       "reference1": "IAR 1990-91: 44",
-      "reference2": "Indian Archaeology-A Review. 1990-91: 44. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1990-91: 44. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 184,
@@ -5564,7 +6026,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2011-12",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Amravati"
     },
     {
       "id": 93,
@@ -5576,7 +6039,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 91,
@@ -5588,7 +6052,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Adjacent / Regional"
     },
     {
       "id": 25,
@@ -5600,7 +6065,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Amarendra Nath",
       "dateYear": "1991-92",
       "reference1": "IAR 1991-92:73-74, Nath 1992: 69-74",
-      "reference2": "Indian Archaeology-A Review. 1991-92: 73-74. New Delhi: Archaeological Survey of India. Nath, Amarendra. 1992b. Arambha: a Vakataka site in Vidarbha, Puratattva 22: 69-74."
+      "reference2": "Indian Archaeology-A Review. 1991-92: 73-74. New Delhi: Archaeological Survey of India. Nath, Amarendra. 1992b. Arambha: a Vakataka site in Vidarbha, Puratattva 22: 69-74.",
+      "district": "Wardha"
     },
     {
       "id": 26,
@@ -5612,7 +6078,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 27,
@@ -5624,7 +6091,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SK Chitale",
       "dateYear": "Unknown",
       "reference1": "Chitale 1988",
-      "reference2": "Chitale, Shreepaad, 1988. Vidharbhateel Mahattvapurn Puravashesh, Vidarbha Sanshodhak Mandal: 164-180."
+      "reference2": "Chitale, Shreepaad, 1988. Vidharbhateel Mahattvapurn Puravashesh, Vidarbha Sanshodhak Mandal: 164-180.",
+      "district": "Gadchiroli"
     },
     {
       "id": 28,
@@ -5636,7 +6104,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 189, 259-61",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattav (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattav (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 29,
@@ -5648,7 +6117,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "AMShastri, CS Gupta and M Mahajan",
       "dateYear": "1977-78, 1978-79 and 1984-85",
       "reference1": "IAR 1977-78: 81, 1978-79:71-72 and 1984-85:55-56; Sawant, R. 2009: 57-65.",
-      "reference2": "Indian Archaeology-A Review. 1977-78: 81. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1978-79:71-72. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1984-85:55-56. New Delhi: Archaeological Survey of India. Sawant, R. 2009. An Appraisal of Early Historic Fortifications in Maharashtra. Man and Environment, XXXIV (I): 57-65."
+      "reference2": "Indian Archaeology-A Review. 1977-78: 81. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1978-79:71-72. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1984-85:55-56. New Delhi: Archaeological Survey of India. Sawant, R. 2009. An Appraisal of Early Historic Fortifications in Maharashtra. Man and Environment, XXXIV (I): 57-65.",
+      "district": "Yavatmal"
     },
     {
       "id": 30,
@@ -5660,7 +6130,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BP Bopardikar, DK Ambastha, SK Mitra and MU Qureshi",
       "dateYear": "1984-85",
       "reference1": "IAR 1984-85 :53",
-      "reference2": "Indian Archaeology-A Review. 1984-85: 53. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1984-85: 53. New Delhi: Archaeological Survey of India.",
+      "district": "Gadchiroli"
     },
     {
       "id": 31,
@@ -5672,7 +6143,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1957",
       "reference1": "Jain 1957 (NNM, 5): 10",
-      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5."
+      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5.",
+      "district": "Wardha"
     },
     {
       "id": 32,
@@ -5684,7 +6156,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Wardha"
     },
     {
       "id": 33,
@@ -5696,7 +6169,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 34,
@@ -5708,7 +6182,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2008-09",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 35,
@@ -5720,7 +6195,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 36,
@@ -5732,7 +6208,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NC Prakash",
       "dateYear": "1996-97",
       "reference1": "IAR 1996-97: 67-69",
-      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India.."
+      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India..",
+      "district": "Amravati"
     },
     {
       "id": 37,
@@ -5744,7 +6221,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BP Bopardikar",
       "dateYear": "1965-66",
       "reference1": "IAR 1965-66:27",
-      "reference2": "Indian Archaeology-A Review.1965-66: 27. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review.1965-66: 27. New Delhi: Archaeological Survey of India.",
+      "district": "Amravati"
     },
     {
       "id": 38,
@@ -5756,7 +6234,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 89",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Buldhana"
     },
     {
       "id": 39,
@@ -5768,7 +6247,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2008-09",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 40,
@@ -5780,7 +6260,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Adjacent / Regional"
     },
     {
       "id": 41,
@@ -5792,7 +6273,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 42,
@@ -5804,7 +6286,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 43,
@@ -5816,7 +6299,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BP Bopardikar",
       "dateYear": "1965-66",
       "reference1": "IAR 1965-66:27",
-      "reference2": "Indian Archaeology-A Review.1965-66: 27. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review.1965-66: 27. New Delhi: Archaeological Survey of India.",
+      "district": "Amravati"
     },
     {
       "id": 24,
@@ -5828,7 +6312,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NC Prakash",
       "dateYear": "1996-97",
       "reference1": "IAR 1996-97: 67-69",
-      "reference2": "Indian Archaeology-A Review.1996-97: 67-69. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review.1996-97: 67-69. New Delhi: Archaeological Survey of India.",
+      "district": "Wardha"
     },
     {
       "id": 44,
@@ -5840,7 +6325,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1994-95",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 23,
@@ -5852,7 +6338,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1954",
       "reference1": "Dixit 1954: 89",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Washim"
     },
     {
       "id": 21,
@@ -5864,7 +6351,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1962",
       "reference1": "Mirashi 1962:1-19; IAR 1962-63: 51, Deo 1984:39- 40, Mirashi EI 1966 (26):257-272",
-      "reference2": "Mirashi, V.V., 1962. Raashtrakuta Nrupati Chaturth Govind yaancha Andura Taamrapat, Sanshodhak Mandal 1962: 1-19 Indian Archaeology-A Review. 1962-63: 51, New Delhi: Archaeological Survey of India. Deo, S. B. 1984. Maharashtra va Gove Shilalekh- Thamrapatachi Varnanathmak Sandarbh Suchi. Mumbai: Governement of Maharashtra. Mirashi, V. V. 1970. Andura Plates of Govinda IV, SAka 851, Epigraphia Indica (1965-66) Vol. XXXVI: 257-272."
+      "reference2": "Mirashi, V.V., 1962. Raashtrakuta Nrupati Chaturth Govind yaancha Andura Taamrapat, Sanshodhak Mandal 1962: 1-19 Indian Archaeology-A Review. 1962-63: 51, New Delhi: Archaeological Survey of India. Deo, S. B. 1984. Maharashtra va Gove Shilalekh- Thamrapatachi Varnanathmak Sandarbh Suchi. Mumbai: Governement of Maharashtra. Mirashi, V. V. 1970. Andura Plates of Govinda IV, SAka 851, Epigraphia Indica (1965-66) Vol. XXXVI: 257-272.",
+      "district": "Akola"
     },
     {
       "id": 2,
@@ -5876,7 +6364,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1957",
       "reference1": "Jain 1957 (NNM, 5): 12",
-      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5."
+      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5.",
+      "district": "Amravati"
     },
     {
       "id": 3,
@@ -5888,7 +6377,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Amarendra Nath",
       "dateYear": "1989-90, 1990-91",
       "reference1": "IAR 1988-89:50-62; IAR 1990-91: 63-68; IAR 1984-85: 48-50; Kajale 1994:41; Nath 1992: 55-59; Nath 1993: 19-22; Nath 1994: 7-14; Nath 1992: 69-79; Nath 2014: 76-81; Nath 1996: 319-323; Sawant, R. 2009:57-65; Nath, A. 1995: 149-171; Nath, A. 1989: 93-98; Nath 1999: 460-466.",
-      "reference2": "Indian Archaeology-A Review. 1988-89:50-62. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1990-91: 63-68. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1984-85: 48-50. New Delhi: Archaeological Survey of India. Kajale, M. D. 1994. Archaeobotanical Investigations on a Multicultural Site at Adam, Maharashtra, with Special Reference to the Development of Tropical Agriculture in Parts of India, in Tropical Archaeobotany: Applications and New Developments (Hather J.G. Ed.): 34-50 Nath, A. 1992. Adam- An Index to Vidarbha Archaeology, New Trends in Indian Art and Archaeology, Vol. I. (B. U. Nayak and N.C. Ghosh Eds): 69-79. New Delhi: Aditya Prakashan. Nath A. 1992. A Portrait Coin Mould from Adam, Journal of Numismatic society of India, LIV, 55-59. Nath A. 1994. A survey of Numismatic and Sphragistic data from Adam, Journal of Numismatic society of India, LVI: 7-14 Nath A. 1993. Taxila coins from Adam: A site in Vidarbha, JNSI LV, P. 19- 22. Nath A. 2014. A Unique Portrait sealing of Ashadhamitra, Numismatic Digest, vol 38: 76-81. Nath, Amerandra. 1996. Contribution of Women Entrepreneurs in the Hinterland Trade of Satavahana Period: A Fresh light, in Spectrum in Indian Culture Prof S. B Deo Felicitation Volume (C Margabandhu and K. N Ramchandran Eds.), Vol. II, pp. 319-323. Delhi: Agam Kala Prakashan. Sawant, R. 2009. An Appraisal of Early Historic Fortifications in Maharashtra. Man and Environment, XXXIV (I): 57-65. Nath, A. 1995. Antiquities of Graeco- Roman Affinity from Adam an Inland Mart of Central India, East and West, 45: 149-171. Nath, A. 1989. Archaeology of the Wardha- Wainganga Divide, Puratattva 20: 93-98. Nath, Amarendra. 1999. Satavahanas Antiquities fro Adam, in The Age of the Satavahanas (A.M. Shastri Ed.) Vol. II: 460-466"
+      "reference2": "Indian Archaeology-A Review. 1988-89:50-62. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1990-91: 63-68. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1984-85: 48-50. New Delhi: Archaeological Survey of India. Kajale, M. D. 1994. Archaeobotanical Investigations on a Multicultural Site at Adam, Maharashtra, with Special Reference to the Development of Tropical Agriculture in Parts of India, in Tropical Archaeobotany: Applications and New Developments (Hather J.G. Ed.): 34-50 Nath, A. 1992. Adam- An Index to Vidarbha Archaeology, New Trends in Indian Art and Archaeology, Vol. I. (B. U. Nayak and N.C. Ghosh Eds): 69-79. New Delhi: Aditya Prakashan. Nath A. 1992. A Portrait Coin Mould from Adam, Journal of Numismatic society of India, LIV, 55-59. Nath A. 1994. A survey of Numismatic and Sphragistic data from Adam, Journal of Numismatic society of India, LVI: 7-14 Nath A. 1993. Taxila coins from Adam: A site in Vidarbha, JNSI LV, P. 19- 22. Nath A. 2014. A Unique Portrait sealing of Ashadhamitra, Numismatic Digest, vol 38: 76-81. Nath, Amerandra. 1996. Contribution of Women Entrepreneurs in the Hinterland Trade of Satavahana Period: A Fresh light, in Spectrum in Indian Culture Prof S. B Deo Felicitation Volume (C Margabandhu and K. N Ramchandran Eds.), Vol. II, pp. 319-323. Delhi: Agam Kala Prakashan. Sawant, R. 2009. An Appraisal of Early Historic Fortifications in Maharashtra. Man and Environment, XXXIV (I): 57-65. Nath, A. 1995. Antiquities of Graeco- Roman Affinity from Adam an Inland Mart of Central India, East and West, 45: 149-171. Nath, A. 1989. Archaeology of the Wardha- Wainganga Divide, Puratattva 20: 93-98. Nath, Amarendra. 1999. Satavahanas Antiquities fro Adam, in The Age of the Satavahanas (A.M. Shastri Ed.) Vol. II: 460-466",
+      "district": "Nagpur"
     },
     {
       "id": 4,
@@ -5900,7 +6390,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1954",
       "reference1": "Dixit 1954: 87",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Nagpur"
     },
     {
       "id": 5,
@@ -5912,7 +6403,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1999, 2006",
       "reference1": "Khobragade 1999: 23-29; Meshram 2006: 29-30; Shastri 1990: 19",
-      "reference2": "Khobragade, Priyadarshi. 1999 (Sept). Nagpur Jilhyateel Veglya Prakarchi Aahat Naani. Samshodahak: 23-29. Meshram 2006. A Hoard of Punch Marked Coins from Adegaon, Journal of Numismatic society of India, LXVIII, 29-30."
+      "reference2": "Khobragade, Priyadarshi. 1999 (Sept). Nagpur Jilhyateel Veglya Prakarchi Aahat Naani. Samshodahak: 23-29. Meshram 2006. A Hoard of Punch Marked Coins from Adegaon, Journal of Numismatic society of India, LXVIII, 29-30.",
+      "district": "Nagpur"
     },
     {
       "id": 6,
@@ -5924,7 +6416,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NG Nikosey and PC Dogra",
       "dateYear": "1990-91",
       "reference1": "IAR 1990-91: 43-45",
-      "reference2": "Indian Archaeology-A Review.1990-91: 43-45. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review.1990-91: 43-45. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 7,
@@ -5936,7 +6429,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 8,
@@ -5948,7 +6442,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Wardha"
     },
     {
       "id": 9,
@@ -5960,7 +6455,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1977-78",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 10,
@@ -5972,7 +6468,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 11,
@@ -5984,7 +6481,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "2005",
       "reference1": "Kulkarni 2005 (NS, 7): 27-28",
-      "reference2": "Kulkarni, P. 2005. Coins of Vidarbha, Asmaka and Chedi Janapada, Numismatic Studies vol. 7: 19-36"
+      "reference2": "Kulkarni, P. 2005. Coins of Vidarbha, Asmaka and Chedi Janapada, Numismatic Studies vol. 7: 19-36",
+      "district": "Akola"
     },
     {
       "id": 12,
@@ -5996,7 +6494,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Gokhale",
       "dateYear": "1962-63",
       "reference1": "IAR 1962-63:14",
-      "reference2": "Indian Archaeology-A Review. 1962-63:14. New Delhi: Archaeological Survey of India.."
+      "reference2": "Indian Archaeology-A Review. 1962-63:14. New Delhi: Archaeological Survey of India..",
+      "district": "Akola"
     },
     {
       "id": 13,
@@ -6008,7 +6507,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BC Deotare, PD Sable, S Naik and K Shendge",
       "dateYear": "2011-12",
       "reference1": "Deccan College Annual Report 2011-12: 58",
-      "reference2": "Deotare, B.C. 2011-12. Explorations in southern part of Purna basin especially in the Mun and the Katepurna sub-basin in Vidarbha, Annual Report (2011-12), pp. 58, Pune: Deccan College."
+      "reference2": "Deotare, B.C. 2011-12. Explorations in southern part of Purna basin especially in the Mun and the Katepurna sub-basin in Vidarbha, Annual Report (2011-12), pp. 58, Pune: Deccan College.",
+      "district": "Washim"
     },
     {
       "id": 14,
@@ -6020,7 +6520,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Deshmukh 1997",
-      "reference2": "Deshmukh, S.B., 1997. Raamtekche Surya Mandir, Vidarbha Sanshodhak Mandal 1997: 187-191."
+      "reference2": "Deshmukh, S.B., 1997. Raamtekche Surya Mandir, Vidarbha Sanshodhak Mandal 1997: 187-191.",
+      "district": "Nagpur"
     },
     {
       "id": 15,
@@ -6032,7 +6533,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": "2015",
       "reference1": "Riza n.d.",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Nagpur"
     },
     {
       "id": 16,
@@ -6044,7 +6546,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1985-86",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 17,
@@ -6056,7 +6559,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 89",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Buldhana"
     },
     {
       "id": 18,
@@ -6068,7 +6572,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 19,
@@ -6080,7 +6585,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1956, 1957",
       "reference1": "Gupta 1956: 220; Jain 1957 (NMM, 5):10",
-      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5."
+      "reference2": "Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5.",
+      "district": "Amravati"
     },
     {
       "id": 20,
@@ -6092,7 +6598,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Amravati"
     },
     {
       "id": 22,
@@ -6104,7 +6611,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 89",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Buldhana"
     },
     {
       "id": 45,
@@ -6116,7 +6624,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1971",
       "reference1": "Kolte 1971",
-      "reference2": "Kolte, V.B. 1971. Dvitiya Pruthvishainacha Maahurjhari Taamrapat, Vidarbha Sanshodhak Mandal 1971: 53-77."
+      "reference2": "Kolte, V.B. 1971. Dvitiya Pruthvishainacha Maahurjhari Taamrapat, Vidarbha Sanshodhak Mandal 1971: 53-77.",
+      "district": "Adjacent / Regional"
     },
     {
       "id": 46,
@@ -6128,7 +6637,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Meshram et al. 2009: 12",
-      "reference2": "Meshram. P. S and Choudhari. D. Y. 2009. Hamlaapuri (Raamtek) Kansya Buddha Pratima (in Marathi), Samshodhak, Part 3 : 32-42."
+      "reference2": "Meshram. P. S and Choudhari. D. Y. 2009. Hamlaapuri (Raamtek) Kansya Buddha Pratima (in Marathi), Samshodhak, Part 3 : 32-42.",
+      "district": "Chandrapur"
     },
     {
       "id": 47,
@@ -6140,7 +6650,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 72,
@@ -6152,7 +6663,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 108",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 73,
@@ -6164,7 +6676,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1968",
       "reference1": "Mirashi 1968c: 92",
-      "reference2": "Mirashi, V.V. 1968c. Two Kshatrapa Coins from Vidarbha, Journal of Numismatic Society of India 30: 92-95."
+      "reference2": "Mirashi, V.V. 1968c. Two Kshatrapa Coins from Vidarbha, Journal of Numismatic Society of India 30: 92-95.",
+      "district": "Amravati"
     },
     {
       "id": 74,
@@ -6176,7 +6689,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": "42081",
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Chandrapur"
     },
     {
       "id": 75,
@@ -6188,7 +6702,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": "42081",
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Chandrapur"
     },
     {
       "id": 76,
@@ -6200,7 +6715,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Bhandara"
     },
     {
       "id": 77,
@@ -6212,7 +6728,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Amarendra Nath",
       "dateYear": "1992-93",
       "reference1": "IAR 1992-93:55-61",
-      "reference2": "Indian Archaeology-A Review. 1992-93:55-61. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1992-93:55-61. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 78,
@@ -6224,7 +6741,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BC Deotare",
       "dateYear": "2001",
       "reference1": "Deorare 2004-05 Deccan College Bulletin 64-65: 87-105; Jadhav 2006",
-      "reference2": "Deotare, B.C. 2004-2005. Preliminary Report on the Excavations at Bhon and Paturda, Buldana District, Maharshtra, Bullentin of the Deccan College Post Graduate and Research Institute, Vol. 64-65: 87-105. Jadhav, N. 2006. A Study of Pottery Assemblage from Middle Purna Basin with Special Reference to Paturda and Bhon, District Buldhana, Maharashtra. M.A. Dissertation Submitted to Deccan College Pune. Pune."
+      "reference2": "Deotare, B.C. 2004-2005. Preliminary Report on the Excavations at Bhon and Paturda, Buldana District, Maharshtra, Bullentin of the Deccan College Post Graduate and Research Institute, Vol. 64-65: 87-105. Jadhav, N. 2006. A Study of Pottery Assemblage from Middle Purna Basin with Special Reference to Paturda and Bhon, District Buldhana, Maharashtra. M.A. Dissertation Submitted to Deccan College Pune. Pune.",
+      "district": "Amravati"
     },
     {
       "id": 79,
@@ -6236,7 +6754,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 80,
@@ -6248,7 +6767,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Naranje 2013: 2",
-      "reference2": "Naranje, M. 2013. Kuhi Talukyatil (zi. Nagpur) Navsanshodhit Purasthale, Samshodhak, (2013) Part 2-3: 2."
+      "reference2": "Naranje, M. 2013. Kuhi Talukyatil (zi. Nagpur) Navsanshodhit Purasthale, Samshodhak, (2013) Part 2-3: 2.",
+      "district": "Nagpur"
     },
     {
       "id": 81,
@@ -6260,7 +6780,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SK Chitale",
       "dateYear": "Unknown",
       "reference1": "Chitale 1987",
-      "reference2": "Chitale, Shreepad Keshav, 1987. Nagpur Jilhyateel Kutrim Shailashraye, Vidarbha Sanshodhak Mandal 1987: 165-172."
+      "reference2": "Chitale, Shreepad Keshav, 1987. Nagpur Jilhyateel Kutrim Shailashraye, Vidarbha Sanshodhak Mandal 1987: 165-172.",
+      "district": "Nagpur"
     },
     {
       "id": 82,
@@ -6272,7 +6793,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1968-69",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 83,
@@ -6284,7 +6806,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BC Deotare",
       "dateYear": "2002-06",
       "reference1": "IAR 2002-03:161; Deotare 2007: 87-105, Deotare 2008: 75-76",
-      "reference2": "Indian Archaeology-A Review.2002-03: 161. New Delhi: Archaeological Survey of India. Deotare, B.C. 2007. Preliminary Report on the Excavations at Bhon and Paturda, Buldhana District, Maharashtra, BDCRI 64-65: 87-105 Deotare, B.C. 2008. Excavations at Bhon, District Buldana, Maharashtra, Annual Report (2006-07), pp. 75-76, Pune: Deccan College."
+      "reference2": "Indian Archaeology-A Review.2002-03: 161. New Delhi: Archaeological Survey of India. Deotare, B.C. 2007. Preliminary Report on the Excavations at Bhon and Paturda, Buldhana District, Maharashtra, BDCRI 64-65: 87-105 Deotare, B.C. 2008. Excavations at Bhon, District Buldana, Maharashtra, Annual Report (2006-07), pp. 75-76, Pune: Deccan College.",
+      "district": "Buldhana"
     },
     {
       "id": 84,
@@ -6296,7 +6819,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BC Deotare",
       "dateYear": "2001",
       "reference1": "Deotare 2004-05 Deccan College Bulletin 64-65: 87-105; Jadhav 2006",
-      "reference2": "Deotare, B.C. 2004-2005. Preliminary Report on the Excavations at Bhon and Paturda, Buldana District, Maharshtra, Bullentin of the Deccan College Post Graduate and Research Institute, Vol. 64-65: 87-105. Jadhav, N. 2006. A Study of Pottery Assemblage from Middle Purna Basin with Special Reference to Paturda and Bhon, District Buldhana, Maharashtra. M.A. Dissertation Submitted to Deccan College Pune. Pune."
+      "reference2": "Deotare, B.C. 2004-2005. Preliminary Report on the Excavations at Bhon and Paturda, Buldana District, Maharshtra, Bullentin of the Deccan College Post Graduate and Research Institute, Vol. 64-65: 87-105. Jadhav, N. 2006. A Study of Pottery Assemblage from Middle Purna Basin with Special Reference to Paturda and Bhon, District Buldhana, Maharashtra. M.A. Dissertation Submitted to Deccan College Pune. Pune.",
+      "district": "Buldhana"
     },
     {
       "id": 85,
@@ -6308,7 +6832,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 86,
@@ -6320,7 +6845,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1954",
       "reference1": "Dixit 1954: 87",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Nagpur"
     },
     {
       "id": 87,
@@ -6332,7 +6858,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "CS Gupta",
       "dateYear": "1997-98",
       "reference1": "Deotare et.al. 2013:360; Meshram, P.S. 2006: 32-34.",
-      "reference2": "Deotare, B. C, P.S Joshi and C. N Parchure. 2013. Glimpses of Ancient Maharashtra Through Archaeological Excavations. Pune: Bharatiya Itihas Sankalan Samitee. Meshram, P.S. 2006. Bhuyari Boud Lenitil Upekshit Brahmi Shilalekh. Sanshodhak (2006, Part III): 32-34."
+      "reference2": "Deotare, B. C, P.S Joshi and C. N Parchure. 2013. Glimpses of Ancient Maharashtra Through Archaeological Excavations. Pune: Bharatiya Itihas Sankalan Samitee. Meshram, P.S. 2006. Bhuyari Boud Lenitil Upekshit Brahmi Shilalekh. Sanshodhak (2006, Part III): 32-34.",
+      "district": "Nagpur"
     },
     {
       "id": 88,
@@ -6344,7 +6871,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Adjacent / Regional"
     },
     {
       "id": 89,
@@ -6356,7 +6884,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Chandrapur"
     },
     {
       "id": 90,
@@ -6368,7 +6897,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Sali 1998: 16-17; Sawant, R. 2009:57-65.",
-      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38. Sawant, R. 2009. An Appraisal of Early Historic Fortifications in Maharashtra. Man and Environment, XXXIV (I): 57-65."
+      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38. Sawant, R. 2009. An Appraisal of Early Historic Fortifications in Maharashtra. Man and Environment, XXXIV (I): 57-65.",
+      "district": "Nagpur"
     },
     {
       "id": 71,
@@ -6380,7 +6910,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "P Meshram",
       "dateYear": "2011-12",
       "reference1": "Sali 1998:14, Deotare et.al. 2013",
-      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38. Deotare, B. C, P.S Joshi and C. N Parchure. 2013. Glimpses of Ancient Maharashtra Through Archaeological Excavations. Pune: Bharatiya Itihas Sankalan Samitee."
+      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38. Deotare, B. C, P.S Joshi and C. N Parchure. 2013. Glimpses of Ancient Maharashtra Through Archaeological Excavations. Pune: Bharatiya Itihas Sankalan Samitee.",
+      "district": "Chandrapur"
     },
     {
       "id": 70,
@@ -6392,7 +6923,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NG Nikoshey, Ghayasuddin and RG Katole",
       "dateYear": "1994-95",
       "reference1": "IAR 1994-95: 52-53",
-      "reference2": "Indian Archaeology-A Review. 1994-95: 52-53. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1994-95: 52-53. New Delhi: Archaeological Survey of India.",
+      "district": "Buldhana"
     },
     {
       "id": 69,
@@ -6404,7 +6936,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 68,
@@ -6416,7 +6949,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "B Jain and Shastri",
       "dateYear": "1954-55, 1957",
       "reference1": "Jain et al 1954 : 215-218; IAR 1954-55: 63; Jain 1957 (NNM, 5): 13",
-      "reference2": "Indian Archaeology-A Review.1954-55: 63. New Delhi: Archaeological Survey of India. Jain, B and Shastri A.M. 1954. Some New Repousse Gold Coins from Chanda District, Journal of Numismatic Society of India , XVI part II, 215-218. Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5."
+      "reference2": "Indian Archaeology-A Review.1954-55: 63. New Delhi: Archaeological Survey of India. Jain, B and Shastri A.M. 1954. Some New Repousse Gold Coins from Chanda District, Journal of Numismatic Society of India , XVI part II, 215-218. Jain, Balchandra. 1957. An Inventory of the Hoards and Finds of Coins and Seals from Madhya Pradesh, Journal of Numismatic Society of India Vol. XIX, Numismatic Notes and Monographs No.5.",
+      "district": "Bhandara"
     },
     {
       "id": 48,
@@ -6428,7 +6962,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Wardha"
     },
     {
       "id": 49,
@@ -6440,7 +6975,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 50,
@@ -6452,7 +6988,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Adjacent / Regional"
     },
     {
       "id": 51,
@@ -6464,7 +7001,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1931-32",
       "reference1": "EI 1931-32(21):128-132",
-      "reference2": "Mirashi, V. V. 1984. The Barshi-Takli Inscription of the reign of Hemadrideva- Saka 1098, Epigraphica Indica (1931-32) Vol. XXI: 128-132."
+      "reference2": "Mirashi, V. V. 1984. The Barshi-Takli Inscription of the reign of Hemadrideva- Saka 1098, Epigraphica Indica (1931-32) Vol. XXI: 128-132.",
+      "district": "Akola"
     },
     {
       "id": 52,
@@ -6476,7 +7014,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2008-09",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 53,
@@ -6488,7 +7027,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Vivek Raut / Shantanu Ingle / Dr.Prabash Sahu",
       "dateYear": "2023",
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Adjacent / Regional"
     },
     {
       "id": 54,
@@ -6500,7 +7040,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 189, 241",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 55,
@@ -6512,7 +7053,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "G Nikosey and PC Dogra",
       "dateYear": "1990-91",
       "reference1": "IAR 1990-91: 43",
-      "reference2": "Indian Archaeology-A Review. 1990-91: 43. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1990-91: 43. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 56,
@@ -6524,7 +7066,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NG Nikosey and PC Dogra",
       "dateYear": "1990-91",
       "reference1": "IAR 1990-91: 43-45",
-      "reference2": "Indian Archaeology-A Review. 1990-91: 43- 45. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1990-91: 43- 45. New Delhi: Archaeological Survey of India.",
+      "district": "Chandrapur"
     },
     {
       "id": 92,
@@ -6536,7 +7079,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 57,
@@ -6548,7 +7092,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 106",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 59,
@@ -6560,7 +7105,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": "42071",
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Amravati"
     },
     {
       "id": 60,
@@ -6572,7 +7118,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": "42071",
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Amravati"
     },
     {
       "id": 61,
@@ -6584,7 +7131,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BP Bopardikar",
       "dateYear": "1965-66",
       "reference1": "IAR 1965-66: 27",
-      "reference2": "Indian Archaeology-A Review.1965-66: 27. New Delhi: Archaeological Survey of India.."
+      "reference2": "Indian Archaeology-A Review.1965-66: 27. New Delhi: Archaeological Survey of India..",
+      "district": "Amravati"
     },
     {
       "id": 62,
@@ -6596,7 +7144,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "Raut 2019",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 63,
@@ -6608,7 +7157,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1959-60",
       "reference1": "IAR 1959-60:72",
-      "reference2": "Indian Archaeology-A Review. 1959-60: 72. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1959-60: 72. New Delhi: Archaeological Survey of India.",
+      "district": "Chandrapur"
     },
     {
       "id": 64,
@@ -6620,7 +7170,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SB Deo; AP Jamkhedkar; GB Deglurkar",
       "dateYear": "1982-83; 1983-84; 1992-93",
       "reference1": "IAR 1982-83: 61-62; 1983-84: 57-58; 1992-93:63-64",
-      "reference2": "Indian Archaeology-A Review.1982-83: 61-62. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1983-84: 57-58. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1992-93:63-64. New Delhi: Archaeological Survey of India.."
+      "reference2": "Indian Archaeology-A Review.1982-83: 61-62. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1983-84: 57-58. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1992-93:63-64. New Delhi: Archaeological Survey of India..",
+      "district": "Nagpur"
     },
     {
       "id": 65,
@@ -6632,7 +7183,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Wardha"
     },
     {
       "id": 66,
@@ -6644,7 +7196,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2008-09",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 67,
@@ -6656,7 +7209,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1961-62",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 58,
@@ -6668,7 +7222,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "VV Mirashi",
       "dateYear": null,
       "reference1": "EI 24:260; Mirashi 1963: 16-21, EI 24",
-      "reference2": "Mirashi, V. V. 1984. Two Incomplete Grants of Pravarasena II, Epigraphica Indica (1937-38) Vol. XXIV: 260-267. Mirashi, V. V. 1963. Inscriptions of the Vakatakas, Corpus Inscriptionum Indicarum Vol. V. Ootacamund."
+      "reference2": "Mirashi, V. V. 1984. Two Incomplete Grants of Pravarasena II, Epigraphica Indica (1937-38) Vol. XXIV: 260-267. Mirashi, V. V. 1963. Inscriptions of the Vakatakas, Corpus Inscriptionum Indicarum Vol. V. Ootacamund.",
+      "district": "Amravati"
     },
     {
       "id": 741,
@@ -6680,7 +7235,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 185,
@@ -6692,7 +7248,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Ajit Kumar",
       "dateYear": "1986-87",
       "reference1": "IAR 1986-87: 59",
-      "reference2": "Indian Archaeology-A Review. 1986-87: 59. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1986-87: 59. New Delhi: Archaeological Survey of India.",
+      "district": "Yavatmal"
     },
     {
       "id": 187,
@@ -6704,7 +7261,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1941-42",
       "reference1": "EI 1941-42(26) 177-185",
-      "reference2": "Mirashi, V.V. 1985. Dongargaon Sone Inscription of the Time of Jagaddeva; Saka 1034, Epigraphia Indica XXVI (1941-42): 177-185."
+      "reference2": "Mirashi, V.V. 1985. Dongargaon Sone Inscription of the Time of Jagaddeva; Saka 1034, Epigraphia Indica XXVI (1941-42): 177-185.",
+      "district": "Yavatmal"
     },
     {
       "id": 304,
@@ -6716,7 +7274,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 90",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Yavatmal"
     },
     {
       "id": 305,
@@ -6728,7 +7287,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1997",
       "reference1": "Kelkar 1997: 192-195",
-      "reference2": "Kelkar, K. A. 1997. Ek Aagli Vegli Vishnumurti, Vidarbha Sanshodhak Mandal (1997): 192-195."
+      "reference2": "Kelkar, K. A. 1997. Ek Aagli Vegli Vishnumurti, Vidarbha Sanshodhak Mandal (1997): 192-195.",
+      "district": "Wardha"
     },
     {
       "id": 306,
@@ -6740,7 +7300,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 190, 264",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 307,
@@ -6752,7 +7313,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 308,
@@ -6764,7 +7326,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BC Deotare, PD Sable, S Naik and K Shendge",
       "dateYear": "2011-12",
       "reference1": "Deccan College Annual Report 2011-12: 59",
-      "reference2": "Deotare, B.C. 2011-12. Explorations in southern part of Purna basin especially in the Mun and the Katepurna sub-basin in Vidarbha, Annual Report (2011-12), pp. 59, Pune: Deccan College."
+      "reference2": "Deotare, B.C. 2011-12. Explorations in southern part of Purna basin especially in the Mun and the Katepurna sub-basin in Vidarbha, Annual Report (2011-12), pp. 59, Pune: Deccan College.",
+      "district": "Adjacent / Regional"
     },
     {
       "id": 309,
@@ -6776,7 +7339,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 102",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 310,
@@ -6788,7 +7352,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 108-09",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattav (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattav (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 311,
@@ -6800,7 +7365,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NG Nikosey and PC Dogra",
       "dateYear": "1990-91",
       "reference1": "IAR 1990-91: 43-45",
-      "reference2": "Indian Archaeology-A Review. 1990-91: 43-45. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1990-91: 43-45. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 312,
@@ -6812,7 +7378,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1959-60",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 313,
@@ -6824,7 +7391,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Carey; SB Deo and AP Jamkhedkar",
       "dateYear": "1871; 1981-82",
       "reference1": "Carey 1871; IAR 1981-82:51-52",
-      "reference2": "Carey, J.J. 1871. Stone Circles Found near Khairwada, Wardha District, Proceedings of the Asiatic Society of Bengal: 238- 239. Indian Archaeology-A Review.1981-82: 51-52. New Delhi: Archaeological Survey of India."
+      "reference2": "Carey, J.J. 1871. Stone Circles Found near Khairwada, Wardha District, Proceedings of the Asiatic Society of Bengal: 238- 239. Indian Archaeology-A Review.1981-82: 51-52. New Delhi: Archaeological Survey of India.",
+      "district": "Yavatmal"
     },
     {
       "id": 314,
@@ -6836,7 +7404,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Adjacent / Regional"
     },
     {
       "id": 315,
@@ -6848,7 +7417,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Amravati"
     },
     {
       "id": 316,
@@ -6860,7 +7430,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 317,
@@ -6872,7 +7443,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SK Lekhwani, NG Nikosey, JS Dubey and NK Nimje",
       "dateYear": "1989-90",
       "reference1": "IAR 1989-90:58-59",
-      "reference2": "Indian Archaeology-A Review. 1989-90:58-59. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1989-90:58-59. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 318,
@@ -6884,7 +7456,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NG Nikosey and PC Dogra",
       "dateYear": "1990-91",
       "reference1": "IAR 1990-91: 43-45",
-      "reference2": "Indian Archaeology-A Review. 1990-91: 43-45. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1990-91: 43-45. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 319,
@@ -6896,7 +7469,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1989",
       "reference1": "Lokade 1989:50-55",
-      "reference2": "Lokade, S.M. 1989. Kharbi Yethil Puravashesh Ani Mauryakalin Nane (in marathi), Sanshodhak 3: 50-55"
+      "reference2": "Lokade, S.M. 1989. Kharbi Yethil Puravashesh Ani Mauryakalin Nane (in marathi), Sanshodhak 3: 50-55",
+      "district": "Yavatmal"
     },
     {
       "id": 320,
@@ -6908,7 +7482,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 321,
@@ -6920,7 +7495,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 322,
@@ -6932,7 +7508,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "MR Dhekane",
       "dateYear": "1999-2000",
       "reference1": "IAR 1999-2000: 102; Borkar 2009: 190, 263",
-      "reference2": "Indian Archaeology-A Review. 1999-2000: 102. New Delhi: Archaeological Survey of India. Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.E. S."
+      "reference2": "Indian Archaeology-A Review. 1999-2000: 102. New Delhi: Archaeological Survey of India. Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.E. S.",
+      "district": "Chandrapur"
     },
     {
       "id": 303,
@@ -6944,7 +7521,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "P Meshram",
       "dateYear": "2012-13",
       "reference1": "Deotare et.al. 2013: 362",
-      "reference2": "Deotare, B. C, P.S Joshi and C. N Parchure. 2013. Glimpses of Ancient Maharashtra Through Archaeological Excavations. Pune: Bharatiya Itihas Sankalan Samitee."
+      "reference2": "Deotare, B. C, P.S Joshi and C. N Parchure. 2013. Glimpses of Ancient Maharashtra Through Archaeological Excavations. Pune: Bharatiya Itihas Sankalan Samitee.",
+      "district": "Yavatmal"
     },
     {
       "id": 323,
@@ -6956,7 +7534,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 302,
@@ -6968,7 +7547,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SK Lekhwani, NG Nikosey, JS Dubey and NK Nimje",
       "dateYear": "1989-90",
       "reference1": "IAR 1989-90: 58-59",
-      "reference2": "Indian Archaeology-A Review. 1989-90: 58-59. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1989-90: 58-59. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 300,
@@ -6980,7 +7560,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NC Prakash",
       "dateYear": "1996-97",
       "reference1": "IAR 1996-97: 67-69",
-      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India.",
+      "district": "Amravati"
     },
     {
       "id": 281,
@@ -6992,7 +7573,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "G Shete",
       "dateYear": "2011-12",
       "reference1": "Deccan College Annual Report 2011-12: 84",
-      "reference2": "Shete, G. 2011-12. Exploration at Manjarkhed and surrounding area, Annual Report (2011-12), pp. 84, Pune: Deccan College."
+      "reference2": "Shete, G. 2011-12. Exploration at Manjarkhed and surrounding area, Annual Report (2011-12), pp. 84, Pune: Deccan College.",
+      "district": "Yavatmal"
     },
     {
       "id": 282,
@@ -7004,7 +7586,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 283,
@@ -7016,7 +7599,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 284,
@@ -7028,7 +7612,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1995-96",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 285,
@@ -7040,7 +7625,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 286,
@@ -7052,7 +7638,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "G Nikosey and PC Dogra",
       "dateYear": "1990-91",
       "reference1": "IAR 1990-91: 44",
-      "reference2": "Indian Archaeology-A Review. 1990-91: 44. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1990-91: 44. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 287,
@@ -7064,7 +7651,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 288,
@@ -7076,7 +7664,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1960",
       "reference1": "Mirashi 1960:113-14",
-      "reference2": "Mirashi, V.V. 1960. Notes on Saka- Satavahana Coins, Journal of Numismatic Society of India XXII: 113-117."
+      "reference2": "Mirashi, V.V. 1960. Notes on Saka- Satavahana Coins, Journal of Numismatic Society of India XXII: 113-117.",
+      "district": "Akola"
     },
     {
       "id": 289,
@@ -7088,7 +7677,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NG Nikosey and PC Dogra",
       "dateYear": "1990-91",
       "reference1": "IAR 1990-91: 43-45",
-      "reference2": "Indian Archaeology-A Review. 1990-91: 43-45. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1990-91: 43-45. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 290,
@@ -7100,7 +7690,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 102",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 291,
@@ -7112,7 +7703,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 102",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 292,
@@ -7124,7 +7716,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Adjacent / Regional"
     },
     {
       "id": 293,
@@ -7136,7 +7729,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": null,
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Chandrapur"
     },
     {
       "id": 294,
@@ -7148,7 +7742,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Wardha"
     },
     {
       "id": 295,
@@ -7160,7 +7755,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "V Sontakke",
       "dateYear": "2013",
       "reference1": "Sontakke 2014: 85, 89",
-      "reference2": "Sontakke, V.G. 2014. Early Iron Age Archaeology of Upper Wainganga Valley with Special Reference to Gondiya District, Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Sontakke, V.G. 2014. Early Iron Age Archaeology of Upper Wainganga Valley with Special Reference to Gondiya District, Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Gondia"
     },
     {
       "id": 296,
@@ -7172,7 +7768,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 297,
@@ -7184,7 +7781,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "MG Dikshit; S Mishra; BC Deotare",
       "dateYear": "1958-59; 1962-64 and 2000-2001",
       "reference1": "IAR 1958-59:68; IAR1961-62:29-30; IAR 2000-2001:92: Chitale 2005; Dikshit 1968; Gupta 1982: 92-95",
-      "reference2": "Indian Archaeology-A Review. 1958-59:68. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1961-62:29-30. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 2000-2001: 92. New Delhi: Archaeological Survey of India. Chitale, M.G. 2005 (March). Koudinyapurcha (Jilha Amravati) Shilalekh (2005: Part 3): 41-46. Dikshit, M.G. 1968. Excavations at Kaudinyapur. Bombay: Government Central Press. Gupta, C. S. 1982. A Sealing of Satyabhadra, Numismatic Digest VI: 92-95."
+      "reference2": "Indian Archaeology-A Review. 1958-59:68. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 1961-62:29-30. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 2000-2001: 92. New Delhi: Archaeological Survey of India. Chitale, M.G. 2005 (March). Koudinyapurcha (Jilha Amravati) Shilalekh (2005: Part 3): 41-46. Dikshit, M.G. 1968. Excavations at Kaudinyapur. Bombay: Government Central Press. Gupta, C. S. 1982. A Sealing of Satyabhadra, Numismatic Digest VI: 92-95.",
+      "district": "Amravati"
     },
     {
       "id": 298,
@@ -7196,7 +7794,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BC Deotare",
       "dateYear": "2001",
       "reference1": "Deorare 2004-05 Deccan College Bulletin 64-65: 87-105; Jadhav 2006",
-      "reference2": "Deotare, B.C. 2004-2005. Preliminary Report on the Excavations at Bhon and Paturda, Buldana District, Maharshtra, Bullentin of the Deccan College Post Graduate and Research Institute, Vol. 64-65: 87-105. Jadhav, N. 2006. A Study of Pottery Assemblage from Middle Purna Basin with Special Reference to Paturda and Bhon, District Buldhana, Maharashtra. M.A. Dissertation Submitted to Deccan College Pune. Pune."
+      "reference2": "Deotare, B.C. 2004-2005. Preliminary Report on the Excavations at Bhon and Paturda, Buldana District, Maharshtra, Bullentin of the Deccan College Post Graduate and Research Institute, Vol. 64-65: 87-105. Jadhav, N. 2006. A Study of Pottery Assemblage from Middle Purna Basin with Special Reference to Paturda and Bhon, District Buldhana, Maharashtra. M.A. Dissertation Submitted to Deccan College Pune. Pune.",
+      "district": "Buldhana"
     },
     {
       "id": 299,
@@ -7208,7 +7807,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SK Chitale",
       "dateYear": "Unknown",
       "reference1": "Chitale 1988: 176",
-      "reference2": "Chitale, Shreepaad, 1988. Vidharbhateel Mahattvapurn Puravashesh, Vidarbha Sanshodhak Mandal: 164-180."
+      "reference2": "Chitale, Shreepaad, 1988. Vidharbhateel Mahattvapurn Puravashesh, Vidarbha Sanshodhak Mandal: 164-180.",
+      "district": "Yavatmal"
     },
     {
       "id": 301,
@@ -7220,7 +7820,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1985-86",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 324,
@@ -7232,7 +7833,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2011-12",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Wardha"
     },
     {
       "id": 325,
@@ -7244,7 +7846,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BC Deotare, AM Shastri and CS Gupta",
       "dateYear": "1979-80, 2007-08",
       "reference1": "IAR 2007-08; 2008-09; Deotare et.al. 2012; IAR 1979-80: 56; Sawant, R. 2009: 57-65.",
-      "reference2": "Indian Archaeology-A Review. 2007-08. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 2008-09. New Delhi: Archaeological Survey of India. Deotare, B.C., Gurudas Shete, Reshma Sawant and Satish Naik 2012. Preliminary Report on Excavations at Kholapur, District Amravati, Maharashtra, Man and Environment Vol XXXVII (2): 50-59. Indian Archaeology-A Review. 1979-80: 56. New Delhi: Archaeological Survey of India. Sawant, R. 2009. An Appraisal of Early Historic Fortifications in Maharashtra. Man and Environment, XXXIV (I): 57-65."
+      "reference2": "Indian Archaeology-A Review. 2007-08. New Delhi: Archaeological Survey of India. Indian Archaeology-A Review. 2008-09. New Delhi: Archaeological Survey of India. Deotare, B.C., Gurudas Shete, Reshma Sawant and Satish Naik 2012. Preliminary Report on Excavations at Kholapur, District Amravati, Maharashtra, Man and Environment Vol XXXVII (2): 50-59. Indian Archaeology-A Review. 1979-80: 56. New Delhi: Archaeological Survey of India. Sawant, R. 2009. An Appraisal of Early Historic Fortifications in Maharashtra. Man and Environment, XXXIV (I): 57-65.",
+      "district": "Amravati"
     },
     {
       "id": 326,
@@ -7256,7 +7859,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Naranje",
       "dateYear": "2001",
       "reference1": "Naranje 2013:4",
-      "reference2": "Naranje, M. 2013. Kuhi Talukyatil (zi. Nagpur) Navsanshodhit Purasthale, Samshodhak, (2013) Part 2-3: 4."
+      "reference2": "Naranje, M. 2013. Kuhi Talukyatil (zi. Nagpur) Navsanshodhit Purasthale, Samshodhak, (2013) Part 2-3: 4.",
+      "district": "Nagpur"
     },
     {
       "id": 351,
@@ -7268,7 +7872,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 102",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 352,
@@ -7280,7 +7885,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SK Chitale; R Abbas",
       "dateYear": null,
       "reference1": "Borkar 1986, Chitale 1987",
-      "reference2": "Borkar, R.R., 1986. Kunghaada yetheel Paandav Gufa va Shailashraye, Vidarbha Sanshodhak Mandal 1986: 194-198. Chitale, Shreepad Keshav, 1987. Nagpur Jilhyateel Kutrim Shailashraye, Vidarbha Sanshodhak Mandal 1987: 165-172."
+      "reference2": "Borkar, R.R., 1986. Kunghaada yetheel Paandav Gufa va Shailashraye, Vidarbha Sanshodhak Mandal 1986: 194-198. Chitale, Shreepad Keshav, 1987. Nagpur Jilhyateel Kutrim Shailashraye, Vidarbha Sanshodhak Mandal 1987: 165-172.",
+      "district": "Chandrapur"
     },
     {
       "id": 353,
@@ -7292,7 +7898,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SK Chitale; R Abbas",
       "dateYear": null,
       "reference1": "Borkar 1986, Chitale 1987",
-      "reference2": "Borkar, R.R., 1986. Kunghaada yetheel Paandav Gufa va Shailashraye, Vidarbha Sanshodhak Mandal 1986: 194-198. Chitale, Shreepad Keshav, 1987. Nagpur Jilhyateel Kutrim Shailashraye, Vidarbha Sanshodhak Mandal 1987: 165-172."
+      "reference2": "Borkar, R.R., 1986. Kunghaada yetheel Paandav Gufa va Shailashraye, Vidarbha Sanshodhak Mandal 1986: 194-198. Chitale, Shreepad Keshav, 1987. Nagpur Jilhyateel Kutrim Shailashraye, Vidarbha Sanshodhak Mandal 1987: 165-172.",
+      "district": "Chandrapur"
     },
     {
       "id": 354,
@@ -7304,7 +7911,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Sali 1998:20",
-      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38."
+      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38.",
+      "district": "Nagpur"
     },
     {
       "id": 355,
@@ -7316,7 +7924,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Ajit Kumar",
       "dateYear": "1986-87",
       "reference1": "IAR 1986-87: 59",
-      "reference2": "Indian Archaeology-A Review. 1986-87: 59. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1986-87: 59. New Delhi: Archaeological Survey of India.",
+      "district": "Yavatmal"
     },
     {
       "id": 356,
@@ -7328,7 +7937,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 90",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Yavatmal"
     },
     {
       "id": 357,
@@ -7340,7 +7950,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 102",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 358,
@@ -7352,7 +7963,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 89",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Akola"
     },
     {
       "id": 359,
@@ -7364,7 +7976,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 360,
@@ -7376,7 +7989,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 90",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Yavatmal"
     },
     {
       "id": 361,
@@ -7388,7 +8002,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 362,
@@ -7400,7 +8015,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 363,
@@ -7412,7 +8028,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "AP Jamkhedkar",
       "dateYear": "1994-95",
       "reference1": "Sali 1998:10-12, 28-32,35; Shastri 1997:23-24; Deotare et al 2013: 278-280",
-      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38. Shastri, A. M. 1997. Vakatakas: Sources and History. New Delhi: Aryan Book International. Deotare, B. C, P.S Joshi and C. N Parchure. 2013. Glimpses of Ancient Maharashtra Through Archaeological Excavations. Pune: Bharatiya Itihas Sankalan Samitee."
+      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38. Shastri, A. M. 1997. Vakatakas: Sources and History. New Delhi: Aryan Book International. Deotare, B. C, P.S Joshi and C. N Parchure. 2013. Glimpses of Ancient Maharashtra Through Archaeological Excavations. Pune: Bharatiya Itihas Sankalan Samitee.",
+      "district": "Washim"
     },
     {
       "id": 364,
@@ -7424,7 +8041,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 90",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Yavatmal"
     },
     {
       "id": 365,
@@ -7436,7 +8054,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Dixit",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 89",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Amravati"
     },
     {
       "id": 366,
@@ -7448,7 +8067,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "G Nikosey and PC Dogra",
       "dateYear": "1990-91",
       "reference1": "IAR 1990-91: 44",
-      "reference2": "Indian Archaeology-A Review. 1990-91: 44. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1990-91: 44. New Delhi: Archaeological Survey of India.",
+      "district": "Adjacent / Regional"
     },
     {
       "id": 367,
@@ -7460,7 +8080,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 368,
@@ -7472,7 +8093,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 369,
@@ -7484,7 +8106,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Adjacent / Regional"
     },
     {
       "id": 350,
@@ -7496,7 +8119,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Naranje",
       "dateYear": "Unknown",
       "reference1": "Naranje 2013: 323-25",
-      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan."
+      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan.",
+      "district": "Bhandara"
     },
     {
       "id": 349,
@@ -7508,7 +8132,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 348,
@@ -7520,7 +8145,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 347,
@@ -7532,7 +8158,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Lai Chand Singh",
       "dateYear": "1970-71",
       "reference1": "IAR 1970-71: 24",
-      "reference2": "Indian Archaeology-A Review. 1970-71: 24. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1970-71: 24. New Delhi: Archaeological Survey of India.",
+      "district": "Nagpur"
     },
     {
       "id": 327,
@@ -7544,7 +8171,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 103",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 328,
@@ -7556,7 +8184,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1985-86",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 329,
@@ -7568,7 +8197,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 330,
@@ -7580,7 +8210,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 331,
@@ -7592,7 +8223,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 332,
@@ -7604,7 +8236,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2008-09",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 333,
@@ -7616,7 +8249,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 334,
@@ -7628,7 +8262,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 335,
@@ -7640,7 +8275,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 280,
@@ -7652,7 +8288,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Dixit",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 90",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Yavatmal"
     },
     {
       "id": 336,
@@ -7664,7 +8301,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 338,
@@ -7676,7 +8314,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Meshram",
       "dateYear": "2009",
       "reference1": "Meshram et al. 2009: 12",
-      "reference2": "Meshram. P. S and Choudhari. D. Y. 2009. Hamlaapuri (Raamtek) Kansya Buddha Pratima (in Marathi), Samshodhak, Part 3 : 32-42."
+      "reference2": "Meshram. P. S and Choudhari. D. Y. 2009. Hamlaapuri (Raamtek) Kansya Buddha Pratima (in Marathi), Samshodhak, Part 3 : 32-42.",
+      "district": "Nagpur"
     },
     {
       "id": 339,
@@ -7688,7 +8327,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Adjacent / Regional"
     },
     {
       "id": 340,
@@ -7700,7 +8340,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1998-99",
       "reference1": "IAR 1998-99: 116-118",
-      "reference2": "Indian Archaeology-A Review. 1998-99: 116-118. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1998-99: 116-118. New Delhi: Archaeological Survey of India.",
+      "district": "Nagpur"
     },
     {
       "id": 341,
@@ -7712,7 +8353,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Ajit Kumar",
       "dateYear": "1986-87",
       "reference1": "IAR 1986-87: 59",
-      "reference2": "Indian Archaeology-A Review. 1986-87: 59. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1986-87: 59. New Delhi: Archaeological Survey of India.",
+      "district": "Yavatmal"
     },
     {
       "id": 342,
@@ -7724,7 +8366,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1959-60",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 343,
@@ -7736,7 +8379,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SK Chitale; R Abbas",
       "dateYear": "1988; 3/15/2015",
       "reference1": "Chitale 1988:173-74",
-      "reference2": "Chitale, Shreepaad, 1988. Vidharbhateel Mahattvapurn Puravashesh, Vidarbha Sanshodhak Mandal: 164-180."
+      "reference2": "Chitale, Shreepaad, 1988. Vidharbhateel Mahattvapurn Puravashesh, Vidarbha Sanshodhak Mandal: 164-180.",
+      "district": "Bhandara"
     },
     {
       "id": 344,
@@ -7748,7 +8392,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2011-12",
       "reference1": "Vaidya 2014: 109 Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Wardha"
     },
     {
       "id": 345,
@@ -7760,7 +8405,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "G Shete",
       "dateYear": "2011-12",
       "reference1": "Deccan College Annual Report 2011-12: 84",
-      "reference2": "Shete, G. 2011-12. Exploration at Manjarkhed and surrounding area, Annual Report (2011-12), pp. 84, Pune: Deccan College."
+      "reference2": "Shete, G. 2011-12. Exploration at Manjarkhed and surrounding area, Annual Report (2011-12), pp. 84, Pune: Deccan College.",
+      "district": "Yavatmal"
     },
     {
       "id": 346,
@@ -7772,7 +8418,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RC Agrawal and Amarendra Nath",
       "dateYear": "1981-82",
       "reference1": "IAR 1981-82:95",
-      "reference2": "Indian Archaeology-A Review. 1981-82:95. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1981-82:95. New Delhi: Archaeological Survey of India.",
+      "district": "Buldhana"
     },
     {
       "id": 337,
@@ -7784,7 +8431,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Adjacent / Regional"
     },
     {
       "id": 186,
@@ -7796,7 +8444,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 279,
@@ -7808,7 +8457,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RC Agarwal and Amarendra Nath",
       "dateYear": "1981-82",
       "reference1": "IAR 1981-82:98",
-      "reference2": "Indian Archaeology-A Review. 1981-82:98. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1981-82:98. New Delhi: Archaeological Survey of India.",
+      "district": "Yavatmal"
     },
     {
       "id": 277,
@@ -7820,7 +8470,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "GK Mane; SR Walimbe",
       "dateYear": "1978-79; 2001-02",
       "reference1": "IAR 1978-79:16; Walimbe 2003: 39-40; Deotare et al 2013: 233-237; Sawant 2006",
-      "reference2": "Indian Archaeology-A Review. 1978-79:16. New Delhi: Archaeological Survey of India. Walimbe, S.R. 2003. Excavations at the Early Historic Site of Kahali-Bramhapuri, Annual Report (2001-2002), pp 39-40, Pune: Deccan College. Deotare, B. C, P.S Joshi and C. N Parchure. 2013. Glimpses of Ancient Maharashtra Through Archaeological Excavations. Pune: Bharatiya Itihas Sankalan Samitee. Sawant, Reshma 2006. Vidarbha: An Archaeo – Historical Approach, PhD Thesis submitted to Deccan College Post Graduate and Research Institute, Pune."
+      "reference2": "Indian Archaeology-A Review. 1978-79:16. New Delhi: Archaeological Survey of India. Walimbe, S.R. 2003. Excavations at the Early Historic Site of Kahali-Bramhapuri, Annual Report (2001-2002), pp 39-40, Pune: Deccan College. Deotare, B. C, P.S Joshi and C. N Parchure. 2013. Glimpses of Ancient Maharashtra Through Archaeological Excavations. Pune: Bharatiya Itihas Sankalan Samitee. Sawant, Reshma 2006. Vidarbha: An Archaeo \u2013 Historical Approach, PhD Thesis submitted to Deccan College Post Graduate and Research Institute, Pune.",
+      "district": "Adjacent / Regional"
     },
     {
       "id": 211,
@@ -7832,7 +8483,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Yavatmal"
     },
     {
       "id": 212,
@@ -7844,7 +8496,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NC Prakash",
       "dateYear": "1996-97",
       "reference1": "IAR 1996-97: 67-69",
-      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India.",
+      "district": "Amravati"
     },
     {
       "id": 213,
@@ -7856,7 +8509,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1970-71",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 214,
@@ -7868,7 +8522,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Dr.Prabash Sahu / Nandini Bhattacharya Sahu / ASI Nagpur",
       "dateYear": "2012-1015",
       "reference1": "ASI",
-      "reference2": null
+      "reference2": null,
+      "district": "Adjacent / Regional"
     },
     {
       "id": 215,
@@ -7880,7 +8535,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SK Chitale",
       "dateYear": "Unknown",
       "reference1": "Chitale 1987:197",
-      "reference2": "Chitale, Shreepad Keshav, 1987. Nagpur Jilhyateel Kutrim Shailashraye, Vidarbha Sanshodhak Mandal 1987: 165-172."
+      "reference2": "Chitale, Shreepad Keshav, 1987. Nagpur Jilhyateel Kutrim Shailashraye, Vidarbha Sanshodhak Mandal 1987: 165-172.",
+      "district": "Nagpur"
     },
     {
       "id": 216,
@@ -7892,7 +8548,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Naranje",
       "dateYear": "Unknown",
       "reference1": "Naranje 2013: 279-80",
-      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan."
+      "reference2": "Naranje, M.V. 2013. Bhandara Gondia Zilhache Puratattava (Marathi). Wardha: Sudhir Prakashan.",
+      "district": "Bhandara"
     },
     {
       "id": 217,
@@ -7904,7 +8561,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1959-60",
       "reference1": "IAR 1959-60: 72 Borkar 2009: 189, 245-46.",
-      "reference2": "Indian Archaeology-A Review. 1959-60: 72. New Delhi: Archaeological Survey of India. Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Indian Archaeology-A Review. 1959-60: 72. New Delhi: Archaeological Survey of India. Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 218,
@@ -7916,7 +8574,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 189, 263",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 219,
@@ -7928,7 +8587,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 220,
@@ -7940,7 +8600,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 110",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 221,
@@ -7952,7 +8613,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Meshram 2008:29",
-      "reference2": "Meshram, P. S. 2008 (Sept). Junasurla Yetil Hemadpanthi Mandir, Samshodhak (2008): 23-29."
+      "reference2": "Meshram, P. S. 2008 (Sept). Junasurla Yetil Hemadpanthi Mandir, Samshodhak (2008): 23-29.",
+      "district": "Chandrapur"
     },
     {
       "id": 222,
@@ -7964,7 +8626,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "AmarendraNath, NC Prakash, NKS Sharma and ML Smith",
       "dateYear": "1994-95",
       "reference1": "IAR 1994-95: 51-52",
-      "reference2": "Indian Archaeology-A Review. 1994-95: 51-52. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1994-95: 51-52. New Delhi: Archaeological Survey of India.",
+      "district": "Adjacent / Regional"
     },
     {
       "id": 223,
@@ -7976,7 +8639,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Sali 1998: 16; Sawant, R. 2009: 57-65.",
-      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38. Sawant, R. 2009. An Appraisal of Early Historic Fortifications in Maharashtra. Man and Environment, XXXIV (I): 57-65."
+      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38. Sawant, R. 2009. An Appraisal of Early Historic Fortifications in Maharashtra. Man and Environment, XXXIV (I): 57-65.",
+      "district": "Nagpur"
     },
     {
       "id": 224,
@@ -7988,7 +8652,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 90",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Buldhana"
     },
     {
       "id": 225,
@@ -8000,7 +8665,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Dixit",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 89",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Buldhana"
     },
     {
       "id": 226,
@@ -8012,7 +8678,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "PK Mishra",
       "dateYear": "2002-03",
       "reference1": "IAR 2002-03: 167",
-      "reference2": "Indian Archaeology-A Review. 2002-03: 167. New Delhi: Archaeological Survey of India.."
+      "reference2": "Indian Archaeology-A Review. 2002-03: 167. New Delhi: Archaeological Survey of India..",
+      "district": "Chandrapur"
     },
     {
       "id": 227,
@@ -8024,7 +8691,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 228,
@@ -8036,7 +8704,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Sali 1998:17, Borkar 2009: 188",
-      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38. Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38. Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 229,
@@ -8048,7 +8717,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NG Nikosey and PC Dogra",
       "dateYear": "1990-91",
       "reference1": "IAR 1990-91: 43-45",
-      "reference2": "Indian Archaeology-A Review. 1990-91: 43-45. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1990-91: 43-45. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 210,
@@ -8060,7 +8730,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1974",
       "reference1": "Rode 1974: 139-44",
-      "reference2": "Rode, V.P., 1974. Adityarajacha Achalpur Taamrapat, Vidarbha Sanshodhak Mandal 1974: 139-144."
+      "reference2": "Rode, V.P., 1974. Adityarajacha Achalpur Taamrapat, Vidarbha Sanshodhak Mandal 1974: 139-144.",
+      "district": "Amravati"
     },
     {
       "id": 230,
@@ -8072,7 +8743,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1981-82",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 209,
@@ -8084,7 +8756,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 188, 192-93",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 207,
@@ -8096,7 +8769,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": "42081",
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Chandrapur"
     },
     {
       "id": 188,
@@ -8108,7 +8782,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 189,
@@ -8120,7 +8795,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2011-12",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Wardha"
     },
     {
       "id": 190,
@@ -8132,7 +8808,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 89",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Buldhana"
     },
     {
       "id": 191,
@@ -8144,7 +8821,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 192,
@@ -8156,7 +8834,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Kanchan Bhaisare",
       "dateYear": "2010",
       "reference1": "Bhaisare 2012:74",
-      "reference2": "Bhaisare, K. 2012. Tha Vakatakas: Cultural Study in Archaeological Perspective. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Bhaisare, K. 2012. Tha Vakatakas: Cultural Study in Archaeological Perspective. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 193,
@@ -8168,7 +8847,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 90",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Yavatmal"
     },
     {
       "id": 194,
@@ -8180,7 +8860,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 195,
@@ -8192,7 +8873,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Sali 1998: 18",
-      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38."
+      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38.",
+      "district": "Gadchiroli"
     },
     {
       "id": 196,
@@ -8204,7 +8886,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Chandrapur"
     },
     {
       "id": 197,
@@ -8216,7 +8899,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Ajit Kumar",
       "dateYear": "1986-87",
       "reference1": "IAR 1986-87: 59",
-      "reference2": "Indian Archaeology-A Review. 1986-87 : 59. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1986-87 : 59. New Delhi: Archaeological Survey of India.",
+      "district": "Yavatmal"
     },
     {
       "id": 198,
@@ -8228,7 +8912,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "AP Jamkhedkar",
       "dateYear": "1991-92",
       "reference1": "Sali 1998:10-12, 28-32,35; Shastri 1997:23-24",
-      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38. Shastri, A. M. 1997. Vakatakas: Sources and History. New Delhi: Aryan Book International"
+      "reference2": "Sali, Chetan. 1998. Vakataka Culture: Archaeological Perspective, Sanshodhak (March 1998) 66: 3-38. Shastri, A. M. 1997. Vakatakas: Sources and History. New Delhi: Aryan Book International",
+      "district": "Washim"
     },
     {
       "id": 199,
@@ -8240,7 +8925,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 106",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 200,
@@ -8252,7 +8938,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 103",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattav (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattav (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 201,
@@ -8264,7 +8951,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2008-09",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 202,
@@ -8276,7 +8964,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar; R Abbas",
       "dateYear": null,
       "reference1": "Borkar 2009: 189",
-      "reference2": "Riza n.d., Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Riza n.d., Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 203,
@@ -8288,7 +8977,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NG Nikosey and PC Dogra",
       "dateYear": "1990-91",
       "reference1": "IAR 1990-91: 43-45",
-      "reference2": "Indian Archaeology-A Review. 1990-91: 43-45. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1990-91: 43-45. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 204,
@@ -8300,7 +8990,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1954",
       "reference1": "Dixit 1954: 88",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Gondia"
     },
     {
       "id": 205,
@@ -8312,7 +9003,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 206,
@@ -8324,7 +9016,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Willis, R Abbas and M Alam",
       "dateYear": "2014",
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Amravati"
     },
     {
       "id": 208,
@@ -8336,7 +9029,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BS Gajbhiye, P Meshram and I Kelellu",
       "dateYear": "2006-07",
       "reference1": "Deotare et.al. 2013",
-      "reference2": "Deotare, B. C, P.S Joshi and C. N Parchure. 2013. Glimpses of Ancient Maharashtra Through Archaeological Excavations. Pune: Bharatiya Itihas Sankalan Samitee."
+      "reference2": "Deotare, B. C, P.S Joshi and C. N Parchure. 2013. Glimpses of Ancient Maharashtra Through Archaeological Excavations. Pune: Bharatiya Itihas Sankalan Samitee.",
+      "district": "Chandrapur"
     },
     {
       "id": 231,
@@ -8348,7 +9042,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Shastri and Gupta 1973: 238- 240",
-      "reference2": "Shastri, A.M. and C.S. Gupta. 1973. A Vakataka Seal from Gorakhpur ghat, Journal of Numismatic Society of India XXXV: 238-40."
+      "reference2": "Shastri, A.M. and C.S. Gupta. 1973. A Vakataka Seal from Gorakhpur ghat, Journal of Numismatic Society of India XXXV: 238-40.",
+      "district": "Nagpur"
     },
     {
       "id": 232,
@@ -8360,7 +9055,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "M Dixit",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 89",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Akola"
     },
     {
       "id": 233,
@@ -8372,7 +9068,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 108",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 258,
@@ -8384,7 +9081,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NC Prakash",
       "dateYear": "1996-97",
       "reference1": "IAR 1996-97: 67-69",
-      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India.",
+      "district": "Amravati"
     },
     {
       "id": 259,
@@ -8396,7 +9094,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": null,
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Wardha"
     },
     {
       "id": 260,
@@ -8408,7 +9107,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BC Deotare, PD Sable, S Naik and K Shendge",
       "dateYear": "2011-12",
       "reference1": "Deccan College Annual Report 2011-12: 59",
-      "reference2": "Deotare, B.C. 2011-12. Explorations in southern part of Purna basin especially in the Mun and the Katepurna sub-basin in Vidarbha, Annual Report (2011-12), pp. 59, Pune: Deccan College."
+      "reference2": "Deotare, B.C. 2011-12. Explorations in southern part of Purna basin especially in the Mun and the Katepurna sub-basin in Vidarbha, Annual Report (2011-12), pp. 59, Pune: Deccan College.",
+      "district": "Akola"
     },
     {
       "id": 261,
@@ -8420,7 +9120,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Amravati"
     },
     {
       "id": 262,
@@ -8432,7 +9133,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Amravati"
     },
     {
       "id": 263,
@@ -8444,7 +9146,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Adjacent / Regional"
     },
     {
       "id": 264,
@@ -8456,7 +9159,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 90",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Yavatmal"
     },
     {
       "id": 265,
@@ -8468,7 +9172,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "BC Deotare, PD Sable, S Naik and K Shendge",
       "dateYear": "2011-12",
       "reference1": "Deccan College Annual Report 2011-12: 56-57",
-      "reference2": "Deotare, B.C. 2011-12. Explorations in southern part of Purna basin especially in the Mun and the Katepurna sub-basin in Vidarbha, Annual Report (2011-12), pp. 56-57, Pune: Deccan College."
+      "reference2": "Deotare, B.C. 2011-12. Explorations in southern part of Purna basin especially in the Mun and the Katepurna sub-basin in Vidarbha, Annual Report (2011-12), pp. 56-57, Pune: Deccan College.",
+      "district": "Akola"
     },
     {
       "id": 266,
@@ -8480,7 +9185,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 105-06",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 267,
@@ -8492,7 +9198,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 268,
@@ -8504,7 +9211,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Wardha"
     },
     {
       "id": 269,
@@ -8516,7 +9224,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 90",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Yavatmal"
     },
     {
       "id": 270,
@@ -8528,7 +9237,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NC Prakash",
       "dateYear": "1996-97",
       "reference1": "IAR 1996-97: 67-69",
-      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1996-97: 67-69. New Delhi: Archaeological Survey of India.",
+      "district": "Amravati"
     },
     {
       "id": 271,
@@ -8540,7 +9250,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1961-62",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 272,
@@ -8552,7 +9263,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Meshram; RR Borkar",
       "dateYear": "2008",
       "reference1": "Meshram 2008, Borkar 2009: 189",
-      "reference2": "Meshram, P. S. 2008. Junasurla yetil Hemadpanthi Mandir, Samshodhak (2008, Part-3): 29."
+      "reference2": "Meshram, P. S. 2008. Junasurla yetil Hemadpanthi Mandir, Samshodhak (2008, Part-3): 29.",
+      "district": "Chandrapur"
     },
     {
       "id": 273,
@@ -8564,7 +9276,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 104",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 274,
@@ -8576,7 +9289,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "LK Shrinivasan",
       "dateYear": "1958-59",
       "reference1": "IAR 1958-59:18",
-      "reference2": "Indian Archaeology-A Review. 1958-59: 18. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1958-59: 18. New Delhi: Archaeological Survey of India.",
+      "district": "Chandrapur"
     },
     {
       "id": 275,
@@ -8588,7 +9302,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Dixit 1954: 91",
-      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi."
+      "reference2": "Dixit, M. 1954. Madhya Pradesh Ke Puratattava Ki Rooprekha (Hindi). Poona: Yashvant G Joshi.",
+      "district": "Gondia"
     },
     {
       "id": 276,
@@ -8600,7 +9315,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 102",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 257,
@@ -8612,7 +9328,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 2013-14",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 256,
@@ -8624,7 +9341,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "G Nikosey and PC Dogra",
       "dateYear": "1990-91",
       "reference1": "IAR 1990-91: 44",
-      "reference2": "Indian Archaeology-A Review. 1990-91: 44. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1990-91: 44. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 255,
@@ -8636,7 +9354,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 254,
@@ -8648,7 +9367,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": "IAR 1985-86",
-      "reference2": null
+      "reference2": null,
+      "district": "Nagpur"
     },
     {
       "id": 234,
@@ -8660,7 +9380,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Ajit Kumar",
       "dateYear": "1986-87",
       "reference1": "IAR 1986-87: 59",
-      "reference2": "Indian Archaeology-A Review. 1986-87: 59. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1986-87: 59. New Delhi: Archaeological Survey of India.",
+      "district": "Amravati"
     },
     {
       "id": 235,
@@ -8672,7 +9393,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Yavatmal"
     },
     {
       "id": 236,
@@ -8684,7 +9406,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar; R Abbas",
       "dateYear": null,
       "reference1": "Borkar 2009: 108",
-      "reference2": "Riza n.d.; Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Riza n.d.; Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     },
     {
       "id": 237,
@@ -8696,7 +9419,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Meshram and Chaudhari",
       "dateYear": "1982-83; 2009",
       "reference1": "IAR 1982-83:131; Meshram et al. 2009:10-14",
-      "reference2": "Indian Archaeology-A Review. 1982-83: 131. New Delhi: Archaeological Survey of India. Meshram. P. S and D. Y. Choudhari. 2009. Hamlaapuri (Raamtek) Kansya Buddha Pratima (in Marathi), Samshodhak, Part 3 : 10-14."
+      "reference2": "Indian Archaeology-A Review. 1982-83: 131. New Delhi: Archaeological Survey of India. Meshram. P. S and D. Y. Choudhari. 2009. Hamlaapuri (Raamtek) Kansya Buddha Pratima (in Marathi), Samshodhak, Part 3 : 10-14.",
+      "district": "Nagpur"
     },
     {
       "id": 238,
@@ -8708,7 +9432,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "R Abbas",
       "dateYear": null,
       "reference1": "None",
-      "reference2": "Riza n.d."
+      "reference2": "Riza n.d.",
+      "district": "Chandrapur"
     },
     {
       "id": 239,
@@ -8720,7 +9445,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2008-09",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 240,
@@ -8732,7 +9458,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Adjacent / Regional"
     },
     {
       "id": 241,
@@ -8744,7 +9471,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NG Nikosey and PC Dogra",
       "dateYear": "1990-91",
       "reference1": "IAR 1990-91: 43-45",
-      "reference2": "Indian Archaeology-A Review. 1990-91: 43-45. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1990-91: 43-45. New Delhi: Archaeological Survey of India.",
+      "district": "Bhandara"
     },
     {
       "id": 242,
@@ -8756,7 +9484,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "1989",
       "reference1": "Annals BORI , LXX (1989) : 273-275",
-      "reference2": "Meshram, P. S. 1990. A Unique Surya from Hathodi. Annals of the Bhandarkar Oriental Research Institute LXX (1989): 273–275."
+      "reference2": "Meshram, P. S. 1990. A Unique Surya from Hathodi. Annals of the Bhandarkar Oriental Research Institute LXX (1989): 273\u2013275.",
+      "district": "Nagpur"
     },
     {
       "id": 278,
@@ -8768,7 +9497,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Chandrapur"
     },
     {
       "id": 243,
@@ -8780,7 +9510,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "NG Nikoshey, Ghayasuddin and RG Katole",
       "dateYear": "1994-95",
       "reference1": "IAR 1994-95: 52-53",
-      "reference2": "Indian Archaeology-A Review. 1994-95: 52-53. New Delhi: Archaeological Survey of India."
+      "reference2": "Indian Archaeology-A Review. 1994-95: 52-53. New Delhi: Archaeological Survey of India.",
+      "district": "Buldhana"
     },
     {
       "id": 245,
@@ -8792,7 +9523,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Gokhale",
       "dateYear": "1963-64",
       "reference1": "IAR 1963-64: 21-22, Kolte 1964; Kolte 1965: 372-387; Shastri, A.M. 1970: 617-628.",
-      "reference2": "Indian Archaeology-A Review. 1963-64: 21-22. New Delhi: Archaeological Survey of India. Kolte, V.B., 1964. Vakatakanchya Hisse Borala yetheel Shilalekh, Vidarbha Sanshodhak Mandal 1964: 137-156. Kolte, V. B. 1965. Hisse Borala Inscription of Vakataka King Devasena, in Felicitation Vol. Presented to Mahamahopadhyaya Dr. V. V Mirashi. (G.T Deshpande, Ajay Mitra Shastri and V. W. Karambelkar Eds.), pp. 372-387. Nagpur: Vidarbha Sanshodhan Mandal. Shastri, A.M. 1970. Some Observation on the Hisse- Borala Inscription of Vakataka Devasena, in Umesha Mishra Commemoration Volume (B. R. Saksena ed.), Pp. 617-628. Allahabad: Ganganatha Jha Research Institute."
+      "reference2": "Indian Archaeology-A Review. 1963-64: 21-22. New Delhi: Archaeological Survey of India. Kolte, V.B., 1964. Vakatakanchya Hisse Borala yetheel Shilalekh, Vidarbha Sanshodhak Mandal 1964: 137-156. Kolte, V. B. 1965. Hisse Borala Inscription of Vakataka King Devasena, in Felicitation Vol. Presented to Mahamahopadhyaya Dr. V. V Mirashi. (G.T Deshpande, Ajay Mitra Shastri and V. W. Karambelkar Eds.), pp. 372-387. Nagpur: Vidarbha Sanshodhan Mandal. Shastri, A.M. 1970. Some Observation on the Hisse- Borala Inscription of Vakataka Devasena, in Umesha Mishra Commemoration Volume (B. R. Saksena ed.), Pp. 617-628. Allahabad: Ganganatha Jha Research Institute.",
+      "district": "Washim"
     },
     {
       "id": 246,
@@ -8804,7 +9536,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Adjacent / Regional"
     },
     {
       "id": 247,
@@ -8816,7 +9549,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 101",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 248,
@@ -8828,7 +9562,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "Unknown",
       "dateYear": "Unknown",
       "reference1": "Shastri 1997: 40-41; Randle 1939-40.: 177-180.",
-      "reference2": "Shastri, A. M. 1997. Vakatakas: Sources and History. New Delhi: Aryan Book International. Randle H. N. 1939-40. An Unpublished India Office Plate of The Vakataka Maharaja Devasena, New Indian Antiquary Vol. II: 177-180."
+      "reference2": "Shastri, A. M. 1997. Vakatakas: Sources and History. New Delhi: Aryan Book International. Randle H. N. 1939-40. An Unpublished India Office Plate of The Vakataka Maharaja Devasena, New Indian Antiquary Vol. II: 177-180.",
+      "district": "Washim"
     },
     {
       "id": 249,
@@ -8840,7 +9575,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "S Vaidya",
       "dateYear": "2012-13",
       "reference1": "Vaidya 2014; Personnel communication with Shantanu Vaidya on 4th August 2015.",
-      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune."
+      "reference2": "Vaidya, S. 2014. Emergence of Complex Society and Urbanisation During Early Iron Age and Early Historic Period in Wardha and Nagpur Districts of Vidarbha. Ph. D. Thesis Submitted to Deccan College Pune.",
+      "district": "Nagpur"
     },
     {
       "id": 250,
@@ -8852,7 +9588,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Amravati"
     },
     {
       "id": 251,
@@ -8864,7 +9601,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 104",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 252,
@@ -8876,7 +9614,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": null,
       "reference1": "Borkar 2009: 103-04",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Gadchiroli"
     },
     {
       "id": 253,
@@ -8888,7 +9627,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "SK Chitale",
       "dateYear": "Unknown",
       "reference1": "Chitale 1987:167",
-      "reference2": "Chitale, Shreepad Keshav, 1987. Nagpur Jilhyateel Kutrim Shailashraye, Vidarbha Sanshodhak Mandal 1987: 165-172."
+      "reference2": "Chitale, Shreepad Keshav, 1987. Nagpur Jilhyateel Kutrim Shailashraye, Vidarbha Sanshodhak Mandal 1987: 165-172.",
+      "district": "Nagpur"
     },
     {
       "id": 244,
@@ -8900,7 +9640,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": null,
       "dateYear": null,
       "reference1": null,
-      "reference2": null
+      "reference2": null,
+      "district": "Chandrapur"
     },
     {
       "id": 742,
@@ -8912,7 +9653,8 @@ window.ARCHAEOLOGICAL_ATLAS = {
       "investigator": "RR Borkar",
       "dateYear": "Unknown",
       "reference1": "Borkar 2009: 101",
-      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan."
+      "reference2": "Borkar, R.R. 2009. Chandrapur-Gadchiroli Zilhache Puratattava (Prageitihasik Kal Te E. S. 13 Ve Shatak) (Marathi). Nagpur: Suyash Prakashan.",
+      "district": "Chandrapur"
     }
   ]
 };

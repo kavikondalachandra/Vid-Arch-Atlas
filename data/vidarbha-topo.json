@@ -1,0 +1,1269 @@
+{
+  "type": "FeatureCollection",
+  "name": "Vidarbha_Topography",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.02,
+            21.85
+          ],
+          [
+            79.98,
+            21.72
+          ],
+          [
+            79.92,
+            21.58
+          ],
+          [
+            79.82,
+            21.45
+          ],
+          [
+            79.72,
+            21.32
+          ],
+          [
+            79.65,
+            21.17
+          ],
+          [
+            79.62,
+            21.01
+          ],
+          [
+            79.66,
+            20.87
+          ],
+          [
+            79.64,
+            20.78
+          ],
+          [
+            79.72,
+            20.68
+          ],
+          [
+            79.85,
+            20.61
+          ],
+          [
+            79.96,
+            20.6
+          ],
+          [
+            79.99,
+            20.47
+          ],
+          [
+            79.96,
+            20.3
+          ],
+          [
+            79.97,
+            20.17
+          ],
+          [
+            79.95,
+            20.02
+          ],
+          [
+            79.93,
+            19.92
+          ],
+          [
+            79.89,
+            19.78
+          ],
+          [
+            79.85,
+            19.65
+          ],
+          [
+            79.8,
+            19.55
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Wainganga River",
+        "marathi": "\u0935\u0948\u0928\u0917\u0902\u0917\u093e \u0928\u0926\u0940",
+        "category": "river",
+        "type": "Major River",
+        "basin": "Godavari Basin",
+        "description": "The primary archaeological lifeline of Eastern Vidarbha. Originates in the Satpura hills (Seoni/Balaghat), flows south through Bhandara and Gadchiroli, passing ancient capitals and megalithic complexes before joining the Wardha at Chaprala to form the Pranhita.",
+        "length_km": 579,
+        "style": {
+          "color": "#1d6fa5",
+          "weight": 3.8,
+          "opacity": 0.88
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.1,
+            21.42
+          ],
+          [
+            78.12,
+            21.32
+          ],
+          [
+            78.18,
+            21.15
+          ],
+          [
+            78.22,
+            20.95
+          ],
+          [
+            78.28,
+            20.82
+          ],
+          [
+            78.33,
+            20.71
+          ],
+          [
+            78.48,
+            20.52
+          ],
+          [
+            78.68,
+            20.35
+          ],
+          [
+            78.85,
+            20.21
+          ],
+          [
+            78.98,
+            20.1
+          ],
+          [
+            79.12,
+            19.95
+          ],
+          [
+            79.16,
+            19.88
+          ],
+          [
+            79.33,
+            19.82
+          ],
+          [
+            79.38,
+            19.76
+          ],
+          [
+            79.52,
+            19.68
+          ],
+          [
+            79.68,
+            19.6
+          ],
+          [
+            79.8,
+            19.55
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Wardha River",
+        "marathi": "\u0935\u0930\u094d\u0927\u093e \u0928\u0926\u0940",
+        "category": "river",
+        "type": "Major River",
+        "basin": "Godavari Basin",
+        "description": "Forms the central geographical boundary of Vidarbha. Rises in the Satpura range near Multai, flowing southeast between Amravati, Wardha, Yavatmal, and Chandrapur districts before uniting with the Wainganga at Chaprala.",
+        "length_km": 528,
+        "style": {
+          "color": "#2081b8",
+          "weight": 3.5,
+          "opacity": 0.88
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            76.08,
+            20.55
+          ],
+          [
+            76.22,
+            20.35
+          ],
+          [
+            76.5,
+            20.15
+          ],
+          [
+            76.82,
+            20.02
+          ],
+          [
+            77.1,
+            19.98
+          ],
+          [
+            77.35,
+            19.85
+          ],
+          [
+            77.62,
+            19.72
+          ],
+          [
+            77.85,
+            19.58
+          ],
+          [
+            78.12,
+            19.65
+          ],
+          [
+            78.35,
+            19.78
+          ],
+          [
+            78.6,
+            19.85
+          ],
+          [
+            78.85,
+            19.92
+          ],
+          [
+            79.05,
+            19.88
+          ],
+          [
+            79.16,
+            19.88
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Painganga (Penganga) River",
+        "marathi": "\u092a\u0948\u0902\u0917\u0902\u0917\u093e \u0928\u0926\u0940",
+        "category": "river",
+        "type": "Major River",
+        "basin": "Godavari Basin",
+        "description": "Originates in the Ajanta hills of Buldhana and carves the southern boundary of Washim and Yavatmal districts through dramatic basaltic gorges (including Sahasrakund Falls) before meeting the Wardha at Jugad.",
+        "length_km": 495,
+        "style": {
+          "color": "#2391c4",
+          "weight": 3.2,
+          "opacity": 0.85
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.8,
+            19.55
+          ],
+          [
+            79.83,
+            19.42
+          ],
+          [
+            79.88,
+            19.28
+          ],
+          [
+            79.91,
+            19.12
+          ],
+          [
+            79.93,
+            19.0
+          ],
+          [
+            79.96,
+            18.84
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Pranhita River",
+        "marathi": "\u092a\u094d\u0930\u093e\u0923\u0939\u093f\u0924\u093e \u0928\u0926\u0940",
+        "category": "river",
+        "type": "Major River",
+        "basin": "Godavari Basin",
+        "description": "The monumental combined stream of Wainganga and Wardha rivers flowing for 113 km along the Maharashtra-Telangana border of Gadchiroli, draining over 109,000 sq km into the Godavari at sacred Sironcha.",
+        "length_km": 113,
+        "style": {
+          "color": "#0d5c91",
+          "weight": 4.5,
+          "opacity": 0.95
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.82,
+            18.82
+          ],
+          [
+            79.96,
+            18.84
+          ],
+          [
+            80.15,
+            18.85
+          ],
+          [
+            80.28,
+            18.83
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Godavari River",
+        "marathi": "\u0917\u094b\u0926\u093e\u0935\u0930\u0940 \u0928\u0926\u0940",
+        "category": "river",
+        "type": "Major River",
+        "basin": "Godavari Basin",
+        "description": "Forms the southernmost tip of Vidarbha at Sironcha in Gadchiroli district, receiving the grand influx of the Pranhita.",
+        "length_km": 1465,
+        "style": {
+          "color": "#094a77",
+          "weight": 4.5,
+          "opacity": 0.95
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.48,
+            21.46
+          ],
+          [
+            77.58,
+            21.28
+          ],
+          [
+            77.45,
+            21.05
+          ],
+          [
+            77.2,
+            20.95
+          ],
+          [
+            76.92,
+            20.92
+          ],
+          [
+            76.62,
+            20.9
+          ],
+          [
+            76.32,
+            20.88
+          ],
+          [
+            76.02,
+            20.92
+          ],
+          [
+            75.82,
+            21.05
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Purna River",
+        "marathi": "\u092a\u0942\u0930\u094d\u0923\u093e \u0928\u0926\u0940",
+        "category": "river",
+        "type": "Major River",
+        "basin": "Tapi Basin",
+        "description": "Originates in the Gawilgarh hills (Satpura) and traverses west through the fertile alluvial plains of Amravati, Akola, and Buldhana to join the Tapi River.",
+        "length_km": 334,
+        "style": {
+          "color": "#2a9d8f",
+          "weight": 3.0,
+          "opacity": 0.85
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.65,
+            21.58
+          ],
+          [
+            77.42,
+            21.55
+          ],
+          [
+            77.15,
+            21.52
+          ],
+          [
+            76.85,
+            21.48
+          ],
+          [
+            76.5,
+            21.42
+          ],
+          [
+            76.15,
+            21.35
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Tapi (Tapti) River",
+        "marathi": "\u0924\u093e\u092a\u0940 \u0928\u0926\u0940",
+        "category": "river",
+        "type": "Major River",
+        "basin": "Tapi Basin",
+        "description": "Forms the rugged northern boundary of Melghat and Amravati district in the Satpura range.",
+        "length_km": 724,
+        "style": {
+          "color": "#238276",
+          "weight": 3.5,
+          "opacity": 0.88
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.25,
+            21.75
+          ],
+          [
+            79.28,
+            21.62
+          ],
+          [
+            79.24,
+            21.48
+          ],
+          [
+            79.21,
+            21.38
+          ],
+          [
+            79.19,
+            21.28
+          ],
+          [
+            79.2,
+            21.22
+          ],
+          [
+            79.35,
+            21.15
+          ],
+          [
+            79.52,
+            21.1
+          ],
+          [
+            79.64,
+            21.05
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kanhan & Pench Rivers",
+        "marathi": "\u0915\u0928\u094d\u0939\u093e\u0928 \u0935 \u092a\u0947\u0902\u091a \u0928\u0926\u094d\u092f\u093e",
+        "category": "river",
+        "type": "Tributary System",
+        "basin": "Wainganga / Godavari Basin",
+        "description": "Pench flows south from Satpura through Totladoh reservoir and the archaeological heartland of Mansar/Ramtek, merging into Kanhan, which flows past Kamptee to join Wainganga.",
+        "length_km": 275,
+        "style": {
+          "color": "#38a3a5",
+          "weight": 2.8,
+          "opacity": 0.85
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            80.52,
+            19.32
+          ],
+          [
+            80.45,
+            19.15
+          ],
+          [
+            80.35,
+            19.0
+          ],
+          [
+            80.28,
+            18.88
+          ],
+          [
+            80.28,
+            18.83
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Indravati River",
+        "marathi": "\u0907\u0902\u0926\u094d\u0930\u093e\u0935\u0924\u0940 \u0928\u0926\u0940",
+        "category": "river",
+        "type": "Major River",
+        "basin": "Godavari Basin",
+        "description": "Marks the southeastern boundary of Gadchiroli with Chhattisgarh, passing through primeval tribal forest lands before meeting the Godavari at Somnur.",
+        "length_km": 535,
+        "style": {
+          "color": "#185a88",
+          "weight": 3.2,
+          "opacity": 0.85
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.32,
+            20.35
+          ],
+          [
+            79.3,
+            20.18
+          ],
+          [
+            79.28,
+            20.02
+          ],
+          [
+            79.28,
+            19.92
+          ],
+          [
+            79.28,
+            19.82
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Erai River",
+        "marathi": "\u0907\u0930\u0908 \u0928\u0926\u0940",
+        "category": "river",
+        "type": "Tributary",
+        "basin": "Wardha Basin",
+        "description": "Flows through Tadoba and Chandrapur city into the Wardha River; its valley is lined with ancient Gond fortresses and rock monuments.",
+        "length_km": 90,
+        "style": {
+          "color": "#43aa8b",
+          "weight": 2.2,
+          "opacity": 0.82
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.85,
+              21.58
+            ],
+            [
+              77.15,
+              21.65
+            ],
+            [
+              77.45,
+              21.62
+            ],
+            [
+              77.72,
+              21.55
+            ],
+            [
+              77.78,
+              21.42
+            ],
+            [
+              77.62,
+              21.28
+            ],
+            [
+              77.4,
+              21.25
+            ],
+            [
+              77.1,
+              21.32
+            ],
+            [
+              76.85,
+              21.4
+            ],
+            [
+              76.85,
+              21.58
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Satpura Range & Gawilgarh Hills (Melghat)",
+        "marathi": "\u0938\u093e\u0924\u092a\u0941\u0921\u093e \u092a\u0930\u094d\u0935\u0924 \u0935 \u0917\u093e\u0935\u093f\u0932\u0917\u0921 \u091f\u0947\u0915\u0921\u094d\u092f\u093e (\u092e\u0947\u0933\u0918\u093e\u091f)",
+        "category": "topography",
+        "sub_category": "mountain_range",
+        "elevation": "1,118 m",
+        "description": "The formidable northern mountain wall of Vidarbha in Amravati district. Characterized by deep basaltic ravines, ancient deciduous teak forests of Melghat Tiger Reserve, and the commanding heights of Gawilgarh fortress and Chikhaldara plateau.",
+        "style": {
+          "fillColor": "#8b5a2b",
+          "fillOpacity": 0.22,
+          "color": "#5c3a1e",
+          "weight": 2
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.95,
+              20.52
+            ],
+            [
+              76.45,
+              20.48
+            ],
+            [
+              76.95,
+              20.35
+            ],
+            [
+              77.45,
+              20.25
+            ],
+            [
+              77.75,
+              20.15
+            ],
+            [
+              77.55,
+              19.98
+            ],
+            [
+              77.1,
+              20.05
+            ],
+            [
+              76.55,
+              20.18
+            ],
+            [
+              76.05,
+              20.25
+            ],
+            [
+              75.95,
+              20.52
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Ajanta Range / Buldhana & Washim Plateau",
+        "marathi": "\u0905\u091c\u093f\u0902\u0920\u093e \u092a\u0930\u094d\u0935\u0924\u0930\u093e\u0902\u0917 \u0935 \u092c\u0941\u0932\u0922\u093e\u0923\u093e-\u0935\u093e\u0936\u0940\u092e \u092a\u0920\u093e\u0930",
+        "category": "topography",
+        "sub_category": "plateau_range",
+        "elevation": "650 m",
+        "description": "Major continental watershed divide running across southern Buldhana and northern Washim into Yavatmal, separating the northern Tapi-Purna drainage from the southern Godavari-Penganga drainage.",
+        "style": {
+          "fillColor": "#a06d3b",
+          "fillOpacity": 0.18,
+          "color": "#794f26",
+          "weight": 1.8
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.25,
+              21.45
+            ],
+            [
+              79.38,
+              21.45
+            ],
+            [
+              79.42,
+              21.36
+            ],
+            [
+              79.28,
+              21.34
+            ],
+            [
+              79.25,
+              21.45
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Ramtek - Mansar Archaeological Ridge",
+        "marathi": "\u0930\u093e\u092e\u091f\u0947\u0915 - \u092e\u0928\u0938\u0930 \u091f\u0947\u0915\u0921\u094d\u092f\u093e \u0935 \u0910\u0924\u093f\u0939\u093e\u0938\u093f\u0915 \u092a\u0930\u093f\u0938\u0930",
+        "category": "topography",
+        "sub_category": "historic_ridge",
+        "elevation": "420 m",
+        "description": "Prominent isolated sandstone/quartzite hill range in Nagpur district. Center of ancient Vakataka imperial power (Pravarapura at Mansar and Nandivardhana at Nagardhan) dating to 4th-5th century A.D.",
+        "style": {
+          "fillColor": "#d89f34",
+          "fillOpacity": 0.32,
+          "color": "#b07d1a",
+          "weight": 2.2
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.2,
+              20.4
+            ],
+            [
+              79.45,
+              20.38
+            ],
+            [
+              79.52,
+              20.15
+            ],
+            [
+              79.25,
+              20.15
+            ],
+            [
+              79.2,
+              20.4
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Tadoba - Chimur Uplands",
+        "marathi": "\u0924\u093e\u0921\u094b\u092c\u093e - \u091a\u093f\u092e\u0942\u0930 \u091f\u0947\u0915\u0921\u094d\u092f\u093e",
+        "category": "topography",
+        "sub_category": "forest_hills",
+        "elevation": "420 m",
+        "description": "Central Chandrapur sandstone hills and dense forest ranges protecting the historic Gond kingdom settlements and Tadoba-Andhari ecosystem.",
+        "style": {
+          "fillColor": "#588157",
+          "fillOpacity": 0.2,
+          "color": "#3a5a40",
+          "weight": 1.8
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.18,
+              19.78
+            ],
+            [
+              80.48,
+              19.82
+            ],
+            [
+              80.55,
+              19.35
+            ],
+            [
+              80.25,
+              19.38
+            ],
+            [
+              80.18,
+              19.78
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Surjagarh & Bhamragad Highlands",
+        "marathi": "\u0938\u0942\u0930\u091c\u093e\u0917\u0921 \u0935 \u092d\u093e\u092e\u0930\u093e\u0917\u0921 \u091f\u0947\u0915\u0921\u094d\u092f\u093e",
+        "category": "topography",
+        "sub_category": "prehistoric_highlands",
+        "elevation": "620 m",
+        "description": "Dense, rugged Precambrian metamorphic ridges in eastern and southern Gadchiroli. Rich in ancient megalithic stone circles, iron-age slag mounds, and indigenous tribal heritage.",
+        "style": {
+          "fillColor": "#344e41",
+          "fillOpacity": 0.22,
+          "color": "#283618",
+          "weight": 2
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.332,
+          21.404
+        ]
+      },
+      "properties": {
+        "name": "Chikhaldara Peak",
+        "marathi": "\u091a\u093f\u0916\u0932\u0926\u0930\u093e \u0936\u093f\u0916\u0930",
+        "category": "landmark",
+        "type": "Highest Summit of Vidarbha",
+        "elevation": "1,118 m",
+        "district": "Amravati",
+        "description": "The highest elevated plateau in Vidarbha, nestled in the Satpura-Gawilgarh range with historic coffee plantations and precipitous scenic viewpoints.",
+        "icon": "mountain"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.34,
+          21.368
+        ]
+      },
+      "properties": {
+        "name": "Gawilgarh Fort Hill",
+        "marathi": "\u0917\u093e\u0935\u093f\u0932\u0917\u0921 \u0915\u093f\u0932\u094d\u0932\u093e",
+        "category": "landmark",
+        "type": "Historic Mountain Fortress",
+        "elevation": "1,030 m",
+        "district": "Amravati",
+        "description": "Perched on the southern rim of the Gawilgarh hills; major medieval hill citadel controlling the passes between Berar and northern India.",
+        "icon": "fort"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.507,
+          19.976
+        ]
+      },
+      "properties": {
+        "name": "Lonar Meteorite Impact Crater",
+        "marathi": "\u0932\u094b\u0923\u093e\u0930 \u0909\u0932\u094d\u0915\u093e \u0938\u0930\u094b\u0935\u0930",
+        "category": "landmark",
+        "type": "Geo-Heritage Crater & Archaeological Site",
+        "elevation": "563 m (rim ~600 m)",
+        "district": "Buldhana",
+        "description": "World-famous hypervelocity impact crater in basalt rock (~1.83 km wide, 150 m deep) with an alkaline-saline lake, surrounded by 10th-13th century Yadava / Hemadpanthi temples including Daitya Sudan.",
+        "icon": "crater"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.288,
+          21.396
+        ]
+      },
+      "properties": {
+        "name": "Mansar Vakataka Archaeological Complex",
+        "marathi": "\u092e\u0928\u0938\u0930 \u0935\u093e\u0915\u093e\u091f\u0915 \u092a\u0941\u0930\u093e\u0924\u0924\u094d\u0935 \u0938\u094d\u0925\u0933",
+        "category": "landmark",
+        "type": "Ancient Capital / Palace Excavation",
+        "elevation": "315 m",
+        "district": "Nagpur",
+        "description": "Excavated capital Pravarapura of Vakataka King Pravarasena II (5th century A.D.), featuring extensive brick stupas, chaityas, and monumental palace terraces.",
+        "icon": "archaeology"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.33,
+          21.398
+        ]
+      },
+      "properties": {
+        "name": "Ramtek Hill (Historic Rama Citadel)",
+        "marathi": "\u0930\u093e\u092e\u091f\u0947\u0915 \u091f\u0947\u0915\u0921\u0940",
+        "category": "landmark",
+        "type": "Sacred & Historic Ridge",
+        "elevation": "420 m",
+        "district": "Nagpur",
+        "description": "Historic hill consecrated with temples of Rama and ancient fortifications, historically associated with Kalidasa's classic epic Meghaduta.",
+        "icon": "temple"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.317,
+          21.35
+        ]
+      },
+      "properties": {
+        "name": "Nagardhan Fort & Nandivardhana Site",
+        "marathi": "\u0928\u0917\u0930\u0927\u0928 \u0915\u093f\u0932\u094d\u0932\u093e (\u0928\u0902\u0926\u093f\u0935\u0930\u094d\u0927\u0928)",
+        "category": "landmark",
+        "type": "Ancient Vakataka Capital",
+        "elevation": "310 m",
+        "district": "Nagpur",
+        "description": "Ancient Nandivardhana, early capital of the eastern Vakataka branch; yielded royal seals of Queen Prabhavatigupta and extensive historic artifacts.",
+        "icon": "fort"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.634,
+          20.791
+        ]
+      },
+      "properties": {
+        "name": "Pauni (Ancient Stupas & Wainganga Ghats)",
+        "marathi": "\u092a\u0935\u0928\u0940 (\u092a\u094d\u0930\u093e\u091a\u0940\u0928 \u092c\u094c\u0926\u094d\u0927 \u0938\u094d\u0924\u0942\u092a)",
+        "category": "landmark",
+        "type": "Buddhist & Ancient City Site",
+        "elevation": "235 m",
+        "district": "Bhandara",
+        "description": "Famous 'Varanasi of Vidarbha' on the banks of Wainganga River, site of monumental Ashokan/Satavahana stupas excavated at Jagannath Hill.",
+        "icon": "archaeology"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.92,
+          19.501
+        ]
+      },
+      "properties": {
+        "name": "Sahasrakund Waterfall",
+        "marathi": "\u0938\u0939\u0938\u094d\u0930\u0915\u0941\u0902\u0921 \u091c\u0932\u092a\u094d\u0930\u092a\u093e\u0924",
+        "category": "landmark",
+        "type": "Topographic Waterfall & Gorge",
+        "elevation": "320 m",
+        "district": "Yavatmal",
+        "description": "Dramatic black basalt cataract on the Painganga River along the Yavatmal-Nanded border, cutting a deep volcanic gorge.",
+        "icon": "waterfall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.96,
+          18.84
+        ]
+      },
+      "properties": {
+        "name": "Sironcha (Pranhita-Godavari Confluence)",
+        "marathi": "\u0938\u093f\u0930\u094b\u0902\u091a\u093e \u0938\u0902\u0917\u092e",
+        "category": "landmark",
+        "type": "Sacred River Confluence",
+        "elevation": "118 m",
+        "district": "Gadchiroli",
+        "description": "The sacred confluence point where the mighty Pranhita meets the Godavari River at the southern apex of Vidarbha.",
+        "icon": "confluence"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.22,
+              21.68
+            ],
+            [
+              79.28,
+              21.69
+            ],
+            [
+              79.31,
+              21.63
+            ],
+            [
+              79.27,
+              21.58
+            ],
+            [
+              79.22,
+              21.62
+            ],
+            [
+              79.22,
+              21.68
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Totladoh / Pench Reservoir",
+        "marathi": "\u0924\u094b\u0924\u0932\u093e\u0921\u094b\u0939 \u091c\u0932\u093e\u0936\u092f (\u092a\u0947\u0902\u091a)",
+        "category": "reservoir",
+        "type": "Major Water Reservoir",
+        "description": "Massive reservoir nestled within Pench National Park on the Maharashtra-MP border, supplying water to Nagpur.",
+        "style": {
+          "fillColor": "#48cae4",
+          "fillOpacity": 0.55,
+          "color": "#0077b6",
+          "weight": 1.5
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.62,
+              20.91
+            ],
+            [
+              79.68,
+              20.92
+            ],
+            [
+              79.71,
+              20.85
+            ],
+            [
+              79.66,
+              20.82
+            ],
+            [
+              79.61,
+              20.85
+            ],
+            [
+              79.62,
+              20.91
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Gosikhurd Reservoir (Indira Sagar)",
+        "marathi": "\u0917\u094b\u0938\u0940\u0916\u0941\u0930\u094d\u0926 \u091c\u0932\u093e\u0936\u092f (\u0907\u0902\u0926\u093f\u0930\u093e \u0938\u093e\u0917\u0930)",
+        "category": "reservoir",
+        "type": "Major Water Reservoir",
+        "description": "The largest irrigation reservoir in Vidarbha, built across the Wainganga River in Bhandara district.",
+        "style": {
+          "fillColor": "#48cae4",
+          "fillOpacity": 0.55,
+          "color": "#0077b6",
+          "weight": 1.5
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.15,
+              20.93
+            ],
+            [
+              80.19,
+              20.94
+            ],
+            [
+              80.2,
+              20.89
+            ],
+            [
+              80.16,
+              20.88
+            ],
+            [
+              80.15,
+              20.93
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Navegaon Lake",
+        "marathi": "\u0928\u0935\u0947\u0917\u093e\u0935 \u092c\u093e\u0902\u0927",
+        "category": "reservoir",
+        "type": "Major Water Reservoir",
+        "description": "Historic scenic lake and bird sanctuary in Gondia district, built by Kolu Patel Kohli in the early 18th century.",
+        "style": {
+          "fillColor": "#48cae4",
+          "fillOpacity": 0.55,
+          "color": "#0077b6",
+          "weight": 1.5
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.13,
+              20.84
+            ],
+            [
+              80.17,
+              20.85
+            ],
+            [
+              80.18,
+              20.79
+            ],
+            [
+              80.13,
+              20.78
+            ],
+            [
+              80.13,
+              20.84
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Itiadoh Reservoir",
+        "marathi": "\u0907\u091f\u093f\u092f\u093e\u0921\u094b\u0939 \u091c\u0932\u093e\u0936\u092f",
+        "category": "reservoir",
+        "type": "Major Water Reservoir",
+        "description": "Large reservoir on the Garvi River surrounded by forested hills at the junction of Gondia and Gadchiroli.",
+        "style": {
+          "fillColor": "#48cae4",
+          "fillOpacity": 0.55,
+          "color": "#0077b6",
+          "weight": 1.5
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.04,
+              21.28
+            ],
+            [
+              78.1,
+              21.3
+            ],
+            [
+              78.11,
+              21.24
+            ],
+            [
+              78.05,
+              21.22
+            ],
+            [
+              78.04,
+              21.28
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Upper Wardha Reservoir (Nal Damyanti Sagar)",
+        "marathi": "\u0905\u092a\u094d\u092a\u0930 \u0935\u0930\u094d\u0927\u093e \u091c\u0932\u093e\u0936\u092f (\u0928\u0932 \u0926\u092e\u092f\u0902\u0924\u0940 \u0938\u093e\u0917\u0930)",
+        "category": "reservoir",
+        "type": "Major Water Reservoir",
+        "description": "Major reservoir on the Wardha River near Morshi in Amravati district.",
+        "style": {
+          "fillColor": "#48cae4",
+          "fillOpacity": 0.55,
+          "color": "#0077b6",
+          "weight": 1.5
+        }
+      }
+    }
+  ]
+}
